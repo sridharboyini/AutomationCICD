@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Target Market(s)</name>
+   <tag></tag>
+   <elementGuidId>812d9edc-fe2e-4776-b0d9-95bd9e688480</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.input-container</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='TargetMarketDiv']/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3466b50e-456a-4f89-a754-1d54d6f32407</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input-container</value>
+      <webElementGuid>ca94d471-da53-4650-bb06-6b6d0530272f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;TargetMarketDiv&quot;)/div[@class=&quot;mult-select-tag select-multi&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;body&quot;]/div[@class=&quot;input-container&quot;]</value>
+      <webElementGuid>02cc8cb7-2b83-4615-9bb4-53e712bf157c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='TargetMarketDiv']/div/div/div/div</value>
+      <webElementGuid>3321fa8a-fa06-490b-8760-ded71cc2d4b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]/div/div/div/div/div/div/div</value>
+      <webElementGuid>1b38e3b1-b9bf-419b-8b62-7a7b95cc1532</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

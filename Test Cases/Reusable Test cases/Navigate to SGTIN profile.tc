@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Navigate to SGTIN profile</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>93c05ef8-eb60-4a8d-aa80-0fe232ec09ee</testCaseGuid>
+</TestCaseEntity>

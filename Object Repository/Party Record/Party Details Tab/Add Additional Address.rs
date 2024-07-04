@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Add Additional Address</name>
+   <tag></tag>
+   <elementGuidId>c7f5fd51-bc2f-4936-9f4b-460ec7b4602b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@onclick='addadditioanlAddress(0)']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.row.mt-thirty-px.mb-2 > div.d-flex.px-0 > div.custom-tooltip-container > div.img-add.ml-2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8d4609ae-4669-4a79-b115-f00bfaf8f8df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img-add ml-2</value>
+      <webElementGuid>8d160568-63fd-4a6f-a822-21f88a94995c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>addadditioanlAddress(0)</value>
+      <webElementGuid>3676f4a7-901b-40af-8a38-f91fa09b6b78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Div_AddLanguage&quot;)/div[@class=&quot;additionalName mt-0&quot;]/div[@class=&quot;row mt-thirty-px mb-2&quot;]/div[@class=&quot;d-flex px-0&quot;]/div[@class=&quot;custom-tooltip-container&quot;]/div[@class=&quot;img-add ml-2&quot;]</value>
+      <webElementGuid>2bb4978d-9544-41f0-9a7c-66217a196ae4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@onclick='addadditioanlAddress(0)']</value>
+      <webElementGuid>71b369a5-032f-4457-b480-bc739f26364e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Div_AddLanguage']/div/div[7]/div/div/div</value>
+      <webElementGuid>ab6aed60-d56e-4f15-a4fc-c4d58907fc65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div[7]/div/div/div</value>
+      <webElementGuid>4048db0e-a30e-4079-8677-20852acf4fe7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

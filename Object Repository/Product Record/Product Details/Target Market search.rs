@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Target Market search</name>
+   <tag></tag>
+   <elementGuidId>52a68a69-f38d-4da8-87d8-7564a17c8c39</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='TargetMarketDiv']/div/div[2]/inputbody/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>inputbody.input-body > input.input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>bed630d7-b6ef-47b4-aed1-b626ef6d3c90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>4fb3dea3-b8f2-4268-bff6-577810ff79d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search...</value>
+      <webElementGuid>fdf811b1-8626-4b05-a484-d6ad5549518e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;TargetMarketDiv&quot;)/div[@class=&quot;mult-select-tag select-multi&quot;]/div[@class=&quot;drawer rounded&quot;]/inputbody[@class=&quot;input-body&quot;]/input[@class=&quot;input&quot;]</value>
+      <webElementGuid>ca927777-99ac-43a4-b322-16d5b797b440</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='TargetMarketDiv']/div/div[2]/inputbody/input</value>
+      <webElementGuid>d6702529-60e6-41c1-829b-b9bcc2919d1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//inputbody/input</value>
+      <webElementGuid>f386fe85-ee95-4fe8-8343-6b7e4172b933</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Search...']</value>
+      <webElementGuid>b6442d87-9cf1-466e-b978-0924ec66ad80</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

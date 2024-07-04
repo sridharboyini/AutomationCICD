@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_System Identifier Sender ID Sender Id i_d32e72</name>
+   <tag></tag>
+   <elementGuidId>ee0d742e-2c26-4cf8-9d07-175ffa6c7846</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='system-details-8d0c6853a158']/div/div/div[5]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f7fad811-b929-43d3-a8e3-078136fc351f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-3 py-2</value>
+      <webElementGuid>984a4356-adf1-456e-86c8-36127e322b27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>System Identifier [Sender ID] Sender Id is used as system identifier for data exchanges between external partners and internal packaging lines.Sender ID defaulted to Corporate GLN for all external Partners and location GLN for internal packaging lines. </value>
+      <webElementGuid>5dfe1441-3d36-4342-9394-ec00c8aca0d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;system-details-8d0c6853a158&quot;)/div[@class=&quot;col&quot;]/div[@class=&quot;systemDetails mc&quot;]/div[@class=&quot;row me&quot;]/div[@class=&quot;col-3 py-2&quot;]</value>
+      <webElementGuid>58b48342-fdef-42cd-b036-a7e2272b79d7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='system-details-8d0c6853a158']/div/div/div[5]/div</value>
+      <webElementGuid>abf589c1-1862-4e71-8eb6-1fd12d0e5ed1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Location Name'])[1]/following::div[2]</value>
+      <webElementGuid>3edfebee-c9d0-4fc6-a82c-28a51039ee12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='System Description'])[1]/following::div[4]</value>
+      <webElementGuid>c52fc1e8-01b7-407d-920e-518e8f618872</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div[5]/div</value>
+      <webElementGuid>4d96028e-359d-484c-af5a-b733ae09d57a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'System Identifier [Sender ID] Sender Id is used as system identifier for data exchanges between external partners and internal packaging lines.Sender ID defaulted to Corporate GLN for all external Partners and location GLN for internal packaging lines. ' or . = 'System Identifier [Sender ID] Sender Id is used as system identifier for data exchanges between external partners and internal packaging lines.Sender ID defaulted to Corporate GLN for all external Partners and location GLN for internal packaging lines. ')]</value>
+      <webElementGuid>876b6645-8f84-4c59-b005-4dd27b0437d1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

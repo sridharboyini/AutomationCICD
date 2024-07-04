@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add New System for Partner Party</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0bf237cd-6baf-4c8b-ae67-b31c31a87213</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>35a8c9c6-3578-4c2e-9bfc-dd891ddb0f3b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e7dc7540-fd6f-47b1-bf99-cefe583c408e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d796f319-6ed7-49c5-8ffd-5736a1bc25f6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5caeb36c-1ee1-4d4e-89c2-67abca3eca44</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Party Automation 859'</defaultValue>
+      <description></description>
+      <id>35a8c9c6-3578-4c2e-9bfc-dd891ddb0f3b</id>
+      <masked>false</masked>
+      <name>PartyName</name>
+   </variable>
+   <variable>
+      <defaultValue>'2910582369717'</defaultValue>
+      <description></description>
+      <id>e7dc7540-fd6f-47b1-bf99-cefe583c408e</id>
+      <masked>false</masked>
+      <name>SenderIDGLN</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d796f319-6ed7-49c5-8ffd-5736a1bc25f6</id>
+      <masked>false</masked>
+      <name>SystemName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5caeb36c-1ee1-4d4e-89c2-67abca3eca44</id>
+      <masked>false</masked>
+      <name>SystemDescription</name>
+   </variable>
+</TestCaseEntity>

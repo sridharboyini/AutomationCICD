@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Navigate to Product List page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>393008aa-e5b3-4bfb-8955-b283f8f9c5e4</testCaseGuid>
+</TestCaseEntity>

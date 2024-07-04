@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Add Product</name>
+   <tag></tag>
+   <elementGuidId>a1484fcf-1e5e-4a7a-b32c-781d2acb0ea8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@name='addtemplate']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button[name=&quot;addtemplate&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>872fdf41-c7f9-4620-b08f-854e5ffbc0b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>03220706-f033-42fa-9b38-ba61630bc452</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary mr-3 listproductbutton</value>
+      <webElementGuid>20080001-35ca-48d1-9626-e1e3fcf18f4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>addtemplate</value>
+      <webElementGuid>34a8baac-149b-4c01-974b-2ea88a990ab8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>addProduct()</value>
+      <webElementGuid>50e3f371-9f79-40cd-9654-bd30105061be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Product</value>
+      <webElementGuid>72d33cc9-4bf0-4642-8c01-ed3957aeb3b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;body-wrapper&quot;]/div[@class=&quot;w-100&quot;]/div[@class=&quot;content-borders&quot;]/div[1]/div[@class=&quot;bg-white&quot;]/div[@class=&quot;row partylist-buttons&quot;]/div[@class=&quot;col-6 text-right font-size-twenty-px&quot;]/button[@class=&quot;btn btn-primary mr-3 listproductbutton&quot;]</value>
+      <webElementGuid>dff0591c-2a82-4fce-ab38-3c525dcdc409</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@name='addtemplate']</value>
+      <webElementGuid>56ad1e57-047d-41c1-967e-5252409ead7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export'])[1]/following::button[1]</value>
+      <webElementGuid>de2b3c37-b11c-40fb-b3dd-7c1b67e624a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Import'])[1]/following::button[2]</value>
+      <webElementGuid>386720f0-2118-4a15-ab54-ba6adf5fe23b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Displaying 1 of 1 records'])[1]/preceding::button[1]</value>
+      <webElementGuid>13d4add4-2100-4508-87a5-6d592ea9a0ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First'])[1]/preceding::button[1]</value>
+      <webElementGuid>1a54a6f1-5470-42d3-afa9-08eebe005a4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add Product']/parent::*</value>
+      <webElementGuid>4996d0c6-4767-43fb-b0af-ef97508727db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]</value>
+      <webElementGuid>90924d15-d50d-4109-b923-85d7f688b4a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and @name = 'addtemplate' and (text() = 'Add Product' or . = 'Add Product')]</value>
+      <webElementGuid>8da6639b-1118-4cc9-a07d-8e5d02f5b464</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

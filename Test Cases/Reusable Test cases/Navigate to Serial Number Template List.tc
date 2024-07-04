@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Navigate to Serial Number Template List</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c215222e-8fa3-489d-a826-3b7adfeab7e4</testCaseGuid>
+</TestCaseEntity>

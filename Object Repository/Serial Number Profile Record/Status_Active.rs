@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Status_Active</name>
+   <tag></tag>
+   <elementGuidId>ed688dab-63c8-43fc-a0fa-dc2a51e21adb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[(text() = 'Active' or . = 'Active')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>d149752c-3021-4f81-8df2-1e4d9c7f798e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>SgtinVersion[0].SnStatusId.Active</value>
+      <webElementGuid>df94f954-ee76-4092-bafb-6fdea2a0d0aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-check-label input-label</value>
+      <webElementGuid>1e74d775-51dc-4427-9b1d-99638f3a8342</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Active</value>
+      <webElementGuid>035a8d7a-db52-452b-af0a-7d9f87363d40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Div_Addsgtin&quot;)/div[@class=&quot;additionalsgtin&quot;]/div[@class=&quot;row mt-2 pt-2 pl-3&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;form-check form-check-inline&quot;]/label[@class=&quot;form-check-label input-label&quot;]</value>
+      <webElementGuid>3e726699-e5b4-40f3-89ad-1a8a786e17ac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Div_Addsgtin']/div/div/div/div[2]/label</value>
+      <webElementGuid>30222812-f0c1-4751-a4e2-9dc210052b90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[1]/following::label[1]</value>
+      <webElementGuid>cea3cd13-2d7a-418a-a116-c79b35ed6a32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::label[2]</value>
+      <webElementGuid>1e3b581a-8d67-44dd-86cd-fdf682f53cdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inactive'])[1]/preceding::label[1]</value>
+      <webElementGuid>44ace878-9d58-4ba4-afa2-1fe204925ebf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Serial Number Source'])[1]/preceding::label[2]</value>
+      <webElementGuid>02fd7e23-0e22-4224-97ba-406886af10c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Active']/parent::*</value>
+      <webElementGuid>92542309-a8e6-4771-8521-e1b1fdc06994</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[3]/div/div/div/div[2]/label</value>
+      <webElementGuid>e591496c-539b-4864-80a9-e814e51af93f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Active' or . = 'Active')]</value>
+      <webElementGuid>f4fda9d8-f468-4b76-bc04-13daba929a76</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

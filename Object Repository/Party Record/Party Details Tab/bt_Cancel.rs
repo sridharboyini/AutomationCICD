@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>bt_Cancel</name>
+   <tag></tag>
+   <elementGuidId>7b04e4a6-537d-48ba-b256-ebb922fb04bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='button1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#button1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1fc1edcd-8547-451d-ad10-bbc3ba330fcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-outline-primary bg-white btn-ms mr-2 cancelbtn</value>
+      <webElementGuid>7fb58824-22a0-4822-8af3-2d14a304147c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>button1</value>
+      <webElementGuid>3967ee31-22ab-4b4a-b5e0-0f9486325798</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cancel</value>
+      <webElementGuid>7664f708-8496-4d90-8086-1bb82751ef94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;body-wrapper&quot;]/div[@class=&quot;w-100&quot;]/div[@class=&quot;content-borders&quot;]/div[1]/div[@class=&quot;d-flex justify-content-between bg-header&quot;]/div[@class=&quot;align-self-center mr-4&quot;]/button[@id=&quot;button1&quot;]</value>
+      <webElementGuid>8bed9df9-bb38-4fbc-a905-62a3b478f1d9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='button1']</value>
+      <webElementGuid>e457f65b-613f-4b09-b5a0-e518de1056ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audit Trail'])[1]/following::button[1]</value>
+      <webElementGuid>88ca9feb-0d85-4ba6-b79f-612764fdc45b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Locations'])[1]/following::button[2]</value>
+      <webElementGuid>5f46bf1b-7866-44b9-b29b-072754bfbe82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::button[1]</value>
+      <webElementGuid>fa1e4803-b05f-4122-bf97-903af3ae7675</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::button[2]</value>
+      <webElementGuid>8fce3c16-724c-440d-87cd-2fb6d2e78ce6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>814124aa-6be9-4218-a6a5-c0c8c0de128a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'button1' and (text() = 'Cancel' or . = 'Cancel')]</value>
+      <webElementGuid>e7360a1f-fb51-4d4a-a5a0-bfad88e57b61</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

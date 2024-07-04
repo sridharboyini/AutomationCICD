@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that if &quot;Country&quot; is given, all other fields are required.</description>
+   <name>Address fields validation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1c27cd99-7096-4b41-a516-86a320e47482</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>bt_Serialization Parameter Tab</name>
+   <tag></tag>
+   <elementGuidId>1645d0cf-1cab-43e0-a5b8-893c7293d431</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btn_partIdentifier']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btn_partIdentifier</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>dea5e106-489b-48b8-baf6-351dca9c6751</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btn_partIdentifier</value>
+      <webElementGuid>05e13ed0-9cd4-49f0-b07b-7c27d7d7fee0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tab tab-inactive</value>
+      <webElementGuid>f6050e76-7a90-4c23-bbe0-234bbfb5a4b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Serialization Parameter </value>
+      <webElementGuid>10862bf0-0905-48f0-88d0-3d32dd6fc764</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btn_partIdentifier&quot;)</value>
+      <webElementGuid>c4f8d45d-410d-4886-a196-62b961b3c143</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='btn_partIdentifier']</value>
+      <webElementGuid>7bba2f3c-761c-4f3a-a2f7-e78c25e0b18f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='System Details'])[1]/following::button[1]</value>
+      <webElementGuid>f7147c2c-a10c-425c-89a9-ce496302e893</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Party Name:'])[1]/following::button[2]</value>
+      <webElementGuid>a22200dc-39f6-4df3-9e9e-07bc3acb192b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audit Trail'])[1]/preceding::button[1]</value>
+      <webElementGuid>e41e45cd-20b9-4d2e-bc19-b4dfdeb233ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[3]/preceding::button[2]</value>
+      <webElementGuid>27cccec2-a071-4344-b827-35154dfc6b95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Serialization Parameter']/parent::*</value>
+      <webElementGuid>bfe3b9a0-9afd-4214-8be7-727da889d84b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/button[2]</value>
+      <webElementGuid>46b0adaf-f4c3-41d6-93b7-c8c1400e4843</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'btn_partIdentifier' and (text() = ' Serialization Parameter ' or . = ' Serialization Parameter ')]</value>
+      <webElementGuid>fcbdf347-336f-4647-9c59-42e33b87db95</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

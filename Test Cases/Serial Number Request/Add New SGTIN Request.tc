@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add New SGTIN Request</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1fcfa6d6-52c5-4f1f-9cdd-fdd79b016602</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>409333eb-4c34-41ba-a842-2ad30ce6afc1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0ed49f98-bce3-4538-8454-c3d6b66af8a0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8423cb33-94ab-4092-8e57-8b1a352cfa99</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3ddc27da-eb49-467a-b615-7320eabd3c9b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'24560124542072'</defaultValue>
+      <description></description>
+      <id>409333eb-4c34-41ba-a842-2ad30ce6afc1</id>
+      <masked>false</masked>
+      <name>ProductCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Party Automation 883'</defaultValue>
+      <description></description>
+      <id>0ed49f98-bce3-4538-8454-c3d6b66af8a0</id>
+      <masked>false</masked>
+      <name>RequestingParty</name>
+   </variable>
+   <variable>
+      <defaultValue>'System Party Automation 883'</defaultValue>
+      <description></description>
+      <id>8423cb33-94ab-4092-8e57-8b1a352cfa99</id>
+      <masked>false</masked>
+      <name>RequestingSystem</name>
+   </variable>
+   <variable>
+      <defaultValue>'15000'</defaultValue>
+      <description></description>
+      <id>3ddc27da-eb49-467a-b615-7320eabd3c9b</id>
+      <masked>false</masked>
+      <name>RequestQTY</name>
+   </variable>
+</TestCaseEntity>

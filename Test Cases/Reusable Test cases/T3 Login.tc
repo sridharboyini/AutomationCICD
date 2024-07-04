@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>T3 Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>05910cd4-ade3-4a8f-a959-30e9b03bcfcb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c364aed5-e1ac-47d0-9a7a-54e9168e1fd0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1953936d-e08b-4508-b6fa-13200dcb6c75</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'init@mailinator.com'</defaultValue>
+      <description></description>
+      <id>c364aed5-e1ac-47d0-9a7a-54e9168e1fd0</id>
+      <masked>false</masked>
+      <name>UN</name>
+   </variable>
+   <variable>
+      <defaultValue>'p4y+y39Ir5PEPmX20UxFKw=='</defaultValue>
+      <description></description>
+      <id>1953936d-e08b-4508-b6fa-13200dcb6c75</id>
+      <masked>false</masked>
+      <name>PWD</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Party Identifiers</name>
+   <tag></tag>
+   <elementGuidId>86396900-5168-4bb9-8367-c0a050abc11b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#btn_partIdentifier</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btn_partIdentifier']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8d1f64ff-6219-46f2-a134-bed90ef2a40b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btn_partIdentifier</value>
+      <webElementGuid>67dda92c-e3eb-4407-9770-c0ae9d3e28ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tab tab-inactive</value>
+      <webElementGuid>55bc3a31-0562-4787-be6d-660505dd95df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Party Identifiers  </value>
+      <webElementGuid>334de21c-70ce-4b41-ad39-e2202c46c8b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btn_partIdentifier&quot;)</value>
+      <webElementGuid>0f7b9ece-7c2a-48ed-bded-cc4fa465227d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='btn_partIdentifier']</value>
+      <webElementGuid>76c08904-b994-4356-bfc3-5f15eff09f24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Party Details'])[1]/following::button[1]</value>
+      <webElementGuid>97517797-6aea-4c8d-aeda-e10d34841516</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Role :'])[1]/following::button[2]</value>
+      <webElementGuid>7dcf7f29-ccfe-48cb-8ce7-39d52d9c714c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SN Template'])[1]/preceding::button[1]</value>
+      <webElementGuid>c8f05281-b8e5-468c-9fd9-6f83d74f23a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Locations'])[1]/preceding::button[2]</value>
+      <webElementGuid>b0ea5379-ee65-4f5c-beab-83475513e503</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Party Identifiers']/parent::*</value>
+      <webElementGuid>e30d8cad-4a47-4494-8ebc-77e33060fb0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/button[2]</value>
+      <webElementGuid>2fa978d4-65dd-456a-a521-e11cd6d6b3e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'btn_partIdentifier' and (text() = ' Party Identifiers  ' or . = ' Party Identifiers  ')]</value>
+      <webElementGuid>ffb936cc-f78d-4ac4-9155-a0f346706222</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

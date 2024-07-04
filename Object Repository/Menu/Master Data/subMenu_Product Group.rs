@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>subMenu_Product Group</name>
+   <tag></tag>
+   <elementGuidId>f0aa7208-d3f0-4708-83fc-96d60b1e8e90</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@href='/Admin/ProductGroup/ProductGroup']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5558e065-5200-4f4d-b8c3-d6c7515a5bd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>submenu-title</value>
+      <webElementGuid>09108ca2-c82f-4b7b-8c2a-6261a9c51bc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Product Group</value>
+      <webElementGuid>6ec3d022-b335-459e-a9b2-02debd308b76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;body-wrapper&quot;]/div[@class=&quot;sidebar-container&quot;]/div[@class=&quot;sidebar&quot;]/div[@class=&quot;menu-item master-data active&quot;]/div[@class=&quot;submenu-list&quot;]/div[@class=&quot;submenu-item&quot;]/a[@id=&quot;partymenu&quot;]/span[@class=&quot;submenu-title&quot;]</value>
+      <webElementGuid>74614bab-0765-4b35-99f9-1598b8204560</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//a[@id='partymenu']/span)[2]</value>
+      <webElementGuid>ae2eff1d-99db-4b78-9072-89a7ae0506a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product'])[1]/following::span[1]</value>
+      <webElementGuid>1d0ceb6f-fe38-4f22-8090-d52ce8687b98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Party'])[1]/following::span[2]</value>
+      <webElementGuid>fb15b9f2-bd97-4646-8c4b-e3409c4bd665</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='System'])[1]/preceding::span[1]</value>
+      <webElementGuid>763e912c-5ca5-4966-ad3f-35277ae4cc38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Serial No. Mgmt'])[1]/preceding::span[2]</value>
+      <webElementGuid>cced0ce6-da84-4840-a10c-c04a09c08dc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Product Group']/parent::*</value>
+      <webElementGuid>d8cae55d-c061-4ce9-b48c-4c51f55109d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/a/span</value>
+      <webElementGuid>ce27547b-a712-4dc7-b4ae-c8b1f60cfe20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Product Group' or . = 'Product Group')]</value>
+      <webElementGuid>cc465194-3882-4c25-98da-06a77a7eeac7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

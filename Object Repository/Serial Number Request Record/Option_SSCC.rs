@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Option_SSCC</name>
+   <tag></tag>
+   <elementGuidId>310688d0-f326-4ca3-8db0-0848783eedeb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[(text() = 'SSCC' or . = 'SSCC')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.form-check-label.input-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>4bd68558-b13f-4305-b8d9-8ac47ba8aa08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>idsgtin</value>
+      <webElementGuid>031df037-4c3a-41e9-a510-2098c4a5ad0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-check-label input-label</value>
+      <webElementGuid>f6b0d46d-074c-4a48-bc90-77450a11440a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SGTIN</value>
+      <webElementGuid>7d6ebdbd-904f-4774-bb7e-77ad0daba982</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;idRadioButton&quot;)/div[@class=&quot;col-2 form-check form-check-inline mr-0 pr-0&quot;]/label[@class=&quot;form-check-label input-label&quot;]</value>
+      <webElementGuid>f78427f2-d15a-4357-8c68-29db0cd95aa8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='idRadioButton']/div/label</value>
+      <webElementGuid>d2389826-29e7-4eca-9b37-21df382e1efb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Request Log'])[1]/following::label[1]</value>
+      <webElementGuid>019afbfb-3bab-4689-a1fc-3b7460492595</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Request Serial Numbers'])[1]/following::label[1]</value>
+      <webElementGuid>317702a0-201d-42d6-825f-b3e50ed5b475</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SSCC'])[1]/preceding::label[1]</value>
+      <webElementGuid>b764d0f8-4dab-4da7-9007-1305eedba79d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[3]/preceding::label[2]</value>
+      <webElementGuid>2ea600a4-b93f-46a9-a1a8-7ad5c4ac952b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='SGTIN']/parent::*</value>
+      <webElementGuid>9449ef8e-60c2-4c38-9998-a6b32ebb9484</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/label</value>
+      <webElementGuid>0b749c30-54ea-4349-b096-d7868704fd95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'SGTIN' or . = 'SGTIN')]</value>
+      <webElementGuid>9a577df2-a3bf-4014-a257-cad0ac3bc48b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

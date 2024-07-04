@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Product Group option</name>
+   <tag></tag>
+   <elementGuidId>9dab1f59-bea6-449f-8f53-c7fbb7b3c93b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[contains(text(), '${ProductGroup}')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>c91d7759-0a22-49e3-a683-b972ccee3b8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Antibiotics</value>
+      <webElementGuid>68aa62fc-9c61-4835-a896-2286b632bb0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Div_ProductDetail&quot;)/div[@class=&quot;row position-relative&quot;]/div[@class=&quot;col-10&quot;]/div[@class=&quot;row content-left mContent proddetailsts&quot;]/div[@class=&quot;row me&quot;]/div[@class=&quot;col-4 dropsuggest-container&quot;]/div[@class=&quot;input-suggest-ms pl-0 ml-0 SuggestBox&quot;]/ul[1]/li[1]</value>
+      <webElementGuid>96771d7f-83c2-4549-b130-54938a05e501</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Div_ProductDetail']/div/div/div/div[5]/div/div[2]/ul/li</value>
+      <webElementGuid>5a7f8387-0c5b-4efd-8acd-faf5493e9d6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Purchase Type'])[1]/following::li[1]</value>
+      <webElementGuid>3c4ba991-faa5-4bf5-9582-d75287a7c484</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Group'])[2]/following::li[1]</value>
+      <webElementGuid>0c527d7c-9495-4bc9-94ca-a25b881506e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Target Market(s)'])[2]/preceding::li[1]</value>
+      <webElementGuid>4fd8153b-0f00-4adc-a14a-7803db3e3ced</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AD - Andorra'])[2]/preceding::li[1]</value>
+      <webElementGuid>ede59ba2-ea44-4b14-96f4-80d5486a761d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Antibiotics']/parent::*</value>
+      <webElementGuid>7cb44064-f266-4caf-88f5-f90eafa551a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li</value>
+      <webElementGuid>7155ef49-5b53-4adb-9c46-201ef8902375</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Antibiotics' or . = 'Antibiotics')]</value>
+      <webElementGuid>16413333-09a4-4833-8ec4-1738779ed7c8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

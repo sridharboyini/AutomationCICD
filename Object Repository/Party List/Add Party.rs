@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Add Party</name>
+   <tag></tag>
+   <elementGuidId>5e04f575-5dc0-415e-abb9-08036212cc66</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@name='addparty']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button[name=&quot;addparty&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5ac1ddc7-678a-4852-8b0f-75a8bf81ab35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>4dcf91c5-80f1-4548-896d-a3ededa48ad8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary mr-3 partylistbutton</value>
+      <webElementGuid>28c7bda5-a61f-4b9e-8b83-908665dad491</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>addparty</value>
+      <webElementGuid>11442b2b-8279-41d2-9f47-039f90c54af9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>addParty()</value>
+      <webElementGuid>f0b0a623-e9d2-49ab-82c1-321d71e6922c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Party</value>
+      <webElementGuid>8e019a15-f1a3-4eb0-9dcd-a4605f6150d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;body-wrapper&quot;]/div[@class=&quot;w-100&quot;]/div[@class=&quot;content-borders&quot;]/div[1]/div[@class=&quot;bg-white&quot;]/div[@class=&quot;row partylist-buttons&quot;]/div[@class=&quot;col-6 text-right font-size-twenty-px&quot;]/button[@class=&quot;btn btn-primary mr-3 partylistbutton&quot;]</value>
+      <webElementGuid>216c7280-82c9-4971-93e8-7fa03e751ac7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@name='addparty']</value>
+      <webElementGuid>a0d2d589-9f9b-45b9-9679-a5c79a6a5a26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export'])[1]/following::button[1]</value>
+      <webElementGuid>515bb85e-3e03-4550-94e3-012797bb5b65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Import'])[1]/following::button[2]</value>
+      <webElementGuid>b952be25-c3be-43d5-884f-951160649fab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Displaying 8 of 8 records'])[1]/preceding::button[1]</value>
+      <webElementGuid>ce80e5de-9a6b-4038-9860-7f2c817c46b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First'])[1]/preceding::button[1]</value>
+      <webElementGuid>d67dd36b-4901-466f-aa86-98011eed4f19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add Party']/parent::*</value>
+      <webElementGuid>862cfc87-1bef-41b1-9b19-4cc67d525f0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]</value>
+      <webElementGuid>acc71e8d-9ae2-4781-9829-e72ef923d6a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and @name = 'addparty' and (text() = 'Add Party' or . = 'Add Party')]</value>
+      <webElementGuid>f2bfbf73-094a-426f-a563-92ea49ad3a92</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

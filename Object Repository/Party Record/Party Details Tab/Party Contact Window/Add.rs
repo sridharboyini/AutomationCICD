@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Add</name>
+   <tag></tag>
+   <elementGuidId>735ee46f-9a20-41c6-85f4-ad505fe7ed7e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.form-check.form-check-inline.mb-3.ml-4.modelFooter</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='modal-AddContact']/div/div/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4ebd1264-8925-4672-926c-a13218c087d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-check form-check-inline mb-3 ml-4 modelFooter</value>
+      <webElementGuid>7bbae0d0-3523-4e3e-8487-0ca6d5874a6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cancel Add</value>
+      <webElementGuid>7cfe033e-d2c9-4028-beb3-9d6aba263ad6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal-AddContact&quot;)/div[@class=&quot;modal-dialog modal-lg modal-size-lgg&quot;]/div[@class=&quot;addcontact_model modal-content&quot;]/div[@class=&quot;form-check form-check-inline mb-3 ml-4 modelFooter&quot;]</value>
+      <webElementGuid>33ceb091-d3e0-4be1-824d-3e4a5b4b9a6a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal-AddContact']/div/div/div[3]</value>
+      <webElementGuid>3866d658-80cc-4fb5-b031-f14f02a8098a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Additional Communication Channels'])[1]/following::div[2]</value>
+      <webElementGuid>050fb51b-8f6f-414f-8d2c-f9adc1f4666d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Additional Communication Channels'])[1]/following::div[4]</value>
+      <webElementGuid>5acc3e78-4754-4b66-b1b0-e3a12f75ee52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form[2]/div/div/div/div[3]</value>
+      <webElementGuid>8e68ab4f-2f60-4f36-b566-835a53067c84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Cancel Add' or . = 'Cancel Add')]</value>
+      <webElementGuid>30b1bc28-c95c-46ca-8c49-c21d3c6d69b4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

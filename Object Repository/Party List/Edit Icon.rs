@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Edit Icon</name>
+   <tag></tag>
+   <elementGuidId>996a8ad1-f6e5-4a18-b8ba-74dc8b5ab96b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[contains(@href, &quot;Party/Edit&quot;)][@class=&quot;ml-n1&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg.mr-3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>c0a3c57c-a12b-4715-949b-5b8a39babbdb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mr-3</value>
+      <webElementGuid>5a060534-99b1-4609-a4c6-468e7ba6ed89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>19</value>
+      <webElementGuid>801e64fc-7ca9-4cf8-851b-3f22125b58fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>22</value>
+      <webElementGuid>97aa0a8e-4b12-4bf8-ba8a-28ea05bb8c5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 19 22</value>
+      <webElementGuid>011bd41c-6f7d-4ad8-8299-a182c70cb7a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>051b9707-83f4-46b5-b5da-bb48d52375f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>14960dce-d621-49a2-8595-4c9e75fcb6ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;body-wrapper&quot;]/div[@class=&quot;w-100&quot;]/div[@class=&quot;content-borders&quot;]/div[1]/div[@class=&quot;bg-white&quot;]/div[@class=&quot;party-list-table&quot;]/div[@class=&quot;divTable&quot;]/div[@class=&quot;divTableBody&quot;]/div[@class=&quot;divTableRow&quot;]/div[@class=&quot;divTableCell col-10&quot;]/div[@class=&quot;custom-tooltip-container&quot;]/a[@class=&quot;ml-1&quot;]/svg[@class=&quot;mr-3&quot;]</value>
+      <webElementGuid>73acf0e0-5374-48af-89f3-75b5336ed696</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[2]/following::*[name()='svg'][1]</value>
+      <webElementGuid>a2c14ab3-3864-4673-8d1e-1cfaeb9793da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Location'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>e7b62253-b878-44b3-a4ec-f65c4f8fc8d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>1b99eeac-6896-4c90-b6c4-d2a674e462f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

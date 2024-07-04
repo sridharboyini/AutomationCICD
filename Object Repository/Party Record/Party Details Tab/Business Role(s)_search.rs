@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Business Role(s)_search</name>
+   <tag></tag>
+   <elementGuidId>58df889e-eb6f-4f1f-98b5-4501b684c9e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.input</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@placeholder = 'Search...']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>c0b0cd35-aae5-4568-b25f-4dcc38555f75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>59f1c9f3-febb-4083-99e7-2f7d8a2fee45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search...</value>
+      <webElementGuid>6f2c9ac5-c8e8-4a04-baa1-4b41f23f0425</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;businessddl&quot;)/div[@class=&quot;mult-select-tag select-multi&quot;]/div[@class=&quot;drawer rounded&quot;]/inputbody[@class=&quot;input-body&quot;]/input[@class=&quot;input&quot;]</value>
+      <webElementGuid>e97a575f-bbb5-4e3e-8316-189f5a90aab2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='businessddl']/div/div[2]/inputbody/input</value>
+      <webElementGuid>769b5875-ada6-4a93-b282-d45f3ddbf67e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//inputbody/input</value>
+      <webElementGuid>8dc36c36-e4e7-4b1c-b25a-bbe66d1b84a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Search...']</value>
+      <webElementGuid>46bbd725-5a38-4403-8e94-92979cd4a995</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

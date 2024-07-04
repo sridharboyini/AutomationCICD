@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Product Owner search</name>
+   <tag></tag>
+   <elementGuidId>782ec198-6499-4b35-b025-b1cd22f69534</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type = 'text' and @placeholder = 'Search...']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.multiselect-search</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>b46be271-b079-4f7c-936e-4a8325748672</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control multiselect-search</value>
+      <webElementGuid>e55f5e4c-d3cc-475d-a470-a4b976e84cc1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>7f07ef12-075c-42a7-8f11-7eb9a9282376</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search...</value>
+      <webElementGuid>fff60b98-6856-4ea5-af4f-579bc9c4e72b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Div_AssignTemplate1&quot;)/div[@class=&quot;row mt-1&quot;]/div[@class=&quot;col-3 multiselect-ms&quot;]/div[@class=&quot;btn-group show&quot;]/ul[@class=&quot;multiselect-container dropdown-menu show&quot;]/li[@class=&quot;multiselect-item filter&quot;]/div[@class=&quot;input-group&quot;]/input[@class=&quot;form-control multiselect-search&quot;]</value>
+      <webElementGuid>6fd82549-fab8-4c77-b2e8-f063dc8b4848</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[6]</value>
+      <webElementGuid>0e974067-1c17-47a5-b34f-f5ff1289c0a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Div_AssignTemplate1']/div[3]/div/div/ul/li/div/input</value>
+      <webElementGuid>73cd0c0b-bbd0-443d-a80c-4dd1a30e35c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/div/input</value>
+      <webElementGuid>cacfee3d-e87e-4dcb-809a-1ffad4dfb8a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Search...']</value>
+      <webElementGuid>80fd72b2-3e32-45ab-b6de-83ffac350f95</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

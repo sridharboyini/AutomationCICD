@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SN Template</name>
+   <tag></tag>
+   <elementGuidId>54468269-f9a3-4e4f-bcc5-a437ce57cc1f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#btn_assignTemplate</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btn_assignTemplate']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>885bc361-3282-4572-bdd5-64b3d0a9fe44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btn_assignTemplate</value>
+      <webElementGuid>72c30f4a-dc87-4bc2-9572-342a9fbfe0c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tab tab-inactive</value>
+      <webElementGuid>65713714-6185-46c0-8784-4b8a09dcd1ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SN Template</value>
+      <webElementGuid>d032d3f3-1a8a-4022-aee5-b5cc7addcb6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btn_assignTemplate&quot;)</value>
+      <webElementGuid>a8eb1bc0-5116-4361-a94f-9022edfa2cd4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='btn_assignTemplate']</value>
+      <webElementGuid>0ec45e33-e7e4-4b2d-83ea-966ba6f4918c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Party Identifiers'])[1]/following::button[1]</value>
+      <webElementGuid>0ac5b596-b598-40a0-94cf-61d943e267c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Party Details'])[1]/following::button[2]</value>
+      <webElementGuid>73da7701-3eee-4e6d-b8d6-de11bff8cd1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Locations'])[1]/preceding::button[1]</value>
+      <webElementGuid>eb700120-fc59-4593-a71a-b0bc29719793</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audit Trail'])[1]/preceding::button[2]</value>
+      <webElementGuid>37baac18-90ca-49a5-b0c5-b8965a00c05e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='SN Template']/parent::*</value>
+      <webElementGuid>92c876c0-2362-46bd-9d61-a89d047ca299</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]</value>
+      <webElementGuid>9322db5f-7c7b-4336-b334-b2fb7966c6ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'btn_assignTemplate' and (text() = 'SN Template' or . = 'SN Template')]</value>
+      <webElementGuid>631a4cbd-b46f-4153-be93-1f971871e322</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

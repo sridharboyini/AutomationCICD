@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Validate Sub-site Location</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>6c705656-a62d-428d-818d-7b295da18c1f</testCaseGuid>
-</TestCaseEntity>

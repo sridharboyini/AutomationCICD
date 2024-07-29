@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search By SGLN</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>06891cc2-cf6c-4463-b928-f58005ae6ef1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d743db6e-752d-4d71-9106-afb8fd9e3404</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>582377dc-38a8-4100-8115-f213d073adbc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'030378.000006.0'</defaultValue>
+      <description></description>
+      <id>d743db6e-752d-4d71-9106-afb8fd9e3404</id>
+      <masked>false</masked>
+      <name>strSGLN</name>
+   </variable>
+   <variable>
+      <defaultValue>'Displaying 1 of 1 records'</defaultValue>
+      <description></description>
+      <id>582377dc-38a8-4100-8115-f213d073adbc</id>
+      <masked>false</masked>
+      <name>strMessage</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GCP Validation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>74be1bb2-e0f2-49f8-b3b4-e1c5690c681f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>251fce79-8f4e-4e98-ab65-02e195155901</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6c706f5a-9312-48c6-8ccd-960c6e538911</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fe89efe0-8330-4052-a867-0966c10520cb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b1abcd0d-5be7-4559-937f-cc434da0d8b3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'init@mailinator.com'</defaultValue>
+      <description></description>
+      <id>251fce79-8f4e-4e98-ab65-02e195155901</id>
+      <masked>false</masked>
+      <name>UN</name>
+   </variable>
+   <variable>
+      <defaultValue>'p4y+y39Ir5PEPmX20UxFKw=='</defaultValue>
+      <description></description>
+      <id>6c706f5a-9312-48c6-8ccd-960c6e538911</id>
+      <masked>false</masked>
+      <name>PWd</name>
+   </variable>
+   <variable>
+      <defaultValue>'444'</defaultValue>
+      <description></description>
+      <id>fe89efe0-8330-4052-a867-0966c10520cb</id>
+      <masked>false</masked>
+      <name>InvalidGCP</name>
+   </variable>
+   <variable>
+      <defaultValue>'GCP length validation'</defaultValue>
+      <description></description>
+      <id>b1abcd0d-5be7-4559-937f-cc434da0d8b3</id>
+      <masked>false</masked>
+      <name>GCPDescription</name>
+   </variable>
+</TestCaseEntity>

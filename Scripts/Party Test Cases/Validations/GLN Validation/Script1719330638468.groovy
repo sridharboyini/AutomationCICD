@@ -3,7 +3,7 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.annotation.Keyword as Keyword
+import java.util.concurrent.ConcurrentHashMap.KeySetView as KeySetView
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -12,42 +12,37 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.apache.groovy.parser.antlr4.GroovyParser.IfElseStatementContext as IfElseStatementContext
-import org.codehaus.groovy.ast.stmt.IfStatement as IfStatement
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Reusable Test cases/T3 Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//************Navigate to System List page**********
-WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to System List page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Party List/Add Party'))
 
-WebUI.click(findTestObject('System List/button_Add System'))
+WebUI.setText(findTestObject('Party Record/Party Details Tab/Party Name'), 'Test Party')
 
-WebUI.waitForElementPresent(findTestObject('System Record/Party Name'), 10)
+WebUI.click(findTestObject('Party Record/Party Tabs/Party Identifiers Tab'))
 
-WebUI.selectOptionByLabel(findTestObject('System Record/Party Name'), PartyName, false)
+WebUI.setText(findTestObject('Party Record/Party Identifiers Tab/GLN'), '1245')
 
-WebUI.click(findTestObject('System Record/Status_Active'))
+WebUI.sendKeys(findTestObject('Party Record/Party Identifiers Tab/GLN'), Keys.chord(Keys.TAB))
 
-SystemName = ('System of ' + PartyName)
+WebUI.verifyTextPresent('GLN should be 13 digits', false)
 
-SystemDescription = ('Description ' + SystemName)
+WebUI.setText(findTestObject('Party Record/Party Identifiers Tab/GLN'), '2645646448403')
 
-GlobalVariable.SYSTEM_NAME = SystemName
+WebUI.setText(findTestObject('Party Record/Party Identifiers Tab/GLNExtension'), '1346')
 
-WebUI.setText(findTestObject('System Record/System Name'), SystemName)
+WebUI.selectOptionByValue(findTestObject('Party Record/Party Identifiers Tab/GCP Length'), '6', false)
 
-WebUI.setText(findTestObject('System Record/System Description'), SystemDescription)
+WebUI.click(findTestObject('Party Record/Party Details Tab/bt_Save'))
 
-WebUI.click(findTestObject('System Record/button_Save'))
+String sgln
 
-WebUI.verifyTextPresent('saved successfully', false)
+sgln = WebUI.getAttribute(findTestObject('Party Record/Party Identifiers Tab/SGLN'), 'Value')
 
-WebUI.delay(3)
-
-WebUI.waitForPageLoad(10)
+println(sgln)
 

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verify Digital Address field appears and Address fields are disabled.</description>
-   <name>Validate Digital Location</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>7c618792-3da2-4803-a5c8-a44e07bf9e73</testCaseGuid>
-</TestCaseEntity>

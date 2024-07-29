@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search Product by GTIN-14</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>363d4dfc-2e21-4c7e-9ae7-04134771e013</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f8f70abd-c1ad-4cca-be49-ee00e021c45e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6452005d-a6bc-4657-8561-f98d75dc550c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>50b33c71-ff0d-4ed3-ac6e-e84f581613bd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'24560124542072'</defaultValue>
+      <description></description>
+      <id>f8f70abd-c1ad-4cca-be49-ee00e021c45e</id>
+      <masked>false</masked>
+      <name>strGTIN</name>
+   </variable>
+   <variable>
+      <defaultValue>'Displaying 1 of 10 records'</defaultValue>
+      <description></description>
+      <id>6452005d-a6bc-4657-8561-f98d75dc550c</id>
+      <masked>false</masked>
+      <name>strMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>'All'</defaultValue>
+      <description></description>
+      <id>50b33c71-ff0d-4ed3-ac6e-e84f581613bd</id>
+      <masked>false</masked>
+      <name>strStatus</name>
+   </variable>
+</TestCaseEntity>

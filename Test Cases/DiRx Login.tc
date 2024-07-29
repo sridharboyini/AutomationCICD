@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DiRx Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>02a7b227-ea64-4af9-91da-ca42cd907eab</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c7a9fd99-2940-4809-b8e4-67d202adc487</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c7a9fd99-2940-4809-b8e4-67d202adc487</id>
+      <masked>false</masked>
+      <name>PartyName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verify that Party Name is defaulted as Parent for the new Location.</description>
-   <name>Validate Parent Name of the Location</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>8aeb12d8-b5cd-420a-a464-d07a71a9d6a7</testCaseGuid>
-</TestCaseEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verify that &quot;Party Name&quot; is required to save party in &quot;Draft&quot; status.</description>
-   <name>Validate Party Name in Draft status</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>d93f3dd7-2902-46ac-808e-c4dab06a0e8a</testCaseGuid>
-</TestCaseEntity>

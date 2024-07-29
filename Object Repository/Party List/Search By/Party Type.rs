@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Party Type</name>
+   <tag></tag>
+   <elementGuidId>f8cd0f1b-c972-4381-aebb-e7c704a5ed40</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='party-type']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#party-type</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>21233b27-32ea-4f3a-9004-73af0ace9f8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>searchby-fields</value>
+      <webElementGuid>280754f2-f948-4349-a6fc-39cf7ed36c2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>party-type</value>
+      <webElementGuid>6a6ff6cf-8ce1-4818-af31-3dbd1a770a90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                        All
+                        Affiliate
+                        Owner
+                        Partner
+
+                </value>
+      <webElementGuid>435854ce-d4be-4e33-a5f2-e0927e9550de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;party-type&quot;)</value>
+      <webElementGuid>cc664788-9f73-4dec-903d-f5d144dbf4a8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='party-type']</value>
+      <webElementGuid>1e7be2f9-cbf3-466a-9855-66077956e3e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='searchbyfilter']/div[2]/div[2]/select</value>
+      <webElementGuid>f5de468d-3f34-4965-b0a7-1c8eb018eed8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Party Type'])[1]/following::select[1]</value>
+      <webElementGuid>5b612151-e68b-48e6-b53b-4a65ecd6065c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Party Name'])[1]/following::select[1]</value>
+      <webElementGuid>2fcba5bb-314e-4d05-b100-63dae4cf668a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Identifier Type'])[1]/preceding::select[1]</value>
+      <webElementGuid>a6f1987f-ac26-49d5-8e28-c79fc466a2e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Identifier Value'])[1]/preceding::select[2]</value>
+      <webElementGuid>306a8068-64af-4619-99ce-9fca83699237</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/select</value>
+      <webElementGuid>3b716f6c-4d2d-49d8-b962-649a8d1e3e8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'party-type' and (text() = '
+                        All
+                        Affiliate
+                        Owner
+                        Partner
+
+                ' or . = '
+                        All
+                        Affiliate
+                        Owner
+                        Partner
+
+                ')]</value>
+      <webElementGuid>d82025d1-6040-4d20-a2bc-a52333af0ea6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

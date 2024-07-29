@@ -21,9 +21,6 @@ import org.apache.groovy.parser.antlr4.GroovyParser.IfElseStatementContext as If
 import org.codehaus.groovy.ast.stmt.IfStatement as IfStatement
 import org.openqa.selenium.Keys as Keys
 
-//************Call Login Test case***************
-WebUI.callTestCase(findTestCase('Reusable Test cases/T3 Login'), [('UN') : 'init@mailinator.com', ('PWD') : 'p4y+y39Ir5PEPmX20UxFKw=='], 
-    FailureHandling.STOP_ON_FAILURE)
 
 //************Navigate to System List page**********
 WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to System List page'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -36,7 +33,7 @@ WebUI.selectOptionByLabel(findTestObject('System Record/Party Name'), PartyName,
 
 WebUI.click(findTestObject('System Record/Status_Active'))
 
-SystemName = ('System ' + PartyName)
+SystemName = ('System of' + PartyName)
 
 SystemDescription = ('Description ' + SystemName)
 

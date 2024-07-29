@@ -3,7 +3,6 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.annotation.Keyword as Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -12,42 +11,39 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.apache.groovy.parser.antlr4.GroovyParser.IfElseStatementContext as IfElseStatementContext
-import org.codehaus.groovy.ast.stmt.IfStatement as IfStatement
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to Serial Number Request'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//************Navigate to System List page**********
-WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to System List page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('Serial Number Request Record/Product Code'), 10)
 
-WebUI.click(findTestObject('System List/button_Add System'))
+WebUI.sendKeys(findTestObject('Serial Number Request Record/Product Code'), ProductCode)
 
-WebUI.waitForElementPresent(findTestObject('System Record/Party Name'), 10)
+WebUI.click(findTestObject('Serial Number Request Record/ProductCodeMatchingValue'))
 
-WebUI.selectOptionByLabel(findTestObject('System Record/Party Name'), PartyName, false)
+WebUI.selectOptionByLabel(findTestObject('Serial Number Request Record/Requesting Party'), RequestingParty, false)
 
-WebUI.click(findTestObject('System Record/Status_Active'))
+WebUI.selectOptionByLabel(findTestObject('Serial Number Request Record/Requesting System'), RequestingSystem, false)
 
-SystemName = ('System of ' + PartyName)
+WebUI.setText(findTestObject('Serial Number Request Record/Request Quantity'), RequestQTY)
 
-SystemDescription = ('Description ' + SystemName)
+WebUI.scrollToElement(findTestObject('Home/Bread Crumbs'), 10)
 
-GlobalVariable.SYSTEM_NAME = SystemName
+WebUI.click(findTestObject('Serial Number Request Record/button_Save'))
 
-WebUI.setText(findTestObject('System Record/System Name'), SystemName)
+//WebUI.verifyTextPresent('successfully', false)
 
-WebUI.setText(findTestObject('System Record/System Description'), SystemDescription)
-
-WebUI.click(findTestObject('System Record/button_Save'))
-
-WebUI.verifyTextPresent('saved successfully', false)
+WebUI.verifyElementPresent(findTestObject('Serial Number Request Record/Success Message'), 10)
 
 WebUI.delay(3)
 
 WebUI.waitForPageLoad(10)
+
+WebUI.click(findTestObject('Serial Number Request Record/Request Log Tab'))
+
+WebUI.verifyTextPresent(ProductCode, false)
 

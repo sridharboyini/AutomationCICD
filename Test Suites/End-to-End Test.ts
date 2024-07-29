@@ -15,7 +15,7 @@
       <guid>43283b65-f7f0-4ea8-ba83-588c77ed97c9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/E2E Test cases/Party to SGTIN Request</testCaseId>
+      <testCaseId>Test Cases/E2E Test cases/E2E - Party to SGTIN Request</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

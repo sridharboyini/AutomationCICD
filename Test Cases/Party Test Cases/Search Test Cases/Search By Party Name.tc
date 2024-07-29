@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search By Party Name</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4d6acb47-8462-4002-8fbe-8bec373c5ae0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6df91dbf-3164-4743-ac63-db87f350656d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Mylan'</defaultValue>
+      <description></description>
+      <id>6df91dbf-3164-4743-ac63-db87f350656d</id>
+      <masked>false</masked>
+      <name>strPartyName</name>
+   </variable>
+</TestCaseEntity>

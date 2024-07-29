@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search Party By GLN</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f951e70b-a753-4a4e-9554-fa0098d65fc3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0a942fcb-e2a4-4cf7-bdf9-1b5d5b442f48</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>123d0796-3c9a-4a02-b493-c97b3a8486a2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'0303780000063'</defaultValue>
+      <description></description>
+      <id>0a942fcb-e2a4-4cf7-bdf9-1b5d5b442f48</id>
+      <masked>false</masked>
+      <name>strGLN</name>
+   </variable>
+   <variable>
+      <defaultValue>'Displaying 1 of 1 records'</defaultValue>
+      <description></description>
+      <id>123d0796-3c9a-4a02-b493-c97b3a8486a2</id>
+      <masked>false</masked>
+      <name>strMessage</name>
+   </variable>
+</TestCaseEntity>

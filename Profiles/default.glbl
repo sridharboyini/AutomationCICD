@@ -21,6 +21,16 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'alphauser1@mailinator.com'</initValue>
+      <name>ALPHA_USER</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'p4y+y39Ir5PEPmX20UxFKw=='</initValue>
+      <name>ALPHA_PASSWORD</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>''</initValue>
       <name>ID_GCP</name>
    </GlobalVariableEntity>

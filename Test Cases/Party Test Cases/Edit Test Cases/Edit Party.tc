@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Party</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>27634aab-7014-4c05-86db-32ed38753fac</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a3f284aa-ff04-404a-9583-851e1f810183</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'RK Pharma Inc'</defaultValue>
+      <description></description>
+      <id>a3f284aa-ff04-404a-9583-851e1f810183</id>
+      <masked>false</masked>
+      <name>PartyName</name>
+   </variable>
+</TestCaseEntity>

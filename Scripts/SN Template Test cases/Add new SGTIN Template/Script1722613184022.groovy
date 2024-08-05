@@ -33,8 +33,7 @@ WebUI.selectOptionByLabel(findTestObject('Serial Number Template Record/Template
 
 WebUI.click(findTestObject('Serial Number Template Record/Template Details/Status_Active'))
 
-WebUI.selectOptionByLabel(findTestObject('Serial Number Template Record/Template Details/Serial Number Type'), 'Random', 
-    false)
+WebUI.selectOptionByLabel(findTestObject('Serial Number Template Record/Template Details/Serial Number Type'), SNType, false)
 
 WebUI.setText(findTestObject('Serial Number Template Record/Template Details/Serial Number Length'), SNLength)
 

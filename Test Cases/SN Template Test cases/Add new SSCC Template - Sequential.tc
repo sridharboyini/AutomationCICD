@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add new SSCC Template - Sequential</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4a715790-9bdd-4173-8abb-39b3cf541ce0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cee269a2-4ed7-47dd-b1c2-995a5568d242</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a5b797fd-644f-4e78-b7b4-d0d2d99b740d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d9c9518d-ed1c-4934-830e-bef87e937dbd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'5000'</defaultValue>
+      <description></description>
+      <id>cee269a2-4ed7-47dd-b1c2-995a5568d242</id>
+      <masked>false</masked>
+      <name>RequestQTY</name>
+   </variable>
+   <variable>
+      <defaultValue>'15000'</defaultValue>
+      <description></description>
+      <id>a5b797fd-644f-4e78-b7b4-d0d2d99b740d</id>
+      <masked>false</masked>
+      <name>ReplenishThreshold</name>
+   </variable>
+   <variable>
+      <defaultValue>'50'</defaultValue>
+      <description></description>
+      <id>d9c9518d-ed1c-4934-830e-bef87e937dbd</id>
+      <masked>false</masked>
+      <name>AlertPercentage</name>
+   </variable>
+</TestCaseEntity>

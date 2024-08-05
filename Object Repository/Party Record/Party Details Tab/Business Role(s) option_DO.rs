@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Business Role(s) option_DO</name>
+   <tag></tag>
+   <elementGuidId>d1ca7c88-9c35-4ba3-9209-2ca5528eb342</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[text()='${RoleString}']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[text()='${RoleString}']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>207ebbfe-69df-4ceb-8506-1e9805dbaf78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-value</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>7fcb9f0e-86d0-4585-a550-4f34d69fb339</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${RoleString}</value>
+      <webElementGuid>4b045d1c-f501-48c2-94f8-d97c47ed9fc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//li[text()='${RoleString}']</value>
+      <webElementGuid>921837e2-c547-443a-a72b-275cc3dd970a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

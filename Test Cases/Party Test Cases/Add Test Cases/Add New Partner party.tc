@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add New Partner party</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>347c60b9-5ee6-4b10-aa37-c607f9265518</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>111a6cde-b777-48cf-b0a2-84dbe8297e0f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6f83fb05-2514-4972-966d-096f491a4d3d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'3PL'</defaultValue>
+      <description></description>
+      <id>111a6cde-b777-48cf-b0a2-84dbe8297e0f</id>
+      <masked>false</masked>
+      <name>BusinessRole</name>
+   </variable>
+   <variable>
+      <defaultValue>'123'</defaultValue>
+      <description></description>
+      <id>6f83fb05-2514-4972-966d-096f491a4d3d</id>
+      <masked>false</masked>
+      <name>GLN_Extn</name>
+   </variable>
+</TestCaseEntity>

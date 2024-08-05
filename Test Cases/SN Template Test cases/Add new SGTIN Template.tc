@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Add new Template with Active status</name>
+   <name>Add new SGTIN Template</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>d973c930-2ab1-4d53-8f81-eb3211bd949c</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>5d373633-a4f2-4b7e-a102-64d1b9bd4196</variableId>
-   </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
@@ -72,13 +66,6 @@
       <value></value>
       <variableId>ed0f181e-01d1-4719-901b-dcc6b76e4ce6</variableId>
    </variableLinks>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>5d373633-a4f2-4b7e-a102-64d1b9bd4196</id>
-      <masked>false</masked>
-      <name>TemplateName</name>
-   </variable>
    <variable>
       <defaultValue>'Mylan'</defaultValue>
       <description></description>

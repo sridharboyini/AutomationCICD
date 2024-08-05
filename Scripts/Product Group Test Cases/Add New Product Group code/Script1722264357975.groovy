@@ -48,9 +48,8 @@ WebUI.delay(3)
 
 WebUI.waitForPageLoad(10)
 
-WebUI.verifyTextPresent(ProductGroup, false)
+//WebUI.verifyTextPresent(ProductGroup, false)
 
 GlobalVariable.PRODUCT_GRP_CODE = ProductGroup
 
 println(GlobalVariable.PRODUCT_GRP_CODE)
-

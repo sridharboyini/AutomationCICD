@@ -38,7 +38,7 @@ WebUI.selectOptionByLabel(findTestObject('Serial Number Profile Record/Serial Nu
 
 WebUI.scrollToElement(findTestObject('Home/Bread Crumbs'), 10)
 
-WebUI.click(findTestObject('Serial Number Profile Record/button_SaveProfile'))
+WebUI.click(findTestObject('Serial Number Profile Record/bt_SaveProfile'))
 
 WebUI.verifyElementPresent(findTestObject('Serial Number Profile Record/SaveConfirm/SaveConfirmPop-up'), 10)
 
@@ -52,7 +52,9 @@ WebUI.delay(3)
 
 WebUI.waitForPageLoad(10)
 
-WebUI.click(findTestObject('Serial Number Profile Record/button_Assign New System'))
+WebUI.scrollToElement(findTestObject('Serial Number Profile Record/bt_Assign New System'), 0)
+
+WebUI.click(findTestObject('Serial Number Profile Record/bt_Assign New System'))
 
 WebUI.selectOptionByLabel(findTestObject('Serial Number Profile Record/Assign System/Party Name'), PartyName, false)
 
@@ -73,7 +75,7 @@ WebUI.click(findTestObject('Serial Number Profile Record/Status_Active'))
 
 WebUI.scrollToElement(findTestObject('Home/Bread Crumbs'), 10)
 
-WebUI.click(findTestObject('Serial Number Profile Record/button_SaveProfile'))
+WebUI.click(findTestObject('Serial Number Profile Record/bt_SaveProfile'))
 
 WebUI.verifyTextPresent('saved successfully', false)
 

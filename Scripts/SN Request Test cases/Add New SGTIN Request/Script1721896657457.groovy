@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to Serial Number R
 
 WebUI.waitForElementPresent(findTestObject('Serial Number Request Record/Product Code'), 10)
 
-WebUI.sendKeys(findTestObject('Serial Number Request Record/Product Code'), ProductCode)
+WebUI.sendKeys(findTestObject('Serial Number Request Record/Product Code'), ProductCode.toString())
 
 WebUI.click(findTestObject('Serial Number Request Record/ProductCodeMatchingValue'))
 
@@ -33,11 +33,11 @@ WebUI.setText(findTestObject('Serial Number Request Record/Request Quantity'), R
 
 WebUI.scrollToElement(findTestObject('Home/Bread Crumbs'), 10)
 
-WebUI.click(findTestObject('Serial Number Request Record/button_Save'))
+WebUI.click(findTestObject('Serial Number Request Record/bt_Submit'))
 
-//WebUI.verifyTextPresent('successfully', false)
+WebUI.verifyTextPresent('successfully', false)
 
-WebUI.verifyElementPresent(findTestObject('Serial Number Request Record/Success Message'), 10)
+//WebUI.verifyElementVisible(findTestObject('Serial Number Request Record/Success Message'), 10)
 
 WebUI.delay(3)
 

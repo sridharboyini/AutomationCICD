@@ -17,16 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Reusable Test cases/T3 Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 //Add Location to 1st party in the Party List
 WebUI.click(findTestObject('Party List/Edit Icon'))
 
 //Select Loc Classification as 'Subsite'
-WebUI.selectOptionByLabel(findTestObject('Party Record/Locations Tab/Location Record/Location Classification'), 'Sub-site Location', false)
+WebUI.selectOptionByLabel(findTestObject('Party Record/Locations Tab/Location Record/Location Classification'), 'Sub-site Location', 
+    false)
 
 //Verify Subsite type field appears
 WebUI.verifyTextPresent('Sub-Site Type', false)
 
 //Verify Subsite attributes field appears
 WebUI.verifyTextPresent('Sub-Site Attributes', false)
+

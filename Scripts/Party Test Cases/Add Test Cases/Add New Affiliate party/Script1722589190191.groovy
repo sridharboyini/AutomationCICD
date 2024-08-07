@@ -20,10 +20,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.checkerframework.checker.units.qual.Length as Length
 import org.openqa.selenium.Keys as Keys
 
-final PARTY_TYPE = 'Affiliate'
+final String PARTY_TYPE = 'Affiliate'
 
 Integer GCPValue = Math.random() * Math.pow(10, 6)
 
+//***Navigate to Party List*****
 WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to Party List page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Party List/Add Party'))
@@ -38,7 +39,7 @@ WebUI.click(findTestObject('Party Record/Party Details Tab/Business Role(s)'))
 
 WebUI.setText(findTestObject('Party Record/Party Details Tab/Business Role(s)_search'), BusinessRole)
 
-WebUI.click(findTestObject('Party Record/Party Details Tab/Business Role(s) option_DO', [('RoleString') : BusinessRole]))
+WebUI.click(findTestObject('Party Record/Party Details Tab/Business Role(s)_searchResult', [('RoleString') : BusinessRole]))
 
 PartyName = ('Party ' + GCPValue)
 

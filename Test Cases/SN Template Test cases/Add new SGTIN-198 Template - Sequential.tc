@@ -1,126 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Add New SGTIN Profile</name>
+   <name>Add new SGTIN-198 Template - Sequential</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>bd86d9b6-b676-442b-b7fe-38e6e7ce2949</testCaseGuid>
+   <testCaseGuid>279c4d2c-d3b8-4a02-9f2b-a3025dbabb4e</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>06743ac6-41a3-48f5-a65a-aa1c2ec7d94d</variableId>
+      <variableId>e6fe22b8-a006-45fd-b3af-dbd4c4b329b8</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a7310495-6be6-4002-809c-a6a92e618adf</variableId>
+      <variableId>dc5e42c8-8720-4903-839e-17b2399e9579</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>2c19c931-d8e5-43ad-9814-edf0cc2f37f9</variableId>
+      <variableId>49ec6947-25dd-4da0-9455-065edd9eb24a</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ff198b1b-24ab-4fa7-bb2f-31885b12dec4</variableId>
+      <variableId>81934bda-6601-498b-8421-a508ac39c8f6</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c89f44b7-71b9-4507-99e4-541beb691119</variableId>
+      <variableId>f6dc8ee7-36cf-4b09-acbd-4b43e148e154</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e509ebb8-0615-49b5-b60e-805cf96af9ac</variableId>
+      <variableId>e6e997b1-71fc-45b8-80c6-58a055d3a26e</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c1c3db17-1cb9-4651-bf56-5ce32b6de7bd</variableId>
+      <variableId>1dc6f631-795c-4c6d-b011-146e2bc8b9db</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>9b9023ee-5e5a-41fc-a7f9-8ee73d6f9f70</variableId>
+      <variableId>a0a347b7-6f01-4248-9915-f276b7383762</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f7007188-14f4-45c8-802c-6009670b96f3</variableId>
+      <variableId>3b207e4e-d94e-42e7-9c91-c582c53bdb57</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>81d2c1bc-5524-4e46-90e0-f772d3edd614</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'62409512956650'</defaultValue>
+      <defaultValue>'Mylan'</defaultValue>
       <description></description>
-      <id>06743ac6-41a3-48f5-a65a-aa1c2ec7d94d</id>
+      <id>e6fe22b8-a006-45fd-b3af-dbd4c4b329b8</id>
       <masked>false</masked>
-      <name>ProductCode</name>
+      <name>ProductOwner</name>
    </variable>
    <variable>
-      <defaultValue>'Internally generated'</defaultValue>
+      <defaultValue>'SGTIN'</defaultValue>
       <description></description>
-      <id>a7310495-6be6-4002-809c-a6a92e618adf</id>
+      <id>dc5e42c8-8720-4903-839e-17b2399e9579</id>
       <masked>false</masked>
-      <name>SerialNumberSource</name>
+      <name>EPCSchema</name>
    </variable>
    <variable>
-      <defaultValue>'12_Random_Numeric_Packaging Level'</defaultValue>
+      <defaultValue>'SGTIN-198'</defaultValue>
       <description></description>
-      <id>2c19c931-d8e5-43ad-9814-edf0cc2f37f9</id>
+      <id>49ec6947-25dd-4da0-9455-065edd9eb24a</id>
       <masked>false</masked>
-      <name>SerialNumberTemplate</name>
+      <name>CodingSchema</name>
    </variable>
    <variable>
-      <defaultValue>'Party Automation 883'</defaultValue>
+      <defaultValue>'Sequential'</defaultValue>
       <description></description>
-      <id>ff198b1b-24ab-4fa7-bb2f-31885b12dec4</id>
+      <id>81934bda-6601-498b-8421-a508ac39c8f6</id>
       <masked>false</masked>
-      <name>PartyName</name>
+      <name>SNType</name>
    </variable>
    <variable>
-      <defaultValue>'System Party Automation 883'</defaultValue>
+      <defaultValue>'10'</defaultValue>
       <description></description>
-      <id>c89f44b7-71b9-4507-99e4-541beb691119</id>
+      <id>f6dc8ee7-36cf-4b09-acbd-4b43e148e154</id>
       <masked>false</masked>
-      <name>SystemName</name>
+      <name>SNLength</name>
    </variable>
    <variable>
       <defaultValue>'1'</defaultValue>
       <description></description>
-      <id>e509ebb8-0615-49b5-b60e-805cf96af9ac</id>
+      <id>e6e997b1-71fc-45b8-80c6-58a055d3a26e</id>
       <masked>false</masked>
-      <name>Range</name>
+      <name>SparsenessFactor</name>
+   </variable>
+   <variable>
+      <defaultValue>'Packaging Level'</defaultValue>
+      <description></description>
+      <id>1dc6f631-795c-4c6d-b011-146e2bc8b9db</id>
+      <masked>false</masked>
+      <name>Uniqueness</name>
    </variable>
    <variable>
       <defaultValue>'15000'</defaultValue>
       <description></description>
-      <id>c1c3db17-1cb9-4651-bf56-5ce32b6de7bd</id>
+      <id>a0a347b7-6f01-4248-9915-f276b7383762</id>
       <masked>false</masked>
-      <name>MaxRequestQty</name>
+      <name>ReplenishThreshold</name>
    </variable>
    <variable>
-      <defaultValue>'List'</defaultValue>
+      <defaultValue>'5000'</defaultValue>
       <description></description>
-      <id>9b9023ee-5e5a-41fc-a7f9-8ee73d6f9f70</id>
+      <id>3b207e4e-d94e-42e7-9c91-c582c53bdb57</id>
       <masked>false</masked>
-      <name>DeliveryMode</name>
+      <name>RequestQTY</name>
    </variable>
    <variable>
-      <defaultValue>'PLAIN_KEY'</defaultValue>
+      <defaultValue>'50'</defaultValue>
       <description></description>
-      <id>f7007188-14f4-45c8-802c-6009670b96f3</id>
+      <id>81d2c1bc-5524-4e46-90e0-f772d3edd614</id>
       <masked>false</masked>
-      <name>EncodingFormat</name>
+      <name>AlertPercentage</name>
    </variable>
 </TestCaseEntity>

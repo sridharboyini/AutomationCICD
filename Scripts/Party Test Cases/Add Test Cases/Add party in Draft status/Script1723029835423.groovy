@@ -17,34 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to Serial Number Request'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to Party List page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Serial Number Request Record/Product Code'), 10)
+WebUI.click(findTestObject('Party List/Add Party'))
 
-WebUI.click(findTestObject('Serial Number Request Record/Product Code'))
+WebUI.click(findTestObject('Party Record/Party Details Tab/bt_Save'))
 
-WebUI.sendKeys(findTestObject('Serial Number Request Record/Product Code'), ProductCode.toString())
+WebUI.verifyTextPresent('Name is required', false)
 
-WebUI.click(findTestObject('Serial Number Request Record/ProductCodeMatchingValue'))
+Integer RandNum = Math.random() * Math.pow(10, 3)
 
-WebUI.selectOptionByLabel(findTestObject('Serial Number Request Record/Requesting Party'), RequestingParty, false)
+WebUI.setText(findTestObject('Party Record/Party Details Tab/Party Name'), PartyName+RandNum)
 
-WebUI.selectOptionByLabel(findTestObject('Serial Number Request Record/Requesting System'), RequestingSystem, false)
+WebUI.click(findTestObject('Party Record/Party Details Tab/bt_Save'))
 
-WebUI.setText(findTestObject('Serial Number Request Record/Request Quantity'), RequestQTY)
+WebUI.verifyTextPresent('saved successfully', false)
 
-WebUI.scrollToElement(findTestObject('Home/Bread Crumbs'), 10)
-
-WebUI.click(findTestObject('Serial Number Request Record/bt_Submit'))
-
-WebUI.verifyTextPresent('successfully', false)
-
-//WebUI.verifyElementVisible(findTestObject('Serial Number Request Record/Success Message'), 10)
 WebUI.delay(3)
 
 WebUI.waitForPageLoad(10)
 
-WebUI.click(findTestObject('Serial Number Request Record/Request Log Tab'))
 
-WebUI.verifyTextPresent(ProductCode, false)
 

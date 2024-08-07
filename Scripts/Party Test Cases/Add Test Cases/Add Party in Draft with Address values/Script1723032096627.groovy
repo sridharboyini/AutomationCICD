@@ -17,34 +17,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to Serial Number Request'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to Party List page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Serial Number Request Record/Product Code'), 10)
+WebUI.click(findTestObject('Party List/Add Party'))
 
-WebUI.click(findTestObject('Serial Number Request Record/Product Code'))
+WebUI.selectOptionByLabel(findTestObject('Party Record/Party Details Tab/Party Type'), 'Affiliate', false)
 
-WebUI.sendKeys(findTestObject('Serial Number Request Record/Product Code'), ProductCode.toString())
+WebUI.click(findTestObject('Party Record/Party Details Tab/Business Role(s)'))
 
-WebUI.click(findTestObject('Serial Number Request Record/ProductCodeMatchingValue'))
+WebUI.sendKeys(findTestObject('Party Record/Party Details Tab/Business Role(s)_search'), Role)
 
-WebUI.selectOptionByLabel(findTestObject('Serial Number Request Record/Requesting Party'), RequestingParty, false)
+WebUI.click(findTestObject('Party Record/Party Details Tab/Business Role(s)_searchResult'))
 
-WebUI.selectOptionByLabel(findTestObject('Serial Number Request Record/Requesting System'), RequestingSystem, false)
+WebUI.setText(findTestObject('Party Record/Party Details Tab/Party Name'), PartyName)
 
-WebUI.setText(findTestObject('Serial Number Request Record/Request Quantity'), RequestQTY)
+WebUI.selectOptionByLabel(findTestObject('Party Record/Party Details Tab/Address.Country'), Country, false)
+
+WebUI.setText(findTestObject('Party Record/Party Details Tab/Address.AddressLine1'), AddrLine1)
+
+WebUI.setText(findTestObject('Party Record/Party Details Tab/Address.City'), City)
+
+WebUI.selectOptionByLabel(findTestObject('Party Record/Party Details Tab/Address.StateRegion'), State, false)
+
+WebUI.setText(findTestObject('Party Record/Party Details Tab/Address.PostalCode'), PinCode)
 
 WebUI.scrollToElement(findTestObject('Home/Bread Crumbs'), 10)
 
-WebUI.click(findTestObject('Serial Number Request Record/bt_Submit'))
+WebUI.click(findTestObject('Party Record/Party Details Tab/bt_Save'))
 
-WebUI.verifyTextPresent('successfully', false)
+WebUI.verifyTextPresent('saved successfully', false)
 
-//WebUI.verifyElementVisible(findTestObject('Serial Number Request Record/Success Message'), 10)
 WebUI.delay(3)
 
 WebUI.waitForPageLoad(10)
-
-WebUI.click(findTestObject('Serial Number Request Record/Request Log Tab'))
-
-WebUI.verifyTextPresent(ProductCode, false)
 

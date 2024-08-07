@@ -51,7 +51,7 @@ WebUI.click(findTestObject('Product Record/Product Details/Target Market(s)'))
 
 WebUI.setText(findTestObject('Product Record/Product Details/Target Market search'), TargetMarket)
 
-WebUI.click(findTestObject('Product Record/Product Details/Target Market option', [('TargetMarket') : TargetMarket]))
+WebUI.click(findTestObject('Product Record/Product Details/Target Market option_DO', [('TargetMarket') : TargetMarket]))
 
 WebUI.selectOptionByLabel(findTestObject('Product Record/Product Details/Commercial Status'), ProdCommercialStatus, false)
 

@@ -30,36 +30,36 @@ WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to Serial Number T
 
 WebUI.click(findTestObject('Serial Number Template List/button_Add Template'))
 
-WebUI.waitForElementPresent(findTestObject('Serial Number Template Record/Template Details/EPC Schema'), 10)
+WebUI.waitForElementPresent(findTestObject('SN Template Record/Template Details/EPC Schema'), 10)
 
-WebUI.selectOptionByLabel(findTestObject('Serial Number Template Record/Template Details/EPC Schema'), EPC_SCHEMA, false)
+WebUI.selectOptionByLabel(findTestObject('SN Template Record/Template Details/EPC Schema'), EPC_SCHEMA, false)
 
-WebUI.verifyElementNotVisible(findTestObject('Serial Number Template Record/Template Details/Serial Number Length'))
+WebUI.verifyElementNotVisible(findTestObject('SN Template Record/Template Details/Serial Number Length'))
 
-WebUI.verifyElementNotVisible(findTestObject('Serial Number Template Record/Template Details/Uniqueness'))
+WebUI.verifyElementNotVisible(findTestObject('SN Template Record/Template Details/Uniqueness'))
 
-WebUI.click(findTestObject('Serial Number Template Record/Template Details/Status_Active'))
+WebUI.click(findTestObject('SN Template Record/Template Details/Status_Active'))
 
-WebUI.selectOptionByLabel(findTestObject('Serial Number Template Record/Template Details/Serial Number Type'), SERIAL_NUMBER_TYPE, 
+WebUI.selectOptionByLabel(findTestObject('SN Template Record/Template Details/Serial Number Type'), SERIAL_NUMBER_TYPE, 
     false)
 
-WebUI.selectOptionByLabel(findTestObject('Serial Number Template Record/Template Details/Allow Leading Zero'), ALLOW_LEADING_ZERO, false)
+WebUI.selectOptionByLabel(findTestObject('SN Template Record/Template Details/Allow Leading Zero'), ALLOW_LEADING_ZERO, false)
 
-WebUI.verifyElementChecked(findTestObject('Serial Number Template Record/Template Details/input_Numeric'), 5)
+WebUI.verifyElementChecked(findTestObject('SN Template Record/Template Details/input_Numeric'), 5)
 
 //Generate Random number
 Integer RandomNum = Math.random() * Math.pow(10, 4)
 
-WebUI.click(findTestObject('Serial Number Template Record/Template Details/Serial Number Template Name'))
+WebUI.click(findTestObject('SN Template Record/Template Details/Serial Number Template Name'))
 
 //Append Random Number to Template Name to make it unique
-WebUI.sendKeys(findTestObject('Serial Number Template Record/Template Details/Serial Number Template Name'), '_' + RandomNum.toString())
+WebUI.sendKeys(findTestObject('SN Template Record/Template Details/Serial Number Template Name'), '_' + RandomNum.toString())
 
-WebUI.setText(findTestObject('Serial Number Template Record/Template Details/Replenish Threshold'), ReplenishThreshold)
+WebUI.setText(findTestObject('SN Template Record/Template Details/Replenish Threshold'), ReplenishThreshold)
 
-WebUI.setText(findTestObject('Serial Number Template Record/Template Details/Reorder Quantity'), RequestQTY)
+WebUI.setText(findTestObject('SN Template Record/Template Details/Reorder Quantity'), RequestQTY)
 
-WebUI.setText(findTestObject('Serial Number Template Record/Template Details/Alert Available Range'), AlertPercentage)
+WebUI.setText(findTestObject('SN Template Record/Template Details/Alert Available Range'), AlertPercentage)
 
 WebUI.scrollToElement(findTestObject('Home/Bread Crumbs'), 10)
 
@@ -71,9 +71,9 @@ WebUI.delay(3)
 
 WebUI.waitForPageLoad(10)
 
-Name = WebUI.getAttribute(findTestObject('Serial Number Template Record/Template Details/Serial Number Template Name'), 'Value')
+Name = WebUI.getAttribute(findTestObject('SN Template Record/Template Details/Serial Number Template Name'), 'Value')
 
 GlobalVariable.SN_TEMPLATE_NAME = Name
 
-WebUI.verifyElementText(findTestObject('Serial Number Template Record/Template Details/Coding Schema'), CODING_SCHEMA)
+WebUI.verifyElementText(findTestObject('SN Template Record/Template Details/Coding Schema'), CODING_SCHEMA)
 

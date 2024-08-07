@@ -26,6 +26,8 @@ WebUI.waitForElementPresent(findTestObject('Serial Number Profile Record/Product
 
 WebUI.selectOptionByLabel(findTestObject('Serial Number Profile Record/Product Code Type'), 'GTIN-14', false)
 
+WebUI.click(findTestObject('Serial Number Profile Record/Product Code'))
+
 //WebUI.setText(findTestObject('Serial Number Profile Record/Product Code'), ProductCode.toString())
 WebUI.sendKeys(findTestObject('Serial Number Profile Record/Product Code'), ProductCode.toString())
 

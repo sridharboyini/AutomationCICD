@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify only Party name is required to save Party in Draft status.</description>
+   <name>Add party in Draft status</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cd14a0fe-0529-4c66-9ea4-e6dc6143f1cf</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>852848bb-255a-4449-b165-0f3de3125d04</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Party Testing'</defaultValue>
+      <description></description>
+      <id>852848bb-255a-4449-b165-0f3de3125d04</id>
+      <masked>false</masked>
+      <name>PartyName</name>
+   </variable>
+</TestCaseEntity>

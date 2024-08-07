@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add party with following attributes: &#xd;
+Status ='Draft'&#xd;
+Address values</description>
+   <name>Add Party in Draft with Address values</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>66ae12e2-66b5-4e27-ab73-4790bfca00d2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d689752d-6be4-40a9-9238-51a289aebb61</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bef3493c-d516-4706-8717-3e917a21a6d4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4d85bcd0-c0bd-4b3c-b718-cb98dfc5db17</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ffcda96f-8d37-4c69-a7eb-cd453a70f9bf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>df87af68-c000-41ee-b622-3b95872cf3b7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7f025d12-7c1d-41b4-87ad-d1926c8a9eb0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f72e2ddd-a6cf-42f2-8b2e-59652beb54c8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Dispenser'</defaultValue>
+      <description></description>
+      <id>d689752d-6be4-40a9-9238-51a289aebb61</id>
+      <masked>false</masked>
+      <name>Role</name>
+   </variable>
+   <variable>
+      <defaultValue>'Party Testing'</defaultValue>
+      <description></description>
+      <id>bef3493c-d516-4706-8717-3e917a21a6d4</id>
+      <masked>false</masked>
+      <name>PartyName</name>
+   </variable>
+   <variable>
+      <defaultValue>'US - United States of America'</defaultValue>
+      <description></description>
+      <id>4d85bcd0-c0bd-4b3c-b718-cb98dfc5db17</id>
+      <masked>false</masked>
+      <name>Country</name>
+   </variable>
+   <variable>
+      <defaultValue>'Street 11'</defaultValue>
+      <description></description>
+      <id>ffcda96f-8d37-4c69-a7eb-cd453a70f9bf</id>
+      <masked>false</masked>
+      <name>AddrLine1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Atlanta'</defaultValue>
+      <description></description>
+      <id>df87af68-c000-41ee-b622-3b95872cf3b7</id>
+      <masked>false</masked>
+      <name>City</name>
+   </variable>
+   <variable>
+      <defaultValue>'GA - Georgia'</defaultValue>
+      <description></description>
+      <id>7f025d12-7c1d-41b4-87ad-d1926c8a9eb0</id>
+      <masked>false</masked>
+      <name>State</name>
+   </variable>
+   <variable>
+      <defaultValue>'30033'</defaultValue>
+      <description></description>
+      <id>f72e2ddd-a6cf-42f2-8b2e-59652beb54c8</id>
+      <masked>false</masked>
+      <name>PinCode</name>
+   </variable>
+</TestCaseEntity>

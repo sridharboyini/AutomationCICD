@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Save</name>
+   <tag></tag>
+   <elementGuidId>1cdf972f-2513-4422-b411-1844c689cb83</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.btn-ms.ml-2.TemplateSubmit</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Templatefooter']/div/div[2]/button[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2c2567d2-fc3c-4734-845b-41e8fb3f83ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-ms ml-2 TemplateSubmit</value>
+      <webElementGuid>082babfa-6506-4103-87b9-09017c27517e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save</value>
+      <webElementGuid>4abd0362-e1f1-447b-81f5-696a9debc236</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Templatefooter&quot;)/div[@class=&quot;d-flex justify-content-between bg-footer&quot;]/div[@class=&quot;align-self-center mr-4 mb-3&quot;]/button[@class=&quot;btn btn-primary btn-ms ml-2 TemplateSubmit&quot;]</value>
+      <webElementGuid>5503cb4d-6fa0-4494-ae1b-4948965b86d9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Templatefooter']/div/div[2]/button[2]</value>
+      <webElementGuid>7d49e4bd-384e-4d4e-b93e-eca85997f838</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[6]/following::button[1]</value>
+      <webElementGuid>e1dda684-c54f-4b8b-a61f-bb6dce02e249</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Information'])[1]/following::button[2]</value>
+      <webElementGuid>db04e095-f959-4121-bf89-a2d63c46261a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel Confirmation'])[2]/preceding::button[1]</value>
+      <webElementGuid>611de1d8-6e43-4f5e-98b8-775416143cae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to discard changes?'])[2]/preceding::button[2]</value>
+      <webElementGuid>bcdb7783-6296-4db4-b0d6-4d178ac639b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div[2]/button[2]</value>
+      <webElementGuid>95a2034d-9cc3-4e22-a506-0ca3fc0ee918</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Save' or . = 'Save')]</value>
+      <webElementGuid>3312a109-f29c-49c3-9ea5-07181647eede</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

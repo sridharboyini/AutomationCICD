@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "D71E864DA1812B8D6AEAF0C3FCA88042",
+  "keywordFileContentHash": "7365833EDA09E4DCF00C127945E05F56",
   "keywordClasses": [
     {
       "name": "T3TestListener",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

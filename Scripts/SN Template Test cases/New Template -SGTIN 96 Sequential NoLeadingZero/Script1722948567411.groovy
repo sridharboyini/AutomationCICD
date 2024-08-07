@@ -17,13 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-final def EPC_SCHEMA = 'SSCC'
+//******New Template with following attributes:
+final String EPC_SCHEMA = 'SGTIN'
 
-final def CODING_SCHEMA = 'SSCC-96'
+final String CODING_SCHEMA = 'SGTIN-96'
 
-final def SERIAL_NUMBER_TYPE = 'Sequential'
+final String SERIAL_NUM_TYPE = 'Sequential'
 
-final def ALLOW_LEADING_ZERO = 'Yes'
+final String ALLOW_LEADING_ZERO = 'No'
+
+final String SPARSENESS_FACTOR = '1'
 
 //**********Navigate to Serial Number Template List page***************
 WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to Serial Number Template List'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -34,25 +37,31 @@ WebUI.waitForElementPresent(findTestObject('SN Template Record/Template Details/
 
 WebUI.selectOptionByLabel(findTestObject('SN Template Record/Template Details/EPC Schema'), EPC_SCHEMA, false)
 
-WebUI.verifyElementNotVisible(findTestObject('SN Template Record/Template Details/Serial Number Length'))
-
-WebUI.verifyElementNotVisible(findTestObject('SN Template Record/Template Details/Uniqueness'))
+WebUI.selectOptionByLabel(findTestObject('SN Template Record/Template Details/Coding Schema'), CODING_SCHEMA, false)
 
 WebUI.click(findTestObject('SN Template Record/Template Details/Status_Active'))
 
-WebUI.selectOptionByLabel(findTestObject('SN Template Record/Template Details/Serial Number Type'), SERIAL_NUMBER_TYPE, 
-    false)
+WebUI.selectOptionByLabel(findTestObject('SN Template Record/Template Details/Serial Number Type'), SERIAL_NUM_TYPE, false)
 
 WebUI.selectOptionByLabel(findTestObject('SN Template Record/Template Details/Allow Leading Zero'), ALLOW_LEADING_ZERO, false)
 
-WebUI.verifyElementChecked(findTestObject('SN Template Record/Template Details/input_Numeric'), 5)
+WebUI.setText(findTestObject('SN Template Record/Template Details/Serial Number Length'), SNLength)
 
-//Generate Random number
-Integer RandomNum = Math.random() * Math.pow(10, 4)
+//Select 'Numeric' as Character Type
+WebUI.click(findTestObject('SN Template Record/Template Details/input_Numeric'))
+
+//Optional step
+WebUI.selectOptionByLabel(findTestObject('SN Template Record/Template Details/Sparseness Factor'), SPARSENESS_FACTOR, false, 
+    FailureHandling.OPTIONAL)
+
+WebUI.selectOptionByLabel(findTestObject('SN Template Record/Template Details/Uniqueness'), Uniqueness, false)
 
 WebUI.click(findTestObject('SN Template Record/Template Details/Serial Number Template Name'))
 
-//Append Random Number to Template Name to make it unique
+//Generate Random number 
+Integer RandomNum = Math.random() * Math.pow(10, 4)
+
+//Append Random Number to Template Name
 WebUI.sendKeys(findTestObject('SN Template Record/Template Details/Serial Number Template Name'), '_' + RandomNum.toString())
 
 WebUI.setText(findTestObject('SN Template Record/Template Details/Replenish Threshold'), ReplenishThreshold)
@@ -73,5 +82,30 @@ WebUI.waitForPageLoad(10)
 
 TemplateName = WebUI.getAttribute(findTestObject('SN Template Record/Template Details/Serial Number Template Name'), 'Value')
 
+//Save Template Name in Global Variable
 GlobalVariable.SN_TEMPLATE_NAME = TemplateName
+
+//Assign Template to Product Owner
+WebUI.click(findTestObject('SN Template Record/Template Details/button_Assign Template Tab'))
+
+WebUI.click(findTestObject('SN Template Record/Assign Template Tab/Product Owner dropdown'))
+
+WebUI.setText(findTestObject('SN Template Record/Assign Template Tab/Product Owner search'), ProductOwner)
+
+WebUI.click(findTestObject('SN Template Record/Assign Template Tab/Product Owner checkbox_DO', [('ProductOwner') : ProductOwner]))
+
+WebUI.click(findTestObject('SN Template Record/Assign Template Tab/button_Add'))
+
+WebUI.verifyElementPresent(findTestObject('SN Template Record/Assign Template Tab/Product Owner row_DO', [('ProductOwner') : ProductOwner]), 
+    10)
+
+WebUI.scrollToElement(findTestObject('Home/Bread Crumbs'), 0)
+
+WebUI.click(findTestObject('SN Template Record/Template Details/button_Save'))
+
+WebUI.verifyTextPresent('saved successfully', false)
+
+WebUI.delay(3)
+
+WebUI.waitForPageLoad(10)
 

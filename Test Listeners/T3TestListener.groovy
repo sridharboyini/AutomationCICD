@@ -32,10 +32,10 @@ class T3TestListener {
 	def T3BeforeTestCase() {
 		
 		//Open the Browser
-		WebUI.openBrowser('')
+		WebUI.openBrowser(GlobalVariable.APPURL)
 		
 		//Navigate to T3 URL
-		WebUI.navigateToUrl(GlobalVariable.APPURL)
+	//	WebUI.navigateToUrl(GlobalVariable.APPURL)
 		
 		//Maximize the Browser
 		WebUI.maximizeWindow()

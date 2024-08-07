@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Business Role(s)_searchResult</name>
+   <tag></tag>
+   <elementGuidId>d1ca7c88-9c35-4ba3-9209-2ca5528eb342</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[text()='${RoleString}']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='businessddl']/div/div[2]/ul/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>df57d205-1482-4422-8c10-959f5a309848</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-value</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>85994b55-8b7e-45e6-9bdf-170275d77c81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${RoleString}</value>
+      <webElementGuid>eccfb7a8-9936-4381-84f0-5ac9990d1374</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//li[text()='${RoleString}']</value>
+      <webElementGuid>47b28967-bb01-4ac2-98cb-38bc93450cf2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

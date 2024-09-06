@@ -61,7 +61,7 @@
       <variableId>f7007188-14f4-45c8-802c-6009670b96f3</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'62409512956650'</defaultValue>
+      <defaultValue>'95985757519204'</defaultValue>
       <description></description>
       <id>06743ac6-41a3-48f5-a65a-aa1c2ec7d94d</id>
       <masked>false</masked>
@@ -82,7 +82,7 @@
       <name>SerialNumberTemplate</name>
    </variable>
    <variable>
-      <defaultValue>'Party Automation 883'</defaultValue>
+      <defaultValue>'Party '</defaultValue>
       <description></description>
       <id>ff198b1b-24ab-4fa7-bb2f-31885b12dec4</id>
       <masked>false</masked>
@@ -117,7 +117,7 @@
       <name>DeliveryMode</name>
    </variable>
    <variable>
-      <defaultValue>'PLAIN_KEY'</defaultValue>
+      <defaultValue>'Plain Serial Numbers'</defaultValue>
       <description></description>
       <id>f7007188-14f4-45c8-802c-6009670b96f3</id>
       <masked>false</masked>

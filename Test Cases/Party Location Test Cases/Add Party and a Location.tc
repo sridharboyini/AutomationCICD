@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Party and a Location</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b742672e-7a7b-4b90-93f9-2f338abfd31d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f37d6777-34aa-492f-9389-5c910ebe1770</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Backroom'</defaultValue>
+      <description></description>
+      <id>f37d6777-34aa-492f-9389-5c910ebe1770</id>
+      <masked>false</masked>
+      <name>LocationType</name>
+   </variable>
+</TestCaseEntity>

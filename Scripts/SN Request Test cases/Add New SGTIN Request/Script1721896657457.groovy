@@ -19,19 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to Serial Number Request'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Serial Number Request Record/Product Code'), 10)
+WebUI.waitForElementPresent(findTestObject('Serial Number Request Record/SGTIN Request/Product Code'), 10)
 
-WebUI.click(findTestObject('Serial Number Request Record/Product Code'))
+WebUI.click(findTestObject('Serial Number Request Record/SGTIN Request/Product Code'))
 
-WebUI.sendKeys(findTestObject('Serial Number Request Record/Product Code'), ProductCode.toString())
+WebUI.sendKeys(findTestObject('Serial Number Request Record/SGTIN Request/Product Code'), ProductCode.toString())
 
-WebUI.click(findTestObject('Serial Number Request Record/ProductCodeMatchingValue'))
+WebUI.click(findTestObject('Serial Number Request Record/SGTIN Request/ProductCodeMatchingValue'))
 
-WebUI.selectOptionByLabel(findTestObject('Serial Number Request Record/Requesting Party'), RequestingParty, false)
+WebUI.selectOptionByLabel(findTestObject('Serial Number Request Record/SGTIN Request/Requesting Party'), RequestingParty, 
+    false)
 
-WebUI.selectOptionByLabel(findTestObject('Serial Number Request Record/Requesting System'), RequestingSystem, false)
+WebUI.selectOptionByLabel(findTestObject('Serial Number Request Record/SGTIN Request/Requesting System'), RequestingSystem, 
+    false)
 
-WebUI.setText(findTestObject('Serial Number Request Record/Request Quantity'), RequestQTY)
+WebUI.setText(findTestObject('Serial Number Request Record/SGTIN Request/Request Quantity'), RequestQTY)
 
 WebUI.scrollToElement(findTestObject('Home/Bread Crumbs'), 10)
 

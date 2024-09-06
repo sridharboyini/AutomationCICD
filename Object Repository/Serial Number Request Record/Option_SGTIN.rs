@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Option_SGTIN</name>
+   <name>option_SGTIN</name>
    <tag></tag>
    <elementGuidId>d4715cfb-c272-4b4b-ba91-66c3f231afd4</elementGuidId>
    <selectorCollection>

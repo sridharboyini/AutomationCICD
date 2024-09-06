@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Location Identifiers Tab</name>
+   <tag></tag>
+   <elementGuidId>6330b9cd-8c47-4552-b8aa-f76b93dbcbb8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btn_locIdentifier']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btn_locIdentifier</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9eb3d733-e91a-48e4-9e92-22d68b725911</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btn_locIdentifier</value>
+      <webElementGuid>f69abec5-22c7-4222-985f-2329f4e590ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tab tab-inactive</value>
+      <webElementGuid>03a04bb4-0b1a-49ec-afc5-8ab8a04db848</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Location Identifiers  </value>
+      <webElementGuid>ad54d58e-b17e-4b5e-852a-f83c1d922444</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btn_locIdentifier&quot;)</value>
+      <webElementGuid>b56764d6-a30c-414d-9ad5-54c2be900514</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='btn_locIdentifier']</value>
+      <webElementGuid>c9f918e0-3733-40fc-b2d9-b0e6e1af8bdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Location Details'])[1]/following::button[1]</value>
+      <webElementGuid>56bdb91f-3403-4e63-9bb7-90ced24c69a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Role :'])[1]/following::button[2]</value>
+      <webElementGuid>cdc66dc1-0dfa-4acb-982d-831ea3d0a227</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub-Locations'])[1]/preceding::button[1]</value>
+      <webElementGuid>6baa796d-1d69-46e8-bf41-526b08943eba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audit Trail'])[1]/preceding::button[2]</value>
+      <webElementGuid>a9c76e79-b108-4a38-a70e-c5d47566a214</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Location Identifiers']/parent::*</value>
+      <webElementGuid>c1eb16c5-104b-4684-9c6a-ebe5ede74a30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/button[2]</value>
+      <webElementGuid>6b996417-9ac4-4da3-94b5-31027c26ad68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'btn_locIdentifier' and (text() = ' Location Identifiers  ' or . = ' Location Identifiers  ')]</value>
+      <webElementGuid>2f8d7414-5f09-4e28-a75e-97c27d32f16f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

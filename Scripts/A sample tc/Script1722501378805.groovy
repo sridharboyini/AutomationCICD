@@ -65,7 +65,7 @@ WebUI.openBrowser('')
 
 WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/Page_admin.pagetitle/li_CMO'))
+WebUI.click(findTestObject('null'))
 
 WebUI.closeBrowser()
 

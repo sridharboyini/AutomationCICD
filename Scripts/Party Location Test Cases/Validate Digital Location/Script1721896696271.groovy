@@ -25,6 +25,8 @@ WebUI.click(findTestObject('Party List/Edit Icon'))
 WebUI.selectOptionByLabel(findTestObject('Party Record/Locations Tab/Location Record/Location Classification'), 'Digital Location', 
     false)
 
+WebUI.click(findTestObject(null))
+
 //Verify Digital Address field appears
 WebUI.verifyTextPresent('Digital Address', false)
 

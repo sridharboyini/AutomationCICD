@@ -43,7 +43,7 @@ WebUI.setText(findTestObject('Party Record/Party Details Tab/Address.PostalCode'
 
 WebUI.scrollToElement(findTestObject('Home/Bread Crumbs'), 10)
 
-WebUI.click(findTestObject('Party Record/Party Details Tab/bt_Save'))
+WebUI.click(findTestObject('Party Record/Party Details Tab/bt_SaveParty'))
 
 WebUI.verifyTextPresent('saved successfully', false)
 

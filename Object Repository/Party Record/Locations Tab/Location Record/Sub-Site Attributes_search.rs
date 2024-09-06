@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Sub-Site Attributes_search</name>
+   <tag></tag>
+   <elementGuidId>78aa4bef-6129-468e-b182-73134d35f329</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@placeholder = 'Search...']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>inputbody.input-body > input.input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>de41c873-68a6-4f13-aa7f-00b472619588</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>737ecc5e-87a5-4ade-9e21-856ce5aa9244</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search...</value>
+      <webElementGuid>c61760e4-3ad5-47ff-bd00-9a413196c2bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;subsiteattributediv&quot;)/div[@class=&quot;mult-select-tag select-multi&quot;]/div[@class=&quot;drawer rounded&quot;]/inputbody[@class=&quot;input-body&quot;]/input[@class=&quot;input&quot;]</value>
+      <webElementGuid>f3b6e1d0-4cb8-4d67-90d0-14fdbfffd400</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='subsiteattributediv']/div/div[2]/inputbody/input</value>
+      <webElementGuid>cba44c50-1142-40dc-b5cd-a5b2c9ce08b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//inputbody/input</value>
+      <webElementGuid>40dfcd35-ecb1-42d6-ac6a-e047605ba0c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Search...']</value>
+      <webElementGuid>d1002545-6d0d-4cfd-aa06-be2c4ceba48e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

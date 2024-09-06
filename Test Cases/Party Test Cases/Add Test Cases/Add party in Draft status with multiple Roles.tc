@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify only Party name is required to save Party in Draft status.</description>
+   <name>Add party in Draft status with multiple Roles</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f96ed7b2-9eb7-4ce8-953e-8ab168459813</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d1100fb7-4bbb-4b6f-bf98-9ec1f32384a7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d55984f5-4827-431f-8d93-caab2ce9b968</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Party Testing'</defaultValue>
+      <description></description>
+      <id>d1100fb7-4bbb-4b6f-bf98-9ec1f32384a7</id>
+      <masked>false</masked>
+      <name>PartyName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dispenser'</defaultValue>
+      <description></description>
+      <id>d55984f5-4827-431f-8d93-caab2ce9b968</id>
+      <masked>false</masked>
+      <name>BusinessRoles</name>
+   </variable>
+</TestCaseEntity>

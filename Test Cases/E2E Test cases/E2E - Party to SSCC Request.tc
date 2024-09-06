@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>E2E - Party to SSCC Request</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3126dc0c-c8e4-473f-95a5-5f66bebff86b</testCaseGuid>
+</TestCaseEntity>

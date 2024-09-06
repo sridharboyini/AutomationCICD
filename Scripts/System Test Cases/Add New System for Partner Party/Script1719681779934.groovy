@@ -43,7 +43,7 @@ WebUI.setText(findTestObject('System Record/System Name'), SystemName)
 
 WebUI.setText(findTestObject('System Record/System Description'), SystemDescription)
 
-WebUI.click(findTestObject('System Record/button_Save'))
+WebUI.click(findTestObject('System Record/bt_SaveSystem'))
 
 WebUI.verifyTextPresent('saved successfully', false)
 

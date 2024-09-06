@@ -116,7 +116,7 @@ WebUI.setText(findTestObject('Product Record/Packaging Levels/Unit of Use GTIN')
 
 WebUI.scrollToElement(findTestObject('Home/Bread Crumbs'), 10)
 
-WebUI.click(findTestObject('Product Record/Product Details/button_Save'))
+WebUI.click(findTestObject('Product Record/Product Details/bt_SaveProduct'))
 
 WebUI.verifyTextPresent('saved successfully', false)
 

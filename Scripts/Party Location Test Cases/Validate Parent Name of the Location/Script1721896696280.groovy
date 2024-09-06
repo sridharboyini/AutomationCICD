@@ -27,7 +27,7 @@ String partyName = 'Party ' + randomnumber
 
 WebUI.setText(findTestObject('Party Record/Party Details Tab/Party Name'), partyName)
 
-WebUI.click(findTestObject('Party Record/Party Details Tab/bt_Save'))
+WebUI.click(findTestObject('Party Record/Party Details Tab/bt_SaveParty'))
 
 WebUI.delay(4)
 
@@ -39,7 +39,7 @@ WebUI.click(findTestObject('Party Record/Locations Tab/Add Location'))
 
 String parentName
 
-parentName = WebUI.getText(findTestObject('Party Record/Locations Tab/Location Record/Parent Name'))
+parentName = WebUI.getText(findTestObject('Party Record/Locations Tab/Location Record/Location Parent Name'))
 
 if (parentName == partyName) {
     KeywordUtil.markPassed('Test case passed')

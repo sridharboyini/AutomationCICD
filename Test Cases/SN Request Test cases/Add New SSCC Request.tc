@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add New SSCC Request</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>976e9dfb-4419-4bc8-b7e7-5e5d6cb2139f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e17f1020-1665-40b2-8bdc-4e25bfe140a3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>33e3e954-f1b0-40ba-99ee-18e556749b44</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>06043345-cc3f-461b-a15f-597469fa8109</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5653941b-1874-4137-bf02-b10774c70acb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6e84b6d3-0607-41b8-b381-758f5a2d2d72</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'667301'</defaultValue>
+      <description></description>
+      <id>e17f1020-1665-40b2-8bdc-4e25bfe140a3</id>
+      <masked>false</masked>
+      <name>GS1Prefix</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>33e3e954-f1b0-40ba-99ee-18e556749b44</id>
+      <masked>false</masked>
+      <name>ExtensionDigit</name>
+   </variable>
+   <variable>
+      <defaultValue>'Party 101'</defaultValue>
+      <description></description>
+      <id>06043345-cc3f-461b-a15f-597469fa8109</id>
+      <masked>false</masked>
+      <name>RequestingParty</name>
+   </variable>
+   <variable>
+      <defaultValue>'System of party 101'</defaultValue>
+      <description></description>
+      <id>5653941b-1874-4137-bf02-b10774c70acb</id>
+      <masked>false</masked>
+      <name>RequestingSystem</name>
+   </variable>
+   <variable>
+      <defaultValue>'200'</defaultValue>
+      <description></description>
+      <id>6e84b6d3-0607-41b8-b381-758f5a2d2d72</id>
+      <masked>false</masked>
+      <name>RequestQuantity</name>
+   </variable>
+</TestCaseEntity>

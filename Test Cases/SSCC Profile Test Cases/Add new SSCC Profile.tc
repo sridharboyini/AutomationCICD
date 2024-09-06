@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add new SSCC Profile</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>75d9255d-83c2-4b7d-abc0-d08f3db7ac44</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0cc4dad9-1d6d-4d26-b744-29b643a90195</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a0252a15-d1d2-4adf-8ce4-ccbbaca33b97</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>03159494-4b40-41ab-b261-b6824a3e6f8b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bfcbc4c8-ab75-4d22-b88d-0afa5b134187</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e0bb2c24-5f80-40f1-ab79-af32bf4bd28a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>909d4b20-5282-45b2-8a1f-a792b761e876</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Party 667301'</defaultValue>
+      <description></description>
+      <id>0cc4dad9-1d6d-4d26-b744-29b643a90195</id>
+      <masked>false</masked>
+      <name>PartyName</name>
+   </variable>
+   <variable>
+      <defaultValue>'667301'</defaultValue>
+      <description></description>
+      <id>a0252a15-d1d2-4adf-8ce4-ccbbaca33b97</id>
+      <masked>false</masked>
+      <name>GS1Prefix</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>03159494-4b40-41ab-b261-b6824a3e6f8b</id>
+      <masked>false</masked>
+      <name>ExtensionDigit</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>bfcbc4c8-ab75-4d22-b88d-0afa5b134187</id>
+      <masked>false</masked>
+      <name>RFID</name>
+   </variable>
+   <variable>
+      <defaultValue>'Internally generated'</defaultValue>
+      <description></description>
+      <id>e0bb2c24-5f80-40f1-ab79-af32bf4bd28a</id>
+      <masked>false</masked>
+      <name>SNSource</name>
+   </variable>
+   <variable>
+      <defaultValue>'Random _ Numeric_435'</defaultValue>
+      <description></description>
+      <id>909d4b20-5282-45b2-8a1f-a792b761e876</id>
+      <masked>false</masked>
+      <name>SNTemplate</name>
+   </variable>
+</TestCaseEntity>

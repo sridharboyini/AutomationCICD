@@ -26,7 +26,7 @@ WebUI.callTestCase(findTestCase('Reusable Test cases/T3 Login'), [:], FailureHan
 WebUI.click(findTestObject('Party List/Add Party'))
 
 //Click 'Save' without input 
-WebUI.click(findTestObject('Party Record/Party Details Tab/bt_Save'))
+WebUI.click(findTestObject('Party Record/Party Details Tab/bt_SaveParty'))
 
 //Verify error appears on 'Party Name'
 WebUI.verifyTextPresent('Name is required', false)
@@ -35,7 +35,7 @@ WebUI.verifyTextPresent('Name is required', false)
 WebUI.setText(findTestObject('Party Record/Party Details Tab/Party Name'), 'Party 101')
 
 //Save Party
-WebUI.click(findTestObject('Party Record/Party Details Tab/bt_Save'))
+WebUI.click(findTestObject('Party Record/Party Details Tab/bt_SaveParty'))
 
 //Verify Party is saved 
 WebUI.verifyTextPresent('saved successfully', false)

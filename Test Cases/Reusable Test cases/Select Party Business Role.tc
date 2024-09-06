@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Select the Business Role of the party, passed by an argument</description>
+   <name>Select Party Business Role</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0fe459b8-52fb-4d52-86bc-a8c28fd2a63a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>48e75019-625e-4580-96d7-f6fdb0f7c1d6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'3PL'</defaultValue>
+      <description></description>
+      <id>48e75019-625e-4580-96d7-f6fdb0f7c1d6</id>
+      <masked>false</masked>
+      <name>BusinessRole</name>
+   </variable>
+</TestCaseEntity>

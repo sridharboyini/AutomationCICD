@@ -31,21 +31,21 @@
       <variableId>3ddc27da-eb49-467a-b615-7320eabd3c9b</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'24560124542072'</defaultValue>
+      <defaultValue>'60002177125069'</defaultValue>
       <description></description>
       <id>409333eb-4c34-41ba-a842-2ad30ce6afc1</id>
       <masked>false</masked>
       <name>ProductCode</name>
    </variable>
    <variable>
-      <defaultValue>'Party Automation 883'</defaultValue>
+      <defaultValue>'Party 101'</defaultValue>
       <description></description>
       <id>0ed49f98-bce3-4538-8454-c3d6b66af8a0</id>
       <masked>false</masked>
       <name>RequestingParty</name>
    </variable>
    <variable>
-      <defaultValue>'System Party Automation 883'</defaultValue>
+      <defaultValue>'System of party 101'</defaultValue>
       <description></description>
       <id>8423cb33-94ab-4092-8e57-8b1a352cfa99</id>
       <masked>false</masked>

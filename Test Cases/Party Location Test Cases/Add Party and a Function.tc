@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Party and a Function</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>796d658e-bf32-4f1e-8365-b055310b6205</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dfde61bf-260c-4d92-a048-32346ef8ba5c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Dispenser'</defaultValue>
+      <description></description>
+      <id>dfde61bf-260c-4d92-a048-32346ef8ba5c</id>
+      <masked>false</masked>
+      <name>LocationType</name>
+   </variable>
+</TestCaseEntity>

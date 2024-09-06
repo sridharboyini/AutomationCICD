@@ -45,7 +45,7 @@ WebUI.setText(findTestObject('System Record/System Description'), SystemDescript
 
 WebUI.selectOptionByValue(findTestObject('System Record/Select Location'), '1', true, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('System Record/button_Save'))
+WebUI.click(findTestObject('System Record/bt_SaveSystem'))
 
 WebUI.verifyTextPresent('saved successfully', false)
 

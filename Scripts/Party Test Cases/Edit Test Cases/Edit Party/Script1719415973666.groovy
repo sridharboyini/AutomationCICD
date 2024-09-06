@@ -21,7 +21,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Reusable Test cases/T3 Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //Open the Party from the Party List
-WebUI.click(findTestObject('Party List/PartyNameLink', [('PartyName') : PartyName]))
+WebUI.click(findTestObject('Party List/Party Name Link_DO', [('PartyName') : PartyName]))
 
 WebUI.verifyElementPresent(findTestObject('Party Record/Party Details Tab/bt_Edit'), 10)
 
@@ -35,7 +35,7 @@ WebUI.setText(findTestObject('Party Record/Party Details Tab/Party Description')
 WebUI.scrollToElement(findTestObject('Home/Bread Crumbs'), 0)
 
 //Save the party
-WebUI.click(findTestObject('Party Record/Party Details Tab/bt_Save'))
+WebUI.click(findTestObject('Party Record/Party Details Tab/bt_SaveParty'))
 
 //Verify success message
 WebUI.verifyTextPresent('saved successfully', false)

@@ -63,7 +63,7 @@ WebUI.setText(findTestObject('SN Template Record/Template Details/Alert Availabl
 
 WebUI.scrollToElement(findTestObject('Home/Bread Crumbs'), 10)
 
-WebUI.click(findTestObject('Product Record/Product Details/button_Save'))
+WebUI.click(findTestObject('SN Template Record/Template Details/bt_SaveTemplate'))
 
 WebUI.verifyTextPresent('saved successfully', false)
 

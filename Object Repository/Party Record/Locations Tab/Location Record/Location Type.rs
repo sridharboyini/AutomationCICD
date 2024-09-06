@@ -6,12 +6,12 @@
    <elementGuidId>95707a10-3d17-44a0-8d34-90bcf5b9857b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#PartyLocationTypeId</value>
+         <key>XPATH</key>
+         <value>//select[@id='LocationTypeId']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='PartyLocationTypeId']</value>
+         <key>CSS</key>
+         <value>#PartyLocationTypeId</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>861b5890-6c91-4729-b1b6-caa2f6436e3e</webElementGuid>
+      <webElementGuid>66ec283c-e42d-455e-86a9-a657f45dd0f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>PartyLocationTypeId</value>
-      <webElementGuid>574c0048-686c-490b-a681-3ac23fd7b1d1</webElementGuid>
+      <webElementGuid>1367683e-4723-4d13-9d6b-7d94cf0bebd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>row input-ms</value>
-      <webElementGuid>40a76945-ae1f-494d-a4fc-039fa89ef9d8</webElementGuid>
+      <webElementGuid>0128407f-14ff-4fc1-a522-8bd5646b76c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>data-val</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e78f4aa9-c5b8-4e5d-9690-57bd5d3aa939</webElementGuid>
+      <webElementGuid>98790d32-2f37-43a5-b8cf-22eae0a64287</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>data-val-required</name>
       <type>Main</type>
       <value>The PartyLocationTypeId field is required.</value>
-      <webElementGuid>3e0f3e6c-7914-4abf-b14a-e3e5ebca27af</webElementGuid>
+      <webElementGuid>4a8393d6-ffaa-4580-9532-194f6958f063</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>name</name>
       <type>Main</type>
       <value>LocationBasicInfo.PartyLocationTypeId</value>
-      <webElementGuid>8946daa0-841d-4a28-b39f-c00bf01c3c6c</webElementGuid>
+      <webElementGuid>5b355c6c-0c06-4719-8c29-b8ee1dc36844</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select Location TypeAccounts DepartmentAssemblyBackroomCargo TerminalContainer DeckControlled Substance AreaConveyor BeltCustomer Pick-Up AreaDispenserDistribution centreDrugstoreElectronics AreaEnd Cap AreaEntrance GateExit GateFixed ReaderGateGovernment Department AgencyHead OfficeImprest LocationInbound And Outbound DockInbound DockLay-Away Main ReceptionManufacturing PlantMobile ReaderOfficeOutbound DockPackaging AreaPackhousePallet WrapperPicking AreaPoint Of SalePrinting RoomProduction AreaProduction LinePromotion AreaPublic WarehouseQuality ControlQuarantine Read Point Verification SpotRecalled Product  AreaReceiving AreaReceiving LocationResearch FacilityRetail PharmacyReturnable Asset Service CentreReturns AreaSales Floor Sales Floor Transition Area Sales YardSecurity AreaShelf Shipping AreaStagingStocking locationStorage AreaStorage LocationStoreTRADE_ITEM_RETURN_LOCATIONVendor Leased SpaceVisiting AddressWardWarehouse and/or DepotYard </value>
-      <webElementGuid>51fb0ac3-5d84-4d31-a3fb-3a75471bf0b8</webElementGuid>
+      <webElementGuid>8edac820-e4df-47a0-89d8-967216e823a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;PartyLocationTypeId&quot;)</value>
-      <webElementGuid>dae6e297-efed-41d6-b99d-dc413f58a71d</webElementGuid>
+      <webElementGuid>01a718be-3cb3-4521-94a0-4d6646da91e2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='PartyLocationTypeId']</value>
-      <webElementGuid>bb7b4c01-9f56-4332-8e0d-9555adf7b7f3</webElementGuid>
+      <webElementGuid>d94405b0-619d-4d72-8c1b-b21f0ae7a3b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Div_Detail']/div/div/div/div/div/div[3]/div/select</value>
-      <webElementGuid>59e84045-9724-4feb-8eb0-9f5dbaa12987</webElementGuid>
+      <webElementGuid>711e0326-d3e7-4d16-8924-c9eaa34ac317</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Location Type'])[1]/following::select[1]</value>
-      <webElementGuid>715e4f3c-9775-485d-bf3d-7c7435c92879</webElementGuid>
+      <webElementGuid>7038b6bd-ac8d-45dc-8981-3f3bf9e092df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reason For Status Change'])[1]/following::select[1]</value>
-      <webElementGuid>5614bfb2-1227-4d1e-8e9f-10e3410369d1</webElementGuid>
+      <webElementGuid>3b8c204d-741e-4081-8f4b-d30bede33f2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub-Site Attributes'])[1]/preceding::select[1]</value>
-      <webElementGuid>6eaea674-3ebb-4f55-8f44-6f67b78c4aa6</webElementGuid>
+      <webElementGuid>f23f6433-3408-44f0-8425-3e3b0f964f67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Assembly'])[3]/preceding::select[2]</value>
-      <webElementGuid>92aa5dc7-d3b9-4236-a847-dbdcc27ce884</webElementGuid>
+      <webElementGuid>d42aaa9d-d12b-4d48-aa98-cd6894f5d0c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/select</value>
-      <webElementGuid>27d24af4-8bb0-43db-8300-a39d3e5d0d02</webElementGuid>
+      <webElementGuid>bc56ec0b-e0f8-4926-957a-5f8fa5424ee4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,6 +143,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@id = 'PartyLocationTypeId' and @name = 'LocationBasicInfo.PartyLocationTypeId' and (text() = 'Select Location TypeAccounts DepartmentAssemblyBackroomCargo TerminalContainer DeckControlled Substance AreaConveyor BeltCustomer Pick-Up AreaDispenserDistribution centreDrugstoreElectronics AreaEnd Cap AreaEntrance GateExit GateFixed ReaderGateGovernment Department AgencyHead OfficeImprest LocationInbound And Outbound DockInbound DockLay-Away Main ReceptionManufacturing PlantMobile ReaderOfficeOutbound DockPackaging AreaPackhousePallet WrapperPicking AreaPoint Of SalePrinting RoomProduction AreaProduction LinePromotion AreaPublic WarehouseQuality ControlQuarantine Read Point Verification SpotRecalled Product  AreaReceiving AreaReceiving LocationResearch FacilityRetail PharmacyReturnable Asset Service CentreReturns AreaSales Floor Sales Floor Transition Area Sales YardSecurity AreaShelf Shipping AreaStagingStocking locationStorage AreaStorage LocationStoreTRADE_ITEM_RETURN_LOCATIONVendor Leased SpaceVisiting AddressWardWarehouse and/or DepotYard ' or . = 'Select Location TypeAccounts DepartmentAssemblyBackroomCargo TerminalContainer DeckControlled Substance AreaConveyor BeltCustomer Pick-Up AreaDispenserDistribution centreDrugstoreElectronics AreaEnd Cap AreaEntrance GateExit GateFixed ReaderGateGovernment Department AgencyHead OfficeImprest LocationInbound And Outbound DockInbound DockLay-Away Main ReceptionManufacturing PlantMobile ReaderOfficeOutbound DockPackaging AreaPackhousePallet WrapperPicking AreaPoint Of SalePrinting RoomProduction AreaProduction LinePromotion AreaPublic WarehouseQuality ControlQuarantine Read Point Verification SpotRecalled Product  AreaReceiving AreaReceiving LocationResearch FacilityRetail PharmacyReturnable Asset Service CentreReturns AreaSales Floor Sales Floor Transition Area Sales YardSecurity AreaShelf Shipping AreaStagingStocking locationStorage AreaStorage LocationStoreTRADE_ITEM_RETURN_LOCATIONVendor Leased SpaceVisiting AddressWardWarehouse and/or DepotYard ')]</value>
-      <webElementGuid>7d1ec8e2-95d2-4996-914e-d779bcf0dccc</webElementGuid>
+      <webElementGuid>90545ff5-a4ec-4580-9da1-5376e957b699</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

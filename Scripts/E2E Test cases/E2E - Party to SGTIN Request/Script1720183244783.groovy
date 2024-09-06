@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Party Test Cases/Add Test Cases/Add New Partner party'), [('BusinessRole') : '3PL', ('GLN_Extn') : '123'], 
+WebUI.callTestCase(findTestCase('Party Test Cases/Add Test Cases/Add new Partner party with Active status'), [('BusinessRole') : '3PL', ('GLN_Extn') : '123'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Product Group Test Cases/Add New Product Group code'), [('ProductGroup') : '', ('Description') : ''], 
@@ -32,7 +32,7 @@ WebUI.callTestCase(findTestCase('Product Test Cases/Add New Product'), [('Supply
 WebUI.callTestCase(findTestCase('System Test Cases/Add New System for Partner Party'), [('PartyName') : GlobalVariable.PARTY_NAME
         , ('SystemName') : '', ('SystemDescription') : '', ('SenderIDGLN') : GlobalVariable.ID_GLN], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('SN Template Test cases/New Template -SGTIN 96 Random NoLeadingZero'), [('TemplateName') : '', ('ProductOwner') : GlobalVariable.PARTY_NAME
+WebUI.callTestCase(findTestCase('SN Template Test cases/Add new Template -SGTIN96 Random NoLeadingZero'), [('TemplateName') : '', ('ProductOwner') : GlobalVariable.PARTY_NAME
         , ('EPCSchema') : 'SGTIN', ('CodingSchema') : 'SGTIN-96', ('SNType') : 'Random', ('SNLength') : '10', ('SparsenessFactor') : '100'
         , ('Uniqueness') : 'Packaging Level', ('ReplenishThreshold') : '15000', ('RequestQTY') : '5000', ('AlertPercentage') : '50'], 
     FailureHandling.STOP_ON_FAILURE)

@@ -21,7 +21,6 @@ import org.openqa.selenium.Keys as Keys
 //************Call T3 Login Test case******************** 
 //WebUI.callTestCase(findTestCase('Reusable Test cases/T3 Login'), [('UN') : 'init@mailinator.com', ('PWD') : 'p4y+y39Ir5PEPmX20UxFKw=='], 
 //    FailureHandling.OPTIONAL)
-
 //************Call Navigate to Product Group Code Test case********************
 WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to Product Group page'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -40,16 +39,16 @@ WebUI.click(findTestObject('Product Group Code/Status_Active'))
 
 WebUI.setText(findTestObject('Product Group Code/Description'), Description)
 
-WebUI.click(findTestObject('Object Repository/Product Group Code/Save'))
+WebUI.click(findTestObject('Object Repository/Product Group Code/bt_SaveProdutGroup'))
 
 WebUI.verifyTextPresent('saved successfully', false)
 
 WebUI.delay(3)
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(5)
 
 //WebUI.verifyTextPresent(ProductGroup, false)
-
 GlobalVariable.PRODUCT_GRP_CODE = ProductGroup
 
 println(GlobalVariable.PRODUCT_GRP_CODE)
+

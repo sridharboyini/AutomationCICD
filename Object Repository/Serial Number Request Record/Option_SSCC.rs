@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Option_SSCC</name>
+   <name>option_SSCC</name>
    <tag></tag>
    <elementGuidId>310688d0-f326-4ca3-8db0-0848783eedeb</elementGuidId>
    <selectorCollection>

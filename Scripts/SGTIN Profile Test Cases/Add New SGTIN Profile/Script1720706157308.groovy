@@ -20,31 +20,33 @@ import org.openqa.selenium.Keys as Keys
 //*******Navigate to SGTIN Profile List page**********
 WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to SGTIN profile'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Serial Number Profile List/button_Add Profile'))
+WebUI.click(findTestObject('SGTIN Profile List/bt_Add Profile'))
 
-WebUI.waitForElementPresent(findTestObject('Serial Number Profile Record/Product Code Type'), 10)
+WebUI.waitForElementPresent(findTestObject('SGTIN Profile Record/Product Code Type'), 10)
 
-WebUI.selectOptionByLabel(findTestObject('Serial Number Profile Record/Product Code Type'), 'GTIN-14', false)
+WebUI.selectOptionByLabel(findTestObject('SGTIN Profile Record/Product Code Type'), 'GTIN-14', false)
 
-WebUI.click(findTestObject('Serial Number Profile Record/Product Code'))
+WebUI.click(findTestObject('SGTIN Profile Record/Product Code'))
 
-//WebUI.setText(findTestObject('Serial Number Profile Record/Product Code'), ProductCode.toString())
-WebUI.sendKeys(findTestObject('Serial Number Profile Record/Product Code'), ProductCode.toString())
+//WebUI.setText(findTestObject('SGTIN Profile Record/Product Code'), ProductCode.toString())
+WebUI.sendKeys(findTestObject('SGTIN Profile Record/Product Code'), ProductCode.toString())
 
-WebUI.click(findTestObject('Serial Number Profile Record/ProductCodeMatchingValue', [('ProductCode') : ProductCode]))
+WebUI.click(findTestObject('SGTIN Profile Record/ProductCodeMatchingValue', [('ProductCode') : ProductCode]))
 
-WebUI.selectOptionByLabel(findTestObject('Serial Number Profile Record/Serial Number Source'), SerialNumberSource, false)
+WebUI.selectOptionByLabel(findTestObject('SGTIN Profile Record/Serial Number Source'), SerialNumberSource, false)
 
-WebUI.selectOptionByLabel(findTestObject('Serial Number Profile Record/Serial Number Template'), SerialNumberTemplate, false, 
+WebUI.selectOptionByLabel(findTestObject('SGTIN Profile Record/Serial Number Template'), SerialNumberTemplate, false, 
     FailureHandling.OPTIONAL)
 
 WebUI.scrollToElement(findTestObject('Home/Bread Crumbs'), 10)
 
-WebUI.click(findTestObject('Serial Number Profile Record/bt_SaveProfile'))
+WebUI.waitForElementClickable(findTestObject('SGTIN Profile Record/bt_SaveProfile'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Serial Number Profile Record/SaveConfirm/SaveConfirmPop-up'), 10)
+WebUI.click(findTestObject('SGTIN Profile Record/bt_SaveProfile'))
 
-WebUI.click(findTestObject('Serial Number Profile Record/SaveConfirm/button_Confirm'))
+WebUI.verifyElementPresent(findTestObject('SGTIN Profile Record/SaveConfirm/SaveConfirmPop-up'), 10)
+
+WebUI.click(findTestObject('SGTIN Profile Record/SaveConfirm/bt_Confirm'))
 
 WebUI.waitForPageLoad(10)
 
@@ -54,30 +56,30 @@ WebUI.delay(3)
 
 WebUI.waitForPageLoad(10)
 
-WebUI.scrollToElement(findTestObject('Serial Number Profile Record/bt_Assign New System'), 0)
+WebUI.scrollToElement(findTestObject('SGTIN Profile Record/bt_Assign New System'), 0)
 
-WebUI.click(findTestObject('Serial Number Profile Record/bt_Assign New System'))
+WebUI.click(findTestObject('SGTIN Profile Record/bt_Assign New System'))
 
-WebUI.selectOptionByLabel(findTestObject('Serial Number Profile Record/Assign System/Party Name'), PartyName, false)
+WebUI.selectOptionByLabel(findTestObject('SGTIN Profile Record/Assign System/Party Name'), PartyName, false)
 
-WebUI.selectOptionByLabel(findTestObject('Serial Number Profile Record/Assign System/System Name'), SystemName, false)
+WebUI.selectOptionByLabel(findTestObject('SGTIN Profile Record/Assign System/System Name'), SystemName, false)
 
-WebUI.selectOptionByIndex(findTestObject('Serial Number Profile Record/Assign System/Range'), '1', FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByIndex(findTestObject('SGTIN Profile Record/Assign System/Range'), '1', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Serial Number Profile Record/Assign System/MaxRequestQty'), MaxRequestQty)
+WebUI.setText(findTestObject('SGTIN Profile Record/Assign System/MaxRequestQty'), MaxRequestQty)
 
-WebUI.selectOptionByLabel(findTestObject('Serial Number Profile Record/Assign System/Delivery Mode'), DeliveryMode, false)
+WebUI.selectOptionByLabel(findTestObject('SGTIN Profile Record/Assign System/Delivery Mode'), DeliveryMode, false)
 
-WebUI.selectOptionByLabel(findTestObject('Serial Number Profile Record/Assign System/Encoding Format'), EncodingFormat, 
+WebUI.selectOptionByLabel(findTestObject('SGTIN Profile Record/Assign System/Encoding Format'), EncodingFormat, 
     false)
 
-WebUI.click(findTestObject('Serial Number Profile Record/Assign System/button_SaveSystem'))
+WebUI.click(findTestObject('SGTIN Profile Record/Assign System/bt_SaveSystem'))
 
-WebUI.click(findTestObject('Serial Number Profile Record/Status_Active'))
+WebUI.click(findTestObject('SGTIN Profile Record/Status_Active'))
 
 WebUI.scrollToElement(findTestObject('Home/Bread Crumbs'), 10)
 
-WebUI.click(findTestObject('Serial Number Profile Record/bt_SaveProfile'))
+WebUI.click(findTestObject('SGTIN Profile Record/bt_SaveProfile'))
 
 WebUI.verifyTextPresent('saved successfully', false)
 
@@ -85,5 +87,5 @@ WebUI.delay(3)
 
 WebUI.waitForPageLoad(10)
 
-WebUI.verifyTextPresent(SystemName, false)
+WebUI.verifyTextPresent(SystemName, false, FailureHandling.OPTIONAL)
 

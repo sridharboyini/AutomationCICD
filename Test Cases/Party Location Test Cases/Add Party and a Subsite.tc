@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Party and a Subsite</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b9431bb5-4b8b-4401-afe8-2dc73679d89b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>591172be-1aea-48ff-89c4-2e6899299502</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e25b277a-e03f-4bc2-a714-cd524f38adfd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d641cf8-22bf-4439-99a6-f29346f6f2d2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Sub-site Location'</defaultValue>
+      <description></description>
+      <id>591172be-1aea-48ff-89c4-2e6899299502</id>
+      <masked>false</masked>
+      <name>LocationClassification</name>
+   </variable>
+   <variable>
+      <defaultValue>'Backroom'</defaultValue>
+      <description></description>
+      <id>e25b277a-e03f-4bc2-a714-cd524f38adfd</id>
+      <masked>false</masked>
+      <name>SubSiteType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cold storage'</defaultValue>
+      <description></description>
+      <id>7d641cf8-22bf-4439-99a6-f29346f6f2d2</id>
+      <masked>false</masked>
+      <name>SubSiteAttributes</name>
+   </variable>
+</TestCaseEntity>

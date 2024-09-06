@@ -21,15 +21,17 @@ WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to Party List page
 
 WebUI.click(findTestObject('Party List/Add Party'))
 
-WebUI.click(findTestObject('Party Record/Party Details Tab/bt_Save'))
+WebUI.click(findTestObject('Party Record/Party Details Tab/bt_SaveParty'))
 
 WebUI.verifyTextPresent('Name is required', false)
 
 Integer RandNum = Math.random() * Math.pow(10, 3)
 
-WebUI.setText(findTestObject('Party Record/Party Details Tab/Party Name'), PartyName+RandNum)
+String PartyName = 'Party '+ RandNum
 
-WebUI.click(findTestObject('Party Record/Party Details Tab/bt_Save'))
+WebUI.setText(findTestObject('Party Record/Party Details Tab/Party Name'), PartyName)
+
+WebUI.click(findTestObject('Party Record/Party Details Tab/bt_SaveParty'))
 
 WebUI.verifyTextPresent('saved successfully', false)
 
@@ -37,5 +39,5 @@ WebUI.delay(3)
 
 WebUI.waitForPageLoad(10)
 
-
+GlobalVariable.PARTY_NAME = PartyName
 

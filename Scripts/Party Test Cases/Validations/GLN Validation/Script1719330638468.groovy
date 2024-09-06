@@ -38,7 +38,7 @@ WebUI.setText(findTestObject('Party Record/Party Identifiers Tab/GLNExtension'),
 
 WebUI.selectOptionByValue(findTestObject('Party Record/Party Identifiers Tab/GCP Length'), '6', false)
 
-WebUI.click(findTestObject('Party Record/Party Details Tab/bt_Save'))
+WebUI.click(findTestObject('Party Record/Party Details Tab/bt_SaveParty'))
 
 String sgln
 

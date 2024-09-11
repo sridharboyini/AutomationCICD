@@ -28,7 +28,7 @@ WebUI.callTestCase(findTestCase('SN Template Test cases/Add new SSCC Template - 
 
 WebUI.callTestCase(findTestCase('SSCC Profile Test Cases/Add new SSCC Profile'), [('PartyName') : GlobalVariable.PARTY_NAME
         , ('GS1Prefix') : GlobalVariable.ID_GCP, ('ExtensionDigit') : '5', ('RFID') : '2', ('SNSource') : 'Internally generated'
-        , ('SNTemplate') : GlobalVariable.SN_TEMPLATE_NAME], FailureHandling.STOP_ON_FAILURE)
+        , ('SNTemplate') : GlobalVariable.SN_TEMPLATE_NAME, ('SystemName') : GlobalVariable.SYSTEM_NAME], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('SN Request Test cases/Add New SSCC Request'), [('GS1Prefix') : GlobalVariable.ID_GCP, ('ExtensionDigit') : '5'
         , ('RequestingParty') : GlobalVariable.PARTY_NAME, ('RequestingSystem') : GlobalVariable.SYSTEM_NAME, ('RequestQuantity') : '200'], 

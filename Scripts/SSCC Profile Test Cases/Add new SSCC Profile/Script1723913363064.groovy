@@ -29,7 +29,7 @@ WebUI.selectOptionByLabel(findTestObject('SSCC Profile Record/Extension Digit'),
 
 WebUI.selectOptionByLabel(findTestObject('SSCC Profile Record/Assign System/RFID Filter'), RFID, false)
 
-WebUI.selectOptionByLabel(findTestObject('SSCC Profile Record/Serial Number Source'), '', false)
+WebUI.selectOptionByLabel(findTestObject('SSCC Profile Record/Serial Number Source'), SNSource, false)
 
 WebUI.selectOptionByIndex(findTestObject('SSCC Profile Record/Serial Number Template'), '1', FailureHandling.STOP_ON_FAILURE)
 
@@ -49,9 +49,9 @@ WebUI.waitForElementClickable(findTestObject('SSCC Profile Record/bt_Assign New 
 
 WebUI.click(findTestObject('SSCC Profile Record/bt_Assign New System'))
 
-WebUI.selectOptionByLabel(findTestObject('SSCC Profile Record/Assign System/Party Name'), 'Party 101', false)
+WebUI.selectOptionByLabel(findTestObject('SSCC Profile Record/Assign System/Party Name'), PartyName, false)
 
-WebUI.selectOptionByLabel(findTestObject('SSCC Profile Record/Assign System/System Name'), 'System of party 101', false)
+WebUI.selectOptionByLabel(findTestObject('SSCC Profile Record/Assign System/System Name'), SystemName, false)
 
 WebUI.selectOptionByIndex(findTestObject('SSCC Profile Record/Assign System/Range'), '1', FailureHandling.STOP_ON_FAILURE)
 

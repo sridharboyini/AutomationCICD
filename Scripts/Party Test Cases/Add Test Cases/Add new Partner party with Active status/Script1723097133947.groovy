@@ -83,3 +83,4 @@ WebUI.waitForPageLoad(10)
 
 GlobalVariable.PARTY_NAME = PartyName
 
+GlobalVariable.ID_GCP = GCP

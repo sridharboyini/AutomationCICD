@@ -42,8 +42,14 @@
       <value></value>
       <variableId>909d4b20-5282-45b2-8a1f-a792b761e876</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e5165e16-6ea5-40e2-b3fe-450058b5087e</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'Party 667301'</defaultValue>
+      <defaultValue>'Party 561215'</defaultValue>
       <description></description>
       <id>0cc4dad9-1d6d-4d26-b744-29b643a90195</id>
       <masked>false</masked>
@@ -83,5 +89,12 @@
       <id>909d4b20-5282-45b2-8a1f-a792b761e876</id>
       <masked>false</masked>
       <name>SNTemplate</name>
+   </variable>
+   <variable>
+      <defaultValue>'System of Party 561215'</defaultValue>
+      <description></description>
+      <id>e5165e16-6ea5-40e2-b3fe-450058b5087e</id>
+      <masked>false</masked>
+      <name>SystemName</name>
    </variable>
 </TestCaseEntity>

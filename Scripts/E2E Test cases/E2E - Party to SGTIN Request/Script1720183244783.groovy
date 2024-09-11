@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Party Test Cases/Add Test Cases/Add new Partner party with Active status'), [('BusinessRole') : '3PL', ('GLN_Extn') : '123'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Party Test Cases/Add Test Cases/Add new Partner party with Active status'), [('BusinessRole') : '3PL'
+        , ('GLN_Extn') : '123'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Product Group Test Cases/Add New Product Group code'), [('ProductGroup') : '', ('Description') : ''], 
     FailureHandling.STOP_ON_FAILURE)
@@ -32,14 +32,15 @@ WebUI.callTestCase(findTestCase('Product Test Cases/Add New Product'), [('Supply
 WebUI.callTestCase(findTestCase('System Test Cases/Add New System for Partner Party'), [('PartyName') : GlobalVariable.PARTY_NAME
         , ('SystemName') : '', ('SystemDescription') : '', ('SenderIDGLN') : GlobalVariable.ID_GLN], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('SN Template Test cases/Add new Template -SGTIN96 Random NoLeadingZero'), [('TemplateName') : '', ('ProductOwner') : GlobalVariable.PARTY_NAME
-        , ('EPCSchema') : 'SGTIN', ('CodingSchema') : 'SGTIN-96', ('SNType') : 'Random', ('SNLength') : '10', ('SparsenessFactor') : '100'
-        , ('Uniqueness') : 'Packaging Level', ('ReplenishThreshold') : '15000', ('RequestQTY') : '5000', ('AlertPercentage') : '50'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('SN Template Test cases/Add new Template -SGTIN96 Random NoLeadingZero'), [('TemplateName') : ''
+        , ('ProductOwner') : GlobalVariable.PARTY_NAME, ('EPCSchema') : 'SGTIN', ('CodingSchema') : 'SGTIN-96', ('SNType') : 'Random'
+        , ('SNLength') : '10', ('SparsenessFactor') : '100', ('Uniqueness') : 'Packaging Level', ('ReplenishThreshold') : '15000'
+        , ('RequestQTY') : '5000', ('AlertPercentage') : '50'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('SGTIN Profile Test Cases/Add New SGTIN Profile'), [('ProductCode') : GlobalVariable.ID_GTIN
         , ('SerialNumberTemplate') : GlobalVariable.SN_TEMPLATE_NAME, ('PartyName') : GlobalVariable.PARTY_NAME, ('SystemName') : GlobalVariable.SYSTEM_NAME
-        , ('Range') : '1', ('MaxRequestQty') : '15000', ('DeliveryMode') : 'List', ('EncodingFormat') : 'PLAIN_KEY'], FailureHandling.STOP_ON_FAILURE)
+        , ('Range') : '1', ('MaxRequestQty') : '1500', ('DeliveryMode') : 'List', ('EncodingFormat') : 'Plain Serial Numbers'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('SN Request Test cases/Add New SGTIN Request'), [('ProductCode') : GlobalVariable.ID_GTIN
         , ('RequestingParty') : GlobalVariable.PARTY_NAME, ('RequestingSystem') : GlobalVariable.SYSTEM_NAME, ('RequestQTY') : '15000'], 

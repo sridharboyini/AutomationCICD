@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='modal-GetConfirmation']/div/div</value>
+         <value>//div[contains(@class,'GetVersionConfirmation')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>d5059ec9-1e49-401a-b973-abe9da99ee5b</webElementGuid>
+      <webElementGuid>20a41c6a-5680-4526-bb36-aff47f12e648</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>modal-content</value>
-      <webElementGuid>9441365c-14d4-4b75-87d5-519605038b3f</webElementGuid>
+      <webElementGuid>198ce240-fb0c-4b05-b998-09acd8058512</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value> The Serial number source and Serial Number Template cannot be modified, after saving the serialization Profile.Do you want to continue?Cancel Confirm</value>
-      <webElementGuid>11d760d6-bd55-4568-a1e2-0db973186971</webElementGuid>
+      <webElementGuid>b267cb54-dae0-4a59-889e-476804299449</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;modal-GetConfirmation&quot;)/div[@class=&quot;modal-dialog modal-sl modal-messageBox&quot;]/div[@class=&quot;modal-content&quot;]</value>
-      <webElementGuid>0208b6e1-791f-42b9-9150-5cec9fdee2b0</webElementGuid>
+      <webElementGuid>77899529-0f90-444b-8342-a472a9cf73f4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='modal-GetConfirmation']/div/div</value>
-      <webElementGuid>f7e9fd58-80a4-4256-aa44-5f0348ba9c8f</webElementGuid>
+      <webElementGuid>9f4ea953-e158-499f-b7f0-0c71b6e69ddc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[3]/following::div[3]</value>
-      <webElementGuid>350f2da6-7071-42fa-ae4e-dd26468f52d1</webElementGuid>
+      <webElementGuid>71abbacc-5275-458c-ad54-60397380de4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[2]/following::div[11]</value>
-      <webElementGuid>d86136b5-420f-4c7c-b1bb-e5dfb4bef915</webElementGuid>
+      <webElementGuid>b30ee01d-a405-4b5c-b819-cc4553533b1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[4]/div/div</value>
-      <webElementGuid>529edc51-3589-43e6-ae9b-9b1603c1ca98</webElementGuid>
+      <webElementGuid>4ff48e1e-f420-40e1-85b9-b619cdaacb39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' The Serial number source and Serial Number Template cannot be modified, after saving the serialization Profile.Do you want to continue?Cancel Confirm' or . = ' The Serial number source and Serial Number Template cannot be modified, after saving the serialization Profile.Do you want to continue?Cancel Confirm')]</value>
-      <webElementGuid>59f33737-8128-490b-ba16-c45f6bb85b13</webElementGuid>
+      <webElementGuid>a7514423-a834-4de3-a0a2-014b9c92217d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

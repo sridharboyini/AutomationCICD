@@ -104,14 +104,14 @@
       <name>SupplyChainRole</name>
    </variable>
    <variable>
-      <defaultValue>'RK-Pharma'</defaultValue>
+      <defaultValue>'Party'</defaultValue>
       <description></description>
       <id>dce896b7-416c-4f45-ba38-112322f4d336</id>
       <masked>false</masked>
       <name>ManufacturerProductOwner</name>
    </variable>
    <variable>
-      <defaultValue>'ProducGroup_Automation'</defaultValue>
+      <defaultValue>'Product'</defaultValue>
       <description></description>
       <id>94e5fd89-29b0-411b-b411-db7c4e251e9d</id>
       <masked>false</masked>
@@ -132,7 +132,7 @@
       <name>ProdCommercialStatus</name>
    </variable>
    <variable>
-      <defaultValue>'MG_ADMDM'</defaultValue>
+      <defaultValue>'Material Number'</defaultValue>
       <description></description>
       <id>53746485-4459-4ede-a898-efa8a98fc748</id>
       <masked>false</masked>

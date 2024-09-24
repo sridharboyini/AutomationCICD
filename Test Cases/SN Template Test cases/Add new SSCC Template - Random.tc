@@ -32,7 +32,7 @@
       <name>RequestQTY</name>
    </variable>
    <variable>
-      <defaultValue>'10000'</defaultValue>
+      <defaultValue>'1000'</defaultValue>
       <description></description>
       <id>cc54abbf-f62c-47df-a7b5-80ca25422e87</id>
       <masked>false</masked>

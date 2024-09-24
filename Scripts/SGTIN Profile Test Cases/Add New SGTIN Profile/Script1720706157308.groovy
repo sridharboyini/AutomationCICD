@@ -35,18 +35,13 @@ WebUI.click(findTestObject('SGTIN Profile Record/ProductCodeMatchingValue', [('P
 
 WebUI.selectOptionByLabel(findTestObject('SGTIN Profile Record/Serial Number Source'), SerialNumberSource, false)
 
-WebUI.selectOptionByLabel(findTestObject('SGTIN Profile Record/Serial Number Template'), SerialNumberTemplate, false, 
-    FailureHandling.OPTIONAL)
+WebUI.selectOptionByLabel(findTestObject('SGTIN Profile Record/Serial Number Template'), SerialNumberTemplate, false, FailureHandling.OPTIONAL)
 
 WebUI.scrollToElement(findTestObject('Home/Bread Crumbs'), 10)
 
 WebUI.waitForElementClickable(findTestObject('SGTIN Profile Record/bt_SaveProfile'), 5)
 
 WebUI.click(findTestObject('SGTIN Profile Record/bt_SaveProfile'))
-
-WebUI.verifyElementPresent(findTestObject('SGTIN Profile Record/SaveConfirm/SaveConfirmPop-up'), 10)
-
-WebUI.click(findTestObject('SGTIN Profile Record/SaveConfirm/bt_Confirm'))
 
 WebUI.waitForPageLoad(10)
 
@@ -70,8 +65,7 @@ WebUI.setText(findTestObject('SGTIN Profile Record/Assign System/MaxRequestQty')
 
 WebUI.selectOptionByLabel(findTestObject('SGTIN Profile Record/Assign System/Delivery Mode'), DeliveryMode, false)
 
-WebUI.selectOptionByLabel(findTestObject('SGTIN Profile Record/Assign System/Encoding Format'), EncodingFormat, 
-    false)
+WebUI.selectOptionByLabel(findTestObject('SGTIN Profile Record/Assign System/Encoding Format'), EncodingFormat, false)
 
 WebUI.click(findTestObject('SGTIN Profile Record/Assign System/bt_SaveSystem'))
 
@@ -80,6 +74,10 @@ WebUI.click(findTestObject('SGTIN Profile Record/Status_Active'))
 WebUI.scrollToElement(findTestObject('Home/Bread Crumbs'), 10)
 
 WebUI.click(findTestObject('SGTIN Profile Record/bt_SaveProfile'))
+
+WebUI.verifyElementPresent(findTestObject('SGTIN Profile Record/SaveConfirm/SaveConfirmPop-up'), 10)
+
+WebUI.click(findTestObject('SGTIN Profile Record/SaveConfirm/bt_Confirm'))
 
 WebUI.verifyTextPresent('saved successfully', false)
 

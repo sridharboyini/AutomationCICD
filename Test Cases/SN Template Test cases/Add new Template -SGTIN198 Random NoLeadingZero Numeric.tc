@@ -109,7 +109,7 @@
       <name>Uniqueness</name>
    </variable>
    <variable>
-      <defaultValue>'15000'</defaultValue>
+      <defaultValue>'1500'</defaultValue>
       <description></description>
       <id>bf39c19d-c954-4a33-a8fa-28e8a1841af6</id>
       <masked>false</masked>

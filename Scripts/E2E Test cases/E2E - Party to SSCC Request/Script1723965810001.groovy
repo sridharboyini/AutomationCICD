@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('Party Test Cases/Add Test Cases/Add new Partner
 WebUI.callTestCase(findTestCase('System Test Cases/Add New System for Partner Party'), [('PartyName') : GlobalVariable.PARTY_NAME
         , ('SenderIDGLN') : GlobalVariable.ID_GLN, ('SystemName') : '', ('SystemDescription') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('SN Template Test cases/Add new SSCC Template - Sequential'), [('RequestQTY') : '5000', ('ReplenishThreshold') : '15000'
+WebUI.callTestCase(findTestCase('SN Template Test cases/Add new SSCC Template - Sequential'), [('RequestQTY') : '5000', ('ReplenishThreshold') : '1500'
         , ('AlertPercentage') : '50'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('SSCC Profile Test Cases/Add new SSCC Profile'), [('PartyName') : GlobalVariable.PARTY_NAME

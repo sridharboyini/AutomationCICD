@@ -18,14 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //*****New Template with following attributes:
-final String EPC_SCHEMA = 'SGTIN'
+String EPC_SCHEMA = 'SGTIN'
 
-final String CODING_SCHEMA = 'SGTIN-96'
+String CODING_SCHEMA = 'SGTIN-96'
 
-final String SERIAL_NUM_TYPE = 'Random'
+String SERIAL_NUM_TYPE = 'Random'
 
-final String ALLOW_LEADING_ZERO = 'No'
-
+String ALLOW_LEADING_ZERO = 'No'
 
 //**********Navigate to Serial Number Template List page***************
 WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to Serial Number Template List'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -42,7 +41,8 @@ WebUI.click(findTestObject('SN Template Record/Template Details/Status_Active'))
 
 WebUI.selectOptionByLabel(findTestObject('SN Template Record/Template Details/Serial Number Type'), SERIAL_NUM_TYPE, false)
 
-WebUI.selectOptionByLabel(findTestObject('SN Template Record/Template Details/Allow Leading Zero'), ALLOW_LEADING_ZERO, false)
+WebUI.selectOptionByLabel(findTestObject('SN Template Record/Template Details/Allow Leading Zero'), ALLOW_LEADING_ZERO, 
+    false)
 
 WebUI.setText(findTestObject('SN Template Record/Template Details/Serial Number Length'), SNLength)
 
@@ -62,7 +62,7 @@ WebUI.sendKeys(findTestObject('SN Template Record/Template Details/Serial Number
 
 WebUI.setText(findTestObject('SN Template Record/Template Details/Replenish Threshold'), ReplenishThreshold)
 
-WebUI.setText(findTestObject('SN Template Record/Template Details/Reorder Quantity'), RequestQTY)
+WebUI.setText(findTestObject('SN Template Record/Template Details/Maximum Threshold'), MaxThreshold)
 
 WebUI.setText(findTestObject('SN Template Record/Template Details/Alert Available Range'), AlertPercentage)
 

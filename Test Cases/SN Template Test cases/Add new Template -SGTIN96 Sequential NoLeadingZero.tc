@@ -70,7 +70,7 @@
       <name>Uniqueness</name>
    </variable>
    <variable>
-      <defaultValue>'15000'</defaultValue>
+      <defaultValue>'1500'</defaultValue>
       <description></description>
       <id>2ccf8a5e-68e9-48f7-bbdf-c16ad9c8f97f</id>
       <masked>false</masked>
@@ -91,7 +91,7 @@
       <name>AlertPercentage</name>
    </variable>
    <variable>
-      <defaultValue>'Mylan'</defaultValue>
+      <defaultValue>'Party'</defaultValue>
       <description></description>
       <id>78c0df81-a943-4411-a28a-d37940b8e040</id>
       <masked>false</masked>

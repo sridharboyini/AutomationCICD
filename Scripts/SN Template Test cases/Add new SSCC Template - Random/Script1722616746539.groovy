@@ -57,7 +57,7 @@ WebUI.sendKeys(findTestObject('SN Template Record/Template Details/Serial Number
 
 WebUI.setText(findTestObject('SN Template Record/Template Details/Replenish Threshold'), ReplenishThreshold)
 
-WebUI.setText(findTestObject('SN Template Record/Template Details/Reorder Quantity'), RequestQTY)
+WebUI.setText(findTestObject('SN Template Record/Template Details/Maximum Threshold'), RequestQTY)
 
 WebUI.setText(findTestObject('SN Template Record/Template Details/Alert Available Range'), AlertPercentage)
 

@@ -18,7 +18,6 @@ import graphql.util.Breadcrumb as Breadcrumb
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 //Navigate to 'Product List' page
 WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to Product List page'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -71,7 +70,7 @@ WebUI.selectOptionByLabel(findTestObject('Product Record/Product Details/Country
 
 WebUI.click(findTestObject('Product Record/Product Details/button_Add'))
 
-WebUI.verifyTextPresent('MG_ADMDM', false)
+WebUI.verifyTextPresent(ProductIdentifierValue.toString(), false)
 
 WebUI.setText(findTestObject('Product Record/Product Details/Product Name'), 'Product of ' + ManufacturerProductOwner)
 

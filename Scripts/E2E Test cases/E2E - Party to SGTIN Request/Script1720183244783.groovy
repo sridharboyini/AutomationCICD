@@ -17,24 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Party Test Cases/Add Test Cases/Add new Partner party with Active status'), [('BusinessRole') : '3PL'
-        , ('GLN_Extn') : '123'], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('Product Group Test Cases/Add New Product Group code'), [('ProductGroup') : '', ('Description') : ''], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Product Test Cases/Add New Product'), [('SupplyChainRole') : 'CMO', ('ManufacturerProductOwner') : GlobalVariable.PARTY_NAME
-        , ('ProductGroup') : GlobalVariable.PRODUCT_GRP_CODE, ('TargetMarket') : 'US', ('ProdCommercialStatus') : 'In Market'
-        , ('ProductIdentifierType') : 'MG_ADMDM', ('ProductIdentifierValue') : '', ('ProductIDCountry') : 'US - United States of America'
-        , ('ProductName') : '', ('ProprietaryName') : '', ('Strength') : '100 MG', ('DosageForm') : 'CAPSULE', ('PackSizeDescription') : '25 units'
-        , ('PackType') : 'CAPSULE', ('ProductDescription') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Party Test Cases/Add Test Cases/Add new Partner party with Active status'), [('BusinessRole') : '3PL'
+        , ('GLN_Extn') : '123'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('System Test Cases/Add New System for Partner Party'), [('PartyName') : GlobalVariable.PARTY_NAME
         , ('SystemName') : '', ('SystemDescription') : '', ('SenderIDGLN') : GlobalVariable.ID_GLN], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Product Test Cases/Add New Product'), [('SupplyChainRole') : 'CMO', ('ManufacturerProductOwner') : GlobalVariable.PARTY_NAME
+        , ('ProductGroup') : GlobalVariable.PRODUCT_GRP_CODE, ('TargetMarket') : 'US', ('ProdCommercialStatus') : 'In Market'
+        , ('ProductIdentifierType') : 'Material Number', ('ProductIdentifierValue') : '', ('ProductIDCountry') : 'US - United States of America'
+        , ('ProductName') : '', ('ProprietaryName') : '', ('Strength') : '100 MG', ('DosageForm') : 'CAPSULE', ('PackSizeDescription') : '25 units'
+        , ('PackType') : 'CAPSULE', ('ProductDescription') : ''], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('SN Template Test cases/Add new Template -SGTIN96 Random NoLeadingZero'), [('TemplateName') : ''
         , ('ProductOwner') : GlobalVariable.PARTY_NAME, ('EPCSchema') : 'SGTIN', ('CodingSchema') : 'SGTIN-96', ('SNType') : 'Random'
-        , ('SNLength') : '10', ('SparsenessFactor') : '100', ('Uniqueness') : 'Packaging Level', ('ReplenishThreshold') : '15000'
+        , ('SNLength') : '10', ('SparsenessFactor') : '100', ('Uniqueness') : 'Packaging Level', ('ReplenishThreshold') : '1500'
         , ('RequestQTY') : '5000', ('AlertPercentage') : '50'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('SGTIN Profile Test Cases/Add New SGTIN Profile'), [('ProductCode') : GlobalVariable.ID_GTIN
@@ -43,6 +43,6 @@ WebUI.callTestCase(findTestCase('SGTIN Profile Test Cases/Add New SGTIN Profile'
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('SN Request Test cases/Add New SGTIN Request'), [('ProductCode') : GlobalVariable.ID_GTIN
-        , ('RequestingParty') : GlobalVariable.PARTY_NAME, ('RequestingSystem') : GlobalVariable.SYSTEM_NAME, ('RequestQTY') : '15000'], 
+        , ('RequestingParty') : GlobalVariable.PARTY_NAME, ('RequestingSystem') : GlobalVariable.SYSTEM_NAME, ('RequestQTY') : '1500'], 
     FailureHandling.STOP_ON_FAILURE)
 

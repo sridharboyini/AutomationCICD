@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Reorder Quantity</name>
+   <name>Maximum Threshold</name>
    <tag></tag>
    <elementGuidId>8da5aec8-77cf-44d4-a92d-0d9a94a3caee</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#ReOrderQtyId</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='ReOrderQtyId']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ReOrderQtyId</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

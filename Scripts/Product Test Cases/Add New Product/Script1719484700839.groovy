@@ -72,9 +72,11 @@ WebUI.click(findTestObject('Product Record/Product Details/button_Add'))
 
 WebUI.verifyTextPresent(ProductIdentifierValue.toString(), false)
 
-WebUI.setText(findTestObject('Product Record/Product Details/Product Name'), 'Product of ' + ManufacturerProductOwner)
+ProductName = 'Product of ' + ManufacturerProductOwner.toString()
 
-WebUI.setText(findTestObject('Product Record/Product Details/Proprietary Name'), 'Proprietary Product ' + ProductName)
+WebUI.setText(findTestObject('Product Record/Product Details/Product Name'), ProductName)
+
+WebUI.setText(findTestObject('Product Record/Product Details/Proprietary Name'), 'Proprietary ' + ProductName)
 
 WebUI.setText(findTestObject('Product Record/Product Details/Strength'), Strength)
 

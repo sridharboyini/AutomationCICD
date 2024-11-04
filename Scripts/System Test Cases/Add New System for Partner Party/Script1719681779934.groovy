@@ -21,7 +21,6 @@ import org.apache.groovy.parser.antlr4.GroovyParser.IfElseStatementContext as If
 import org.codehaus.groovy.ast.stmt.IfStatement as IfStatement
 import org.openqa.selenium.Keys as Keys
 
-
 //************Navigate to System List page**********
 WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to System List page'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -42,6 +41,8 @@ GlobalVariable.SYSTEM_NAME = SystemName
 WebUI.setText(findTestObject('System Record/System Name'), SystemName)
 
 WebUI.setText(findTestObject('System Record/System Description'), SystemDescription)
+
+WebUI.selectOptionByLabel(findTestObject('System Record/System Identifier'), SenderIDGLN.toString(), false)
 
 WebUI.click(findTestObject('System Record/bt_SaveSystem'))
 

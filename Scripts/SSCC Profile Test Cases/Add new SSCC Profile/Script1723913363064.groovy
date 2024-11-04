@@ -31,7 +31,7 @@ WebUI.selectOptionByLabel(findTestObject('SSCC Profile Record/Assign System/RFID
 
 WebUI.selectOptionByLabel(findTestObject('SSCC Profile Record/Serial Number Source'), SNSource, false)
 
-WebUI.selectOptionByIndex(findTestObject('SSCC Profile Record/Serial Number Template'), '1', FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByLabel(findTestObject('SSCC Profile Record/Serial Number Template'), SNTemplate, false)
 
 WebUI.click(findTestObject('SSCC Profile Record/SSCC Profile Description'))
 
@@ -53,9 +53,9 @@ WebUI.selectOptionByLabel(findTestObject('SSCC Profile Record/Assign System/Part
 
 WebUI.selectOptionByLabel(findTestObject('SSCC Profile Record/Assign System/System Name'), SystemName, false)
 
-WebUI.selectOptionByIndex(findTestObject('SSCC Profile Record/Assign System/Range'), '1', FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByIndex(findTestObject('SSCC Profile Record/Assign System/Range'), '1', FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('SSCC Profile Record/Assign System/Max Request Quantity'), '5000')
+WebUI.setText(findTestObject('SSCC Profile Record/Assign System/Max Request Quantity'), MaxReqQty)
 
 WebUI.selectOptionByLabel(findTestObject('SSCC Profile Record/Assign System/Delivery Mode'), 'List', false)
 

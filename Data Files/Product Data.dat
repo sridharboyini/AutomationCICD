@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Product Test Data</name>
+   <name>Product Data</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>6d6fefe3-dbab-4409-90b3-8201b742b25e</dataFileGUID>
-   <dataSourceUrl></dataSourceUrl>
-   <driver>InternalData</driver>
-   <data></data>
-   <isInternalPath>false</isInternalPath>
+   <dataFileGUID>32c21d7f-c5e5-4086-9ca2-0bf9a5d6fb2a</dataFileGUID>
+   <dataSourceUrl>../../Desktop/Automation/T3 Product Data.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName></sheetName>
+   <sheetName>Sheet1</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

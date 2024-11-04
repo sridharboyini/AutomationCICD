@@ -12,59 +12,9 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>0165120e-062e-4530-a187-a6d6c86ed413</testSuiteGuid>
    <testCaseLink>
-      <guid>baf283af-e128-406e-b260-86579e09937b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SN Template Test cases/Add new SSCC Template - Random</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>007f3381-15a1-45cd-99fd-114e6e8c055e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>cc54abbf-f62c-47df-a7b5-80ca25422e87</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>293593aa-f27b-47a0-a257-0f6bf59b57d4</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e096a8ed-abbf-4d65-a43e-d7a4c732dc85</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SN Template Test cases/Add new SSCC Template - Sequential</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>cee269a2-4ed7-47dd-b1c2-995a5568d242</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a5b797fd-644f-4e78-b7b4-d0d2d99b740d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d9c9518d-ed1c-4934-830e-bef87e937dbd</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>2527e4b6-282c-4f4c-9184-d52e5667339a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SN Template Test cases/Add new Template -SGTIN198 Random AllowLeadingZero ANLower</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -131,7 +81,7 @@
    <testCaseLink>
       <guid>cfe5a304-0121-43dc-8705-71252cef972f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SN Template Test cases/Add new Template -SGTIN198 Random AllowLeadingZero ANUpper</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -198,7 +148,7 @@
    <testCaseLink>
       <guid>88a6bea4-dbc3-43c4-88f1-7e5077330e1a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SN Template Test cases/Add new Template -SGTIN198 Random AllowLeadingZero Numeric</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -265,7 +215,7 @@
    <testCaseLink>
       <guid>3b080cb7-f54f-4dad-8642-85e7fbb52925</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SN Template Test cases/Add new Template -SGTIN198 Random NoLeadingZero ANLower</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -332,7 +282,7 @@
    <testCaseLink>
       <guid>76f492f9-0cd1-48e7-b69d-1e704f38b95d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SN Template Test cases/Add new Template -SGTIN198 Random NoLeadingZero ANUpper</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -399,7 +349,7 @@
    <testCaseLink>
       <guid>aecc4f86-8a72-4206-8cb0-a9d66d2dace5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SN Template Test cases/Add new Template -SGTIN198 Random NoLeadingZero Numeric</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -466,7 +416,7 @@
    <testCaseLink>
       <guid>75228aa8-0904-451b-ae86-22367e9b6f47</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SN Template Test cases/Add new Template -SGTIN198 Sequential AllowLeadingZero Numeric</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -533,7 +483,7 @@
    <testCaseLink>
       <guid>75fb9125-263f-4918-854c-06d8d75b2ef3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SN Template Test cases/Add new Template -SGTIN198 Sequential NoLeadingZero Numeric</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>

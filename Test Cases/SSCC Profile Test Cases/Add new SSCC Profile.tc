@@ -48,15 +48,21 @@
       <value></value>
       <variableId>e5165e16-6ea5-40e2-b3fe-450058b5087e</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d9bd6af7-ff92-4e77-b724-741c5251da9a</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'Party 561215'</defaultValue>
+      <defaultValue>'Party 700499'</defaultValue>
       <description></description>
       <id>0cc4dad9-1d6d-4d26-b744-29b643a90195</id>
       <masked>false</masked>
       <name>PartyName</name>
    </variable>
    <variable>
-      <defaultValue>'667301'</defaultValue>
+      <defaultValue>'700499'</defaultValue>
       <description></description>
       <id>a0252a15-d1d2-4adf-8ce4-ccbbaca33b97</id>
       <masked>false</masked>
@@ -84,17 +90,24 @@
       <name>SNSource</name>
    </variable>
    <variable>
-      <defaultValue>'Random _ Numeric_435'</defaultValue>
+      <defaultValue>'Sequential_Numeric_4855'</defaultValue>
       <description></description>
       <id>909d4b20-5282-45b2-8a1f-a792b761e876</id>
       <masked>false</masked>
       <name>SNTemplate</name>
    </variable>
    <variable>
-      <defaultValue>'System of Party 561215'</defaultValue>
+      <defaultValue>'System of Party 700499'</defaultValue>
       <description></description>
       <id>e5165e16-6ea5-40e2-b3fe-450058b5087e</id>
       <masked>false</masked>
       <name>SystemName</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>d9bd6af7-ff92-4e77-b724-741c5251da9a</id>
+      <masked>false</masked>
+      <name>MaxReqQty</name>
    </variable>
 </TestCaseEntity>

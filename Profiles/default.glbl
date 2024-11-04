@@ -5,8 +5,8 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'http://t3.trominosoft.com/login?ReturnUrl=%2F'</initValue>
+      <description>http://t3.trominosoft.com/login?ReturnUrl=%2F</description>
+      <initValue>'http://t3test.trominosoft.com'</initValue>
       <name>APPURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

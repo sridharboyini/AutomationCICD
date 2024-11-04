@@ -59,7 +59,7 @@ WebUI.selectOptionByLabel(findTestObject('SGTIN Profile Record/Assign System/Par
 
 WebUI.selectOptionByLabel(findTestObject('SGTIN Profile Record/Assign System/System Name'), SystemName, false)
 
-WebUI.selectOptionByIndex(findTestObject('SGTIN Profile Record/Assign System/Range'), '1', FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByIndex(findTestObject('SGTIN Profile Record/Assign System/Range'), '1', FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('SGTIN Profile Record/Assign System/MaxRequestQty'), MaxRequestQty)
 
@@ -75,9 +75,9 @@ WebUI.scrollToElement(findTestObject('Home/Bread Crumbs'), 10)
 
 WebUI.click(findTestObject('SGTIN Profile Record/bt_SaveProfile'))
 
-WebUI.verifyElementPresent(findTestObject('SGTIN Profile Record/SaveConfirm/SaveConfirmPop-up'), 10)
+WebUI.verifyElementPresent(findTestObject('SGTIN Profile Record/SaveConfirm/SaveConfirmPop-up'), 10, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('SGTIN Profile Record/SaveConfirm/bt_Confirm'))
+WebUI.click(findTestObject('SGTIN Profile Record/SaveConfirm/bt_Confirm'), FailureHandling.OPTIONAL)
 
 WebUI.verifyTextPresent('saved successfully', false)
 

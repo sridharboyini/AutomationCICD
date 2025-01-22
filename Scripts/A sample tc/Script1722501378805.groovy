@@ -19,10 +19,11 @@ import com.kms.katalon.entity.testcase.TestCaseEntity as TestCaseEntity
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
 String str
 
 //Get Test case Name
-str = RunConfiguration.getExecutionSourceName().toString()
+//str = RunConfiguration.getExecutionSourceName().toString()
 
 //println(str)
 //println(str.length())
@@ -40,10 +41,10 @@ println(RandomNum.to)
 
 println(GCPValue)
 
-String str
+//String str
 
 //Get Test case Name
-str = RunConfiguration.getExecutionSourceName().toString()
+//str = RunConfiguration.getExecutionSourceName().toString()
 
 //println(str)
 //println(str.length())
@@ -60,12 +61,4 @@ Integer GCPValue = Math.random() * Math.pow(10, 6)
 println(RandomNum.to)
 
 println(GCPValue)
-
-WebUI.openBrowser('')
-
-WebUI.openBrowser('')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.closeBrowser()
 

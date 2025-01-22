@@ -29,7 +29,7 @@ String ALLOW_LEADING_ZERO = 'No'
 //**********Navigate to Serial Number Template List page***************
 WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to Serial Number Template List'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Serial Number Template List/button_Add Template'))
+WebUI.click(findTestObject('SN Template List/button_Add Template'))
 
 WebUI.waitForElementPresent(findTestObject('SN Template Record/Template Details/EPC Schema'), 10)
 

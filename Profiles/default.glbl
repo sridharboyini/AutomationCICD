@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description>http://t3.trominosoft.com/login?ReturnUrl=%2F</description>
-      <initValue>'http://t3test.trominosoft.com'</initValue>
+      <initValue>'https://t3test.trominosoft.com'</initValue>
       <name>APPURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'p4y+y39Ir5PEPmX20UxFKw=='</initValue>
+      <initValue>'p4y+y39Ir5O++RH4jAhtiA=='</initValue>
       <name>BETAPASSWORD</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -10,6 +10,12 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>e1d593ac-5351-4765-a8f5-545ebc22909a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>e17f1020-1665-40b2-8bdc-4e25bfe140a3</variableId>
    </variableLinks>
    <variableLinks>
@@ -37,7 +43,14 @@
       <variableId>6e84b6d3-0607-41b8-b381-758f5a2d2d72</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'667301'</defaultValue>
+      <defaultValue>'33789-0-0'</defaultValue>
+      <description></description>
+      <id>e1d593ac-5351-4765-a8f5-545ebc22909a</id>
+      <masked>false</masked>
+      <name>SSCCProfileName</name>
+   </variable>
+   <variable>
+      <defaultValue>'33789'</defaultValue>
       <description></description>
       <id>e17f1020-1665-40b2-8bdc-4e25bfe140a3</id>
       <masked>false</masked>
@@ -51,14 +64,14 @@
       <name>ExtensionDigit</name>
    </variable>
    <variable>
-      <defaultValue>'Party 101'</defaultValue>
+      <defaultValue>'Party 117711'</defaultValue>
       <description></description>
       <id>06043345-cc3f-461b-a15f-597469fa8109</id>
       <masked>false</masked>
       <name>RequestingParty</name>
    </variable>
    <variable>
-      <defaultValue>'System of party 101'</defaultValue>
+      <defaultValue>'System Party 117711'</defaultValue>
       <description></description>
       <id>5653941b-1874-4137-bf02-b10774c70acb</id>
       <masked>false</masked>

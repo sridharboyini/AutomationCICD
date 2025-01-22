@@ -34,13 +34,32 @@ WebUI.click(findTestObject('SN Template Record/Template Details/Status_Active'))
 
 WebUI.selectOptionByLabel(findTestObject('SN Template Record/Template Details/Serial Number Type'), SNType, false)
 
-WebUI.selectOptionByLabel(findTestObject('SN Template Record/Template Details/Allow Leading Zero'), 'Yes', false)
+WebUI.selectOptionByLabel(findTestObject('SN Template Record/Template Details/Allow Leading Zero'), AllowLeadingZero, false)
 
 WebUI.setText(findTestObject('SN Template Record/Template Details/Serial Number Length'), SNLength)
 
-WebUI.click(findTestObject('SN Template Record/Template Details/input_AN_Upper Case'))
+if (CodingSchema == "SGTIN-198" ) {
+	
+	switch(CharacterType) {
+		
+		case "Alpha Numeric (Upper Case)":  
+			WebUI.click(findTestObject('SN Template Record/Template Details/input_AN_Upper Case'))
+			break;
+			
+		case "Alpha Numeric (Lower Case)":
+			WebUI.click(findTestObject('SN Template Record/Template Details/input_AN_Lower Case'))
+			break;
+		
+		default: 
+			WebUI.click(findTestObject('SN Template Record/Template Details/input_Numeric'))
+			break;
+	}
+	
+}
 
-WebUI.selectOptionByLabel(findTestObject('SN Template Record/Template Details/Sparseness Factor'), SparsenessFactor, false)
+if (SNType== "Random" && CharacterType=="Numeric") {
+	WebUI.selectOptionByLabel(findTestObject('SN Template Record/Template Details/Sparseness Factor'), SparsenessFactor, false)
+}
 
 WebUI.selectOptionByLabel(findTestObject('SN Template Record/Template Details/Uniqueness'), Uniqueness, false)
 
@@ -54,9 +73,9 @@ Integer RandomNum = Math.random() * Math.pow(10, 4)
 //Append Random Number to Template Name
 WebUI.sendKeys(findTestObject('SN Template Record/Template Details/Serial Number Template Name'), '_' + RandomNum.toString())
 
-WebUI.setText(findTestObject('SN Template Record/Template Details/Replenish Threshold'), ReplenishThreshold)
+WebUI.setText(findTestObject('SN Template Record/Template Details/Maximum Threshold'), MaxThreshold)
 
-WebUI.setText(findTestObject('SN Template Record/Template Details/Maximum Threshold'), RequestQTY)
+WebUI.setText(findTestObject('SN Template Record/Template Details/Replenish Threshold'), ReplenishThreshold)
 
 WebUI.setText(findTestObject('SN Template Record/Template Details/Alert Available Range'), AlertPercentage)
 
@@ -98,3 +117,6 @@ WebUI.delay(3)
 
 WebUI.waitForPageLoad(10)
 
+String Template_Name= SNLength + "_"+ SNType + "_"+ CharacterType + "_"+  Uniqueness
+
+WebUI.verifyTextPresent(Template_Name, false)

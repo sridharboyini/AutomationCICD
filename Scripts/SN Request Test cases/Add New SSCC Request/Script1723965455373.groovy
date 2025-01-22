@@ -23,18 +23,18 @@ WebUI.click(findTestObject('Serial Number Request Record/option_SSCC'))
 
 WebUI.click(findTestObject('Serial Number Request Record/SSCC Request/GS1 Company Prefix'))
 
-WebUI.sendKeys(findTestObject('Serial Number Request Record/SSCC Request/GS1 Company Prefix'), GS1Prefix, FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Serial Number Request Record/SSCC Request/GS1 Company Prefix'), SSCCProfileName, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Serial Number Request Record/SSCC Request/GCP Matching Value'))
 
 WebUI.delay(1)
 
-WebUI.selectOptionByLabel(findTestObject('Serial Number Request Record/SSCC Request/Extension Digit'), ExtensionDigit, false)
+//WebUI.selectOptionByLabel(findTestObject('Serial Number Request Record/SSCC Request/Extension Digit'), ExtensionDigit, false)
 
 WebUI.delay(1)
 
-WebUI.selectOptionByLabel(findTestObject('Serial Number Request Record/SSCC Request/Requesting Party'), RequestingParty, 
-    false)
+//WebUI.selectOptionByLabel(findTestObject('Serial Number Request Record/SSCC Request/Requesting Party'), RequestingParty, false)
+RequestingSystem = (((RequestingSystem + ' (') + RequestingParty) + ')')
 
 WebUI.selectOptionByLabel(findTestObject('Serial Number Request Record/SSCC Request/Requesting System'), RequestingSystem, 
     false)

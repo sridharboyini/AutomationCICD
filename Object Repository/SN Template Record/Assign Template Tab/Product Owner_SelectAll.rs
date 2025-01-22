@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Product Owner checkbox_DO</name>
+   <name>Product Owner_SelectAll</name>
    <tag></tag>
-   <elementGuidId>785015df-04c5-4d81-afa7-8dbb24371cee</elementGuidId>
+   <elementGuidId>bcf27f11-760f-40ff-9251-a9d8650baf09</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[contains(text(), '${ProductOwner}')]</value>
+         <value>//label[contains(text(), 'Select all')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>0a10531b-d8ac-4ab2-a6e3-a1f3ae800737</webElementGuid>
+      <webElementGuid>f608d628-9c5c-4714-bf29-c7289fdb2d88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>d679ff34-5bfc-415c-9ed8-aff7e0246970</webElementGuid>
+      <webElementGuid>0cf1eb38-477d-4abe-8e81-eaf01594d272</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value> northstar</value>
-      <webElementGuid>3bd63837-a002-480e-8ff6-e0639267f5e8</webElementGuid>
+      <webElementGuid>caab712b-84b3-4315-b0f9-f0e9e289cdce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Div_AssignTemplate1&quot;)/div[@class=&quot;row mt-1&quot;]/div[@class=&quot;col-3 multiselect-ms&quot;]/div[@class=&quot;btn-group show&quot;]/ul[@class=&quot;multiselect-container dropdown-menu show&quot;]/li[5]/a[1]/label[@class=&quot;checkbox&quot;]</value>
-      <webElementGuid>2f4fb8bc-2bcd-465b-9c82-59a6376c99b9</webElementGuid>
+      <webElementGuid>83291966-59f2-4820-aa4e-115cc9ba919f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Div_AssignTemplate1']/div[3]/div/div/ul/li[5]/a/label</value>
-      <webElementGuid>ab573e25-e2b9-4213-9e55-bb37ee2bd55c</webElementGuid>
+      <webElementGuid>cab3f2c9-3a97-47cb-a21f-7d8f0b478ade</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='rte_imp'])[2]/following::label[1]</value>
-      <webElementGuid>73bff84b-3ffc-4eb2-8e48-71300785f413</webElementGuid>
+      <webElementGuid>44e226b0-4ebe-438f-a3a9-fe7b57df45de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='RK-Pharma'])[2]/following::label[2]</value>
-      <webElementGuid>992f9adf-858b-49e4-8000-4d3221564d9c</webElementGuid>
+      <webElementGuid>80310ff5-740c-4582-8b32-51da997111cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New RK'])[2]/preceding::label[1]</value>
-      <webElementGuid>ae4c922d-945f-46d7-bb1f-933641bf5cc2</webElementGuid>
+      <webElementGuid>b5f44201-307e-4e51-8575-033e3290d327</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Party 1_Imported'])[2]/preceding::label[2]</value>
-      <webElementGuid>dfde9dd3-d32d-4e1f-a5e8-82e663ca5026</webElementGuid>
+      <webElementGuid>7f8d8ad9-4ebb-4f5f-b158-535ecd1cc6b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[5]/a/label</value>
-      <webElementGuid>ebb6c311-ae08-4a36-b007-9c2e509b4083</webElementGuid>
+      <webElementGuid>89be11d6-444a-48c2-9b37-a361c9abca07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = ' northstar' or . = ' northstar')]</value>
-      <webElementGuid>64877d37-f133-45c6-925d-7021b076a9b7</webElementGuid>
+      <webElementGuid>4eada87c-e9b6-415e-bda6-61260c9ccdfb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

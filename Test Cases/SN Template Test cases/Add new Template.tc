@@ -1,138 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Add new Template -SGTIN198 Random AllowLeadingZero ANLower</name>
+   <name>Add new Template</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>5f10d338-2e20-428e-a502-e5efe086c8e3</testCaseGuid>
+   <testCaseGuid>523cc288-f2f9-4876-b859-ba3488f4f1d7</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0b91bdc3-fe14-4136-b112-4ec227857806</variableId>
+      <variableId>dcd0d900-a8e7-4795-8b4f-aa2d23b79251</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>afc34d16-9f5f-424f-a3da-777ce2957aeb</variableId>
+      <variableId>773aafc0-dd1b-4c49-99c7-86bb17fc2327</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>16c1ef9d-a030-4179-95de-f2b042b81598</variableId>
+      <variableId>bf2f651a-3218-410e-8466-78fb35886784</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ac62951c-0242-423b-b6aa-a1f2dc1c1c49</variableId>
+      <variableId>800eb7f4-3257-4b53-b3c9-331f7bc958e8</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c678109b-a810-4d96-94c4-e50b3dc73db1</variableId>
+      <variableId>3581f245-0fea-4859-bfe6-1e92976ee3ca</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>097e9a52-65f0-44a8-ad62-7fef36075596</variableId>
+      <variableId>567a14a4-5ce9-4144-9ae8-dbff9fe1b8e1</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>990d5adf-0dc7-4209-8d33-c280dcf45d99</variableId>
+      <variableId>58b61b43-9542-419e-9424-4243cd3d310c</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>5d0989e1-cb27-4787-8d7d-e8cc1e140902</variableId>
+      <variableId>94fe69fd-3000-4a94-9f50-1354262b9460</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>1d5e52bd-51ab-46da-b166-da8cb8ea5f9d</variableId>
+      <variableId>fc28a901-1806-46f1-8b12-0899cdf549c8</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b1956d75-4c07-4981-9073-973aa5beb069</variableId>
+      <variableId>95c7cd60-ca8c-4e5a-bbe8-85a9f670e28b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e813c5e4-7b29-4ad4-b469-8ad07f29eab4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>78fc3e0d-c054-43bf-9558-378217a7e4e1</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'SGTIN'</defaultValue>
       <description></description>
-      <id>0b91bdc3-fe14-4136-b112-4ec227857806</id>
+      <id>dcd0d900-a8e7-4795-8b4f-aa2d23b79251</id>
       <masked>false</masked>
       <name>EPCSchema</name>
    </variable>
    <variable>
       <defaultValue>'SGTIN-198'</defaultValue>
       <description></description>
-      <id>afc34d16-9f5f-424f-a3da-777ce2957aeb</id>
+      <id>773aafc0-dd1b-4c49-99c7-86bb17fc2327</id>
       <masked>false</masked>
       <name>CodingSchema</name>
    </variable>
    <variable>
       <defaultValue>'Random'</defaultValue>
       <description></description>
-      <id>16c1ef9d-a030-4179-95de-f2b042b81598</id>
+      <id>bf2f651a-3218-410e-8466-78fb35886784</id>
       <masked>false</masked>
       <name>SNType</name>
    </variable>
    <variable>
-      <defaultValue>'20'</defaultValue>
+      <defaultValue>'Yes'</defaultValue>
       <description></description>
-      <id>ac62951c-0242-423b-b6aa-a1f2dc1c1c49</id>
+      <id>800eb7f4-3257-4b53-b3c9-331f7bc958e8</id>
+      <masked>false</masked>
+      <name>AllowLeadingZero</name>
+   </variable>
+   <variable>
+      <defaultValue>'12'</defaultValue>
+      <description></description>
+      <id>3581f245-0fea-4859-bfe6-1e92976ee3ca</id>
       <masked>false</masked>
       <name>SNLength</name>
    </variable>
    <variable>
+      <defaultValue>'Numeric'</defaultValue>
+      <description></description>
+      <id>567a14a4-5ce9-4144-9ae8-dbff9fe1b8e1</id>
+      <masked>false</masked>
+      <name>CharacterType</name>
+   </variable>
+   <variable>
       <defaultValue>'100'</defaultValue>
       <description></description>
-      <id>c678109b-a810-4d96-94c4-e50b3dc73db1</id>
+      <id>58b61b43-9542-419e-9424-4243cd3d310c</id>
       <masked>false</masked>
       <name>SparsenessFactor</name>
    </variable>
    <variable>
       <defaultValue>'Product Owner'</defaultValue>
       <description></description>
-      <id>097e9a52-65f0-44a8-ad62-7fef36075596</id>
+      <id>94fe69fd-3000-4a94-9f50-1354262b9460</id>
       <masked>false</masked>
       <name>Uniqueness</name>
    </variable>
    <variable>
-      <defaultValue>'1500'</defaultValue>
-      <description></description>
-      <id>990d5adf-0dc7-4209-8d33-c280dcf45d99</id>
-      <masked>false</masked>
-      <name>ReplenishThreshold</name>
-   </variable>
-   <variable>
       <defaultValue>'5000'</defaultValue>
       <description></description>
-      <id>5d0989e1-cb27-4787-8d7d-e8cc1e140902</id>
+      <id>fc28a901-1806-46f1-8b12-0899cdf549c8</id>
       <masked>false</masked>
       <name>MaxThreshold</name>
    </variable>
    <variable>
+      <defaultValue>'2500'</defaultValue>
+      <description></description>
+      <id>95c7cd60-ca8c-4e5a-bbe8-85a9f670e28b</id>
+      <masked>false</masked>
+      <name>ReplenishThreshold</name>
+   </variable>
+   <variable>
       <defaultValue>'50'</defaultValue>
       <description></description>
-      <id>1d5e52bd-51ab-46da-b166-da8cb8ea5f9d</id>
+      <id>e813c5e4-7b29-4ad4-b469-8ad07f29eab4</id>
       <masked>false</masked>
       <name>AlertPercentage</name>
    </variable>
    <variable>
       <defaultValue>'Party'</defaultValue>
       <description></description>
-      <id>b1956d75-4c07-4981-9073-973aa5beb069</id>
+      <id>78fc3e0d-c054-43bf-9558-378217a7e4e1</id>
       <masked>false</masked>
       <name>ProductOwner</name>
    </variable>

@@ -27,8 +27,8 @@ WebUI.sendKeys(findTestObject('Serial Number Request Record/SGTIN Request/Produc
 
 WebUI.click(findTestObject('Serial Number Request Record/SGTIN Request/ProductCodeMatchingValue'))
 
-WebUI.selectOptionByLabel(findTestObject('Serial Number Request Record/SGTIN Request/Requesting Party'), RequestingParty, 
-    false)
+//WebUI.selectOptionByLabel(findTestObject('Serial Number Request Record/SGTIN Request/Requesting Party'), RequestingParty, false)
+RequestingSystem = (((RequestingSystem + ' (') + RequestingParty) + ')')
 
 WebUI.selectOptionByLabel(findTestObject('Serial Number Request Record/SGTIN Request/Requesting System'), RequestingSystem, 
     false)
@@ -48,5 +48,5 @@ WebUI.waitForPageLoad(10)
 
 WebUI.click(findTestObject('Serial Number Request Record/Request Log Tab'))
 
-WebUI.verifyTextPresent(ProductCode, false)
+WebUI.verifyTextPresent(ProductCode.toString(), false)
 

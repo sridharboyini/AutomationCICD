@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>SN Request Test Data</name>
+   <name>Template Data</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>5860cd91-518a-4fcd-aec4-e92a7d4e2f4d</dataFileGUID>
-   <dataSourceUrl></dataSourceUrl>
-   <driver>CSV</driver>
-   <isInternalPath>false</isInternalPath>
+   <dataFileGUID>d9b5ab75-b412-4b68-b881-48b8f7ca70b3</dataFileGUID>
+   <dataSourceUrl>../../Desktop/Automation/Template Data.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName></sheetName>
+   <sheetName>Sheet1</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

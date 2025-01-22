@@ -63,8 +63,6 @@ WebUI.selectOptionByIndex(findTestObject('SGTIN Profile Record/Assign System/Ran
 
 WebUI.setText(findTestObject('SGTIN Profile Record/Assign System/MaxRequestQty'), MaxRequestQty)
 
-WebUI.selectOptionByLabel(findTestObject('SGTIN Profile Record/Assign System/Delivery Mode'), DeliveryMode, false)
-
 WebUI.selectOptionByLabel(findTestObject('SGTIN Profile Record/Assign System/Encoding Format'), EncodingFormat, false)
 
 WebUI.click(findTestObject('SGTIN Profile Record/Assign System/bt_SaveSystem'))

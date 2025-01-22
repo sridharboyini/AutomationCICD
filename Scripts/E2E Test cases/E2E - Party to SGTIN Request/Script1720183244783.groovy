@@ -17,14 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Product Group Test Cases/Add New Product Group code'), [('ProductGroup') : '', ('Description') : ''], 
-    FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('Party Test Cases/Add Test Cases/Add new Partner party with Active status'), [('BusinessRole') : '3PL'
         , ('GLN_Extn') : '123'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('System Test Cases/Add New System for Partner Party'), [('PartyName') : GlobalVariable.PARTY_NAME
         , ('SenderIDGLN') : GlobalVariable.ID_GLN, ('SystemName') : '', ('SystemDescription') : ''], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Product Group Test Cases/Add New Product Group code'), [('ProductGroup') : '', ('Description') : ''], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Product Test Cases/Add New Product'), [('SupplyChainRole') : 'CMO', ('ManufacturerProductOwner') : GlobalVariable.PARTY_NAME
         , ('ProductGroup') : GlobalVariable.PRODUCT_GRP_CODE, ('TargetMarket') : 'US', ('ProdCommercialStatus') : 'In Market'
@@ -43,6 +43,6 @@ WebUI.callTestCase(findTestCase('SGTIN Profile Test Cases/Add New SGTIN Profile'
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('SN Request Test cases/Add New SGTIN Request'), [('ProductCode') : GlobalVariable.ID_GTIN
-        , ('RequestingParty') : GlobalVariable.PARTY_NAME, ('RequestingSystem') : GlobalVariable.SYSTEM_NAME, ('RequestQTY') : '1500'], 
+        , ('RequestingParty') : GlobalVariable.PARTY_NAME, ('RequestingSystem') : GlobalVariable.SYSTEM_NAME, ('RequestQTY') : '15'], 
     FailureHandling.STOP_ON_FAILURE)
 

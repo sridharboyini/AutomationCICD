@@ -104,14 +104,14 @@
       <name>SupplyChainRole</name>
    </variable>
    <variable>
-      <defaultValue>'Party 738091'</defaultValue>
+      <defaultValue>'Arc_Owner'</defaultValue>
       <description></description>
       <id>dce896b7-416c-4f45-ba38-112322f4d336</id>
       <masked>false</masked>
       <name>ManufacturerProductOwner</name>
    </variable>
    <variable>
-      <defaultValue>'Prod GRP Code 503'</defaultValue>
+      <defaultValue>'Test Product'</defaultValue>
       <description></description>
       <id>94e5fd89-29b0-411b-b411-db7c4e251e9d</id>
       <masked>false</masked>

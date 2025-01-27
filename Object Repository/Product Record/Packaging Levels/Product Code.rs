@@ -6,12 +6,11 @@
    <elementGuidId>13d92872-ca93-4d69-9d61-65766ef01e0f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[contains(@id,'ProductCode')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='TradeItem[0].ProductCode']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>045e6503-f4b7-43d4-b372-2eb47543ef1b</webElementGuid>
+      <webElementGuid>b83007b2-4088-4785-9481-40c302e43d35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>row input-ms pCode</value>
-      <webElementGuid>91cf83c5-bc9b-4124-a0df-4ec30a7ae9c1</webElementGuid>
+      <webElementGuid>a8dbf148-39ff-496a-b125-9e98b1ad1928</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>TradeItem[0].ProductCode</value>
-      <webElementGuid>ac3c5554-1fb9-4143-a347-cfb9487e450d</webElementGuid>
+      <webElementGuid>b6106eef-74eb-490f-9105-d6db970029d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>TradeItem[0].ProductCode</value>
-      <webElementGuid>78356a02-04c4-496e-87ca-26062e383a26</webElementGuid>
+      <webElementGuid>2209aca2-e97e-4913-931c-43ac63630f0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +54,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>ValidateGtin(this)</value>
-      <webElementGuid>4bf13fe7-630f-42e7-a990-6fed9ae8f151</webElementGuid>
+      <webElementGuid>41a8557f-79a7-481c-8d4c-96dcd5298c42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +62,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Enter Product Code</value>
-      <webElementGuid>9b488859-85dd-4c18-b1a5-938c17bbe714</webElementGuid>
+      <webElementGuid>d48e8a7b-90da-4a46-8cb9-42bb9a7a1804</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +70,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>97e312c7-7447-46b6-a3da-eabcc9afc79b</webElementGuid>
+      <webElementGuid>3ee13f5d-5ec6-4893-a6e4-0c0b5c72e2a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;TradeItem[0].ProductCode&quot;)</value>
-      <webElementGuid>49c76371-3be7-49f2-a111-eb9ce766dfc9</webElementGuid>
+      <webElementGuid>1281134a-3347-4296-8dd9-119a92f7a924</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='TradeItem[0].ProductCode']</value>
-      <webElementGuid>88c2da6c-89c2-412b-b996-ff539b61d1ea</webElementGuid>
+      <webElementGuid>373ca83e-6085-471b-88f6-c234fc2d7c20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Div_packagingLevelTabContainer']/div/div[4]/div/input</value>
-      <webElementGuid>a9461daa-0b82-47b3-8ea9-df1886be6100</webElementGuid>
+      <webElementGuid>f56b141a-daa7-4dca-8f66-34bfbed866b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div[4]/div/input</value>
-      <webElementGuid>a9fdb314-4d42-45f6-9e92-270b6f903a1f</webElementGuid>
+      <webElementGuid>4b17d740-e6a1-45cd-9ab4-967a1da818e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'TradeItem[0].ProductCode' and @name = 'TradeItem[0].ProductCode' and @placeholder = 'Enter Product Code' and @type = 'text']</value>
-      <webElementGuid>8898b599-e1dd-4329-8269-9a300cba253e</webElementGuid>
+      <webElementGuid>2c5d805d-7365-4dac-bc7d-5aea102812e7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

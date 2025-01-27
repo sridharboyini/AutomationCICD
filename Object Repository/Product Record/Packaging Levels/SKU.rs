@@ -6,12 +6,11 @@
    <elementGuidId>51818db9-7232-4be2-afb1-ea5de7648532</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[contains(@id,'SKU')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='TradeItem[0].SKU']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>75be72e1-e79a-4c6c-af16-7381da2d9eb7</webElementGuid>
+      <webElementGuid>a2891c82-ec38-4456-9c61-d7a8c67676a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>row input-ms</value>
-      <webElementGuid>73caa5f1-bb90-4f68-98b9-4f097121f889</webElementGuid>
+      <webElementGuid>b172027a-a551-4736-968f-83bc8e4543a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>TradeItem[0].SKU</value>
-      <webElementGuid>2f5183e5-2f18-4213-9624-fe5721b4d6ba</webElementGuid>
+      <webElementGuid>448cd2fa-e1f7-4213-970e-91234989aae6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>TradeItem[0].SKU</value>
-      <webElementGuid>1e061bf6-7805-4f63-99e5-76ba046bf78f</webElementGuid>
+      <webElementGuid>823d1449-b24a-4cdd-975f-cd71ec0cab24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +54,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Enter SKU</value>
-      <webElementGuid>a45c7e5f-8eea-4a3b-a276-ad23129b7ca5</webElementGuid>
+      <webElementGuid>8f05f02e-5c05-4064-b947-c27be1156546</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>70</value>
-      <webElementGuid>a7e968f3-ade9-446b-b038-d1d84e79048b</webElementGuid>
+      <webElementGuid>5e5a24c9-d7ad-4c1f-af44-fc80ec7c6ea1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +70,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>efd1a89f-4fc0-4751-a11d-510ac86a3361</webElementGuid>
+      <webElementGuid>f837cf31-0270-4bf4-ae0e-07b729710c6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;TradeItem[0].SKU&quot;)</value>
-      <webElementGuid>13f7da08-cd0e-43f5-a919-a0f4ee99189a</webElementGuid>
+      <webElementGuid>2f7777e9-6622-42c9-9a24-a652119667d9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='TradeItem[0].SKU']</value>
-      <webElementGuid>2ef2ea98-4c91-4814-a133-6baa36f8cabb</webElementGuid>
+      <webElementGuid>09cf7a0d-3822-4692-a80a-8f0d9d0d99ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Div_packagingLevelTabContainer']/div/div[5]/div/input</value>
-      <webElementGuid>352b34db-eeef-4880-9127-a611c02d6326</webElementGuid>
+      <webElementGuid>1ecaf6d2-6b5e-41a5-945e-501437fdd526</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div[5]/div/input</value>
-      <webElementGuid>e1b52001-2f04-4763-914c-450cb35c4d96</webElementGuid>
+      <webElementGuid>c1bd48bf-54bd-4f04-9ced-8032b7ad54d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'TradeItem[0].SKU' and @name = 'TradeItem[0].SKU' and @placeholder = 'Enter SKU' and @type = 'text']</value>
-      <webElementGuid>0f7256fc-aaad-480d-97c6-074b5362d239</webElementGuid>
+      <webElementGuid>d879d498-a834-466e-be24-985967dced1d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

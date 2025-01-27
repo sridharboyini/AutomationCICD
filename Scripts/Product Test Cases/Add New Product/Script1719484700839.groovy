@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import graphql.util.Breadcrumb as Breadcrumb
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.WebElement as Keys
 
 //Navigate to 'Product List' page
 WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to Product List page'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -24,6 +26,17 @@ WebUI.callTestCase(findTestCase('Reusable Test cases/Navigate to Product List pa
 //***Add New Product***
 WebUI.click(findTestObject('Product List/button_Add Product'))
 
+def ActiveStatus = WebUI.findWebElements(findTestObject('Product Record/Packaging Levels/Status_Active'), 3)
+
+println(ActiveStatus.size())
+
+/*for (int i=0; i < ActiveStatus.size(); i++) {
+	
+	//WebElement Activ_radio = ActiveStatus.get(i)
+	WebUI.click(ActiveStatus.get(i))
+	WebUI.verifyElementVisible(ActiveStatus.get(i))
+    
+}*/
 WebUI.waitForElementPresent(findTestObject('Product Record/Product Details/Companys Role'), 10)
 
 WebUI.selectOptionByLabel(findTestObject('Product Record/Product Details/Companys Role'), SupplyChainRole, false)
@@ -86,35 +99,7 @@ WebUI.setText(findTestObject('Product Record/Product Details/Pack Size Descripti
 
 WebUI.selectOptionByLabel(findTestObject('Product Record/Product Details/Pack Type'), PackType, false)
 
-//WebUI.setText(findTestObject('Product Record/Product Details/Product Description'), 'Product 2050 CAPSULE, LIQUID FILLED ttsfty CAPSULE test')
 //Scroll up to "Save" button
-WebUI.scrollToElement(findTestObject('Home/Bread Crumbs'), 10)
-
-//Go to "Packaging Level" tab
-WebUI.click(findTestObject('Product Record/Product Details/button_Packaging Levels'))
-
-//Select 'EACH'
-WebUI.selectOptionByLabel(findTestObject('Product Record/Packaging Levels/Packaging Level'), 'Each', false)
-
-WebUI.click(findTestObject('Product Record/Packaging Levels/Status_Active'))
-
-WebUI.selectOptionByLabel(findTestObject('Product Record/Packaging Levels/Product Code Type'), 'GTIN-14', false)
-
-//**********Call Test case to generate new GTIN******************
-WebUI.callTestCase(findTestCase('Reusable Test cases/GTIN Generator'), [:], FailureHandling.STOP_ON_FAILURE)
-
-def GTIN = GlobalVariable.ID_GTIN.toString()
-
-WebUI.setText(findTestObject('Product Record/Packaging Levels/Product Code'), GTIN)
-
-WebUI.selectOptionByValue(findTestObject('Product Record/Packaging Levels/RFID Filter Value'), '2', true)
-
-WebUI.selectOptionByValue(findTestObject('Product Record/Packaging Levels/GS1 Company Prefix Length'), '6', true)
-
-WebUI.setText(findTestObject('Product Record/Packaging Levels/SKU'), '5646549')
-
-WebUI.setText(findTestObject('Product Record/Packaging Levels/Unit of Use GTIN'), GTIN)
-
 WebUI.scrollToElement(findTestObject('Home/Bread Crumbs'), 10)
 
 WebUI.click(findTestObject('Product Record/Product Details/bt_SaveProduct'))
@@ -124,4 +109,13 @@ WebUI.verifyTextPresent('saved successfully', false)
 WebUI.delay(3)
 
 WebUI.waitForPageLoad(10)
+
+WebUI.callTestCase(findTestCase('Reusable Test cases/Add Packaging Level'), [('PackagingLevel') : 'Each', ('RFID') : '3'
+        , ('GCPLength') : '5'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Reusable Test cases/Add Packaging Level'), [('PackagingLevel') : 'Inner Bundle', ('RFID') : '6'
+        , ('GCPLength') : '5', ('ContainedQty') : '5'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Reusable Test cases/Add Packaging Level'), [('PackagingLevel') : 'Case', ('RFID') : '3'
+        , ('GCPLength') : '5', ('ContainedQty') : '10'], FailureHandling.STOP_ON_FAILURE)
 

@@ -6,12 +6,11 @@
    <elementGuidId>ed6a818d-b46f-4a5b-b31c-d867a323b801</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//select[contains(@id,'RFIDFilterValue')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='TradeItem[0].RFIDFilterValue']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>7ce3b94d-f7bb-4fa9-b55e-4ae7efb52fb3</webElementGuid>
+      <webElementGuid>b28c2ce7-017a-49fd-b884-cf50465de001</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>row ml-3 input-ms</value>
-      <webElementGuid>768ad271-63d3-4838-bf7a-72352695e312</webElementGuid>
+      <webElementGuid>97d0a9c6-a24f-4f8c-ad72-9b2f11657176</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>TradeItem[0].RFIDFilterValue</value>
-      <webElementGuid>6bafb184-cb84-4699-8d0a-43b8adc8451e</webElementGuid>
+      <webElementGuid>776fae27-dfd0-41ca-aba0-05aacfc45e70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>TradeItem[0].RFIDFilterValue</value>
-      <webElementGuid>5736daea-9255-4142-8dfa-d336782b9822</webElementGuid>
+      <webElementGuid>3bd74df9-63a5-4da4-9ae3-6ac467721e9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +54,7 @@
       <name>data-val</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ea2d5913-b9d4-43df-8144-a887c28c7b32</webElementGuid>
+      <webElementGuid>2ef69002-a0de-41bf-ad5f-facb4e601653</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>data-val-required</name>
       <type>Main</type>
       <value>The RFIDFilterValue field is required.</value>
-      <webElementGuid>448f5b0b-79ed-42aa-a838-d905575554a0</webElementGuid>
+      <webElementGuid>73879e79-bfa6-4717-8f48-ae4c7e0ab43c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select RFID Filter Value01234567</value>
-      <webElementGuid>ee84a517-c1ef-49a4-8331-d294921e23bf</webElementGuid>
+      <webElementGuid>fa75065d-3f92-49da-a99a-bdeb094da148</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;TradeItem[0].RFIDFilterValue&quot;)</value>
-      <webElementGuid>42d53c4f-85e0-4b9e-aa48-a04b3cc8c660</webElementGuid>
+      <webElementGuid>675ad771-0994-480b-91ce-7629d7d2228f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='TradeItem[0].RFIDFilterValue']</value>
-      <webElementGuid>e1078031-3446-472c-b937-20f7bdd15191</webElementGuid>
+      <webElementGuid>3a47398d-1c0f-4fa7-aa8e-55b2dc07c871</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Div_packagingLevelTabContainer']/div/div[3]/div[2]/select</value>
-      <webElementGuid>58797815-2d05-4f82-91e7-933936208710</webElementGuid>
+      <webElementGuid>ec607368-fe4b-43ee-8df0-522d759a05ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='RFID Filter Value'])[1]/following::select[1]</value>
-      <webElementGuid>7641c007-2929-403f-ba46-5d26af183b5f</webElementGuid>
+      <webElementGuid>33b71bb6-ec1f-4761-a882-5ba7437c9bd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Code Type'])[1]/following::select[2]</value>
-      <webElementGuid>0d964ed6-f337-4a35-8eb7-d22c7653f7fa</webElementGuid>
+      <webElementGuid>ff6cbc2c-00c1-4e13-99cb-be7e01e825bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Code'])[1]/preceding::select[1]</value>
-      <webElementGuid>8d98e541-54ea-47dc-a74b-733fc03257c7</webElementGuid>
+      <webElementGuid>3f252e3c-48d5-45a7-8a20-e70c53a1cbd6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GS1 Company Prefix Length'])[1]/preceding::select[1]</value>
-      <webElementGuid>47c82914-6475-4f38-9133-c96bde6ea488</webElementGuid>
+      <webElementGuid>c33b248a-edd0-4a19-b4e6-0aa84adacceb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div[3]/div[2]/select</value>
-      <webElementGuid>a0d428b4-379c-4464-bdc9-f0cc5f1fc0b6</webElementGuid>
+      <webElementGuid>ed02996a-da9e-4b6c-8f1b-5e805c530280</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,6 +142,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@id = 'TradeItem[0].RFIDFilterValue' and @name = 'TradeItem[0].RFIDFilterValue' and (text() = 'Select RFID Filter Value01234567' or . = 'Select RFID Filter Value01234567')]</value>
-      <webElementGuid>d4159175-5d22-443d-a05f-cf54df39a742</webElementGuid>
+      <webElementGuid>84bd0de9-4c21-46a8-a15c-ecf24284e662</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

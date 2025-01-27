@@ -6,12 +6,11 @@
    <elementGuidId>005f7c58-8d59-4af2-b80c-ea9c385fdfae</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//select[contains(@id,'ProductCodeTypeId')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='TradeItem[0].ProductCodeTypeId']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>2da19640-31c3-4738-ab4a-07ff915877f4</webElementGuid>
+      <webElementGuid>0f747f8d-0a7a-4845-a669-c13f38c3c7ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>row input-ms</value>
-      <webElementGuid>5db6fe08-7b0c-4fd5-9896-887fd19cd5f5</webElementGuid>
+      <webElementGuid>5865271b-6f1f-426b-91c6-da376f68d165</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>TradeItem[0].ProductCodeTypeId</value>
-      <webElementGuid>f1861bf5-634d-4a2d-a8a3-0e3230a4b29c</webElementGuid>
+      <webElementGuid>9caa9226-0dfd-400e-b7c0-ac5a1ebf26db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>TradeItem[0].ProductCodeTypeId</value>
-      <webElementGuid>f6b70f6a-9a84-4bd6-bed4-60022af6139a</webElementGuid>
+      <webElementGuid>b9d3c943-c7d5-45f1-b823-6d7e429dabbc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +54,7 @@
       <name>data-val</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>2ca9ce2c-467c-4604-bb24-b7dfe92d54aa</webElementGuid>
+      <webElementGuid>d405a655-0e95-46a8-8dc4-963c97a2f623</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>data-val-required</name>
       <type>Main</type>
       <value>The ProductCodeTypeId field is required.</value>
-      <webElementGuid>67a22621-d5f7-496f-a904-4a74c11e9139</webElementGuid>
+      <webElementGuid>d022efa1-c38a-4131-aa6a-cc6763b2e6da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select Product Code TypeGTIN-14GTIN-14</value>
-      <webElementGuid>aeef9549-b834-4954-8d4b-5878c3906777</webElementGuid>
+      <webElementGuid>746e93a1-6493-4599-a05e-d6dda5a2b1fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;TradeItem[0].ProductCodeTypeId&quot;)</value>
-      <webElementGuid>dc04e8e0-a9cf-4b12-8e20-541c4bec06f5</webElementGuid>
+      <webElementGuid>c9db2f45-6440-41da-8008-42dcc7b8d4ad</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='TradeItem[0].ProductCodeTypeId']</value>
-      <webElementGuid>8a31f0f5-5612-4d5b-bf2d-a4ed2062481a</webElementGuid>
+      <webElementGuid>7d499a77-100e-428d-9814-589c8f491db6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Div_packagingLevelTabContainer']/div/div[3]/div/select</value>
-      <webElementGuid>3896e128-c79b-4c24-8fa0-fdbbab92cb2b</webElementGuid>
+      <webElementGuid>aa88fbf7-019d-4e97-95ba-79fc18d0f298</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Code Type'])[1]/following::select[1]</value>
-      <webElementGuid>2bd3733b-b204-428e-934d-d36a4c737577</webElementGuid>
+      <webElementGuid>346febdd-bc2c-4c4e-8551-5594c0a9d1ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reason for Status Change is required'])[1]/following::select[1]</value>
-      <webElementGuid>bce2625f-039b-4f32-88a5-6ac4f0c8e201</webElementGuid>
+      <webElementGuid>ee320a74-56c1-47b8-ad7a-4be88baf532b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='RFID Filter Value'])[1]/preceding::select[1]</value>
-      <webElementGuid>5ceb6d33-9e8e-4c24-a435-b504510056a6</webElementGuid>
+      <webElementGuid>8e28aaa3-960a-4054-8db4-b6b4e6670565</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Code'])[1]/preceding::select[2]</value>
-      <webElementGuid>a01520e4-5ada-453e-99f2-4497c3015e26</webElementGuid>
+      <webElementGuid>ecdf9c59-5f51-4b86-9e04-c7abb6ae1342</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div[3]/div/select</value>
-      <webElementGuid>ec7ed76b-ec2f-47b9-a417-73b8f11e4790</webElementGuid>
+      <webElementGuid>42d771ad-35cb-464f-bf59-fe202690c3ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,6 +142,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@id = 'TradeItem[0].ProductCodeTypeId' and @name = 'TradeItem[0].ProductCodeTypeId' and (text() = 'Select Product Code TypeGTIN-14GTIN-14' or . = 'Select Product Code TypeGTIN-14GTIN-14')]</value>
-      <webElementGuid>77730f3b-3f93-468b-a43c-32d5e28141d9</webElementGuid>
+      <webElementGuid>6a002233-0c2d-4513-9d30-bf8f53fa2111</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

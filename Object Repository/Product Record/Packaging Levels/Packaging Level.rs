@@ -6,12 +6,11 @@
    <elementGuidId>961343c5-d6fa-4c3c-a302-544970758f6f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//select[contains(@id,'PackagingLevelId')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='TradeItem[0].PackagingLevelId']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>cb2240ef-ed20-4857-87f8-850ac42fab79</webElementGuid>
+      <webElementGuid>9a082bed-9ab9-45c7-ba5b-16817e51b816</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>row input-ms packLvl</value>
-      <webElementGuid>fce0e895-dece-4ff5-ab87-f82c8d535fd8</webElementGuid>
+      <webElementGuid>764fee5e-d633-4169-8cf4-7c1d430a5ef7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>TradeItem[0].PackagingLevelId</value>
-      <webElementGuid>2278cfc4-ac94-4544-95f8-698124dcc02b</webElementGuid>
+      <webElementGuid>a23566b0-821f-4ce9-9e4d-8d5872454fcd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>TradeItem[0].PackagingLevelId</value>
-      <webElementGuid>d3537dbb-e9d7-4775-b0e6-391922873567</webElementGuid>
+      <webElementGuid>1987b9c2-528a-4fbd-aa41-2879bbdfafa0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +54,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>changePackagelvlTabContent(this)</value>
-      <webElementGuid>a5f7d101-be5d-4bbf-91b8-25e738c82ec0</webElementGuid>
+      <webElementGuid>8273176b-c997-4200-b519-d2d600647303</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>data-val</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>f6e11f95-4696-47a4-8875-832890781d15</webElementGuid>
+      <webElementGuid>31bba37d-c9ce-41ea-8795-e36b783e0e7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>data-val-required</name>
       <type>Main</type>
       <value>The PackagingLevelId field is required.</value>
-      <webElementGuid>c277a5b0-09b8-44aa-8398-eb889d9dcd84</webElementGuid>
+      <webElementGuid>ba3c5ae5-3b16-4bec-aabc-d42f47028d8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -79,7 +78,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select Packaging LevelEach</value>
-      <webElementGuid>b90619d5-4f1b-422b-bc0d-23cd15f43c2a</webElementGuid>
+      <webElementGuid>a039a906-d6c0-4d28-8ac0-62be3490a1e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;TradeItem[0].PackagingLevelId&quot;)</value>
-      <webElementGuid>295a75b5-7a35-4178-b613-9ed196cc682c</webElementGuid>
+      <webElementGuid>212d124c-aeeb-4211-93f2-9dc9058e76c2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='TradeItem[0].PackagingLevelId']</value>
-      <webElementGuid>49fc6ddb-304e-418b-82cf-fa76602d678c</webElementGuid>
+      <webElementGuid>69f78385-3c2d-4dc0-8b0b-4df8b04a306e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Div_packagingLevelTabContainer']/div/div/div/select</value>
-      <webElementGuid>3e75ea1b-32a9-451e-8df8-45f5dcd1228b</webElementGuid>
+      <webElementGuid>7a07ff5f-e02d-4385-9866-66ce68c4b797</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Packaging Level'])[2]/following::select[1]</value>
-      <webElementGuid>e2abc799-c348-42cf-86e0-9e42d40be52b</webElementGuid>
+      <webElementGuid>4428d0ff-b044-4010-ac5f-044bd7e5ce10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Untitled'])[1]/following::select[1]</value>
-      <webElementGuid>47d88a66-1954-4c8a-8c94-8b948f4b06da</webElementGuid>
+      <webElementGuid>30300b14-0876-4600-b2b8-729beef65c6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[3]/preceding::select[1]</value>
-      <webElementGuid>f4e9b222-de81-4aa3-ae25-f52b9b17c450</webElementGuid>
+      <webElementGuid>c39fbc45-94d4-4e53-9600-d30d77796397</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[2]/preceding::select[1]</value>
-      <webElementGuid>e51bf916-cd82-4c77-b2a7-61d12a11de56</webElementGuid>
+      <webElementGuid>2dd16331-edd9-4619-a0ca-a66e8a95394b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div/select</value>
-      <webElementGuid>17c068ec-1648-4bcb-811a-441b0d9c1428</webElementGuid>
+      <webElementGuid>4bc10060-d928-473d-8253-994f9aa072f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,6 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@name = 'TradeItem[0].PackagingLevelId' and @id = 'TradeItem[0].PackagingLevelId' and (text() = 'Select Packaging LevelEach' or . = 'Select Packaging LevelEach')]</value>
-      <webElementGuid>0e7ae495-d2fb-48e4-8738-2250b7014c3a</webElementGuid>
+      <webElementGuid>2aa734dc-3aa0-4e5f-9cf0-d7b62fc73cf1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

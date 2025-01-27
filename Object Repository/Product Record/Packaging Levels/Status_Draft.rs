@@ -6,12 +6,11 @@
    <elementGuidId>b4635bad-3f8c-4067-8606-31723ff549d3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[contains(@id,'Draft')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='TradeItem[0].Draft']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>797bbf2f-2114-4980-be3d-431dacea0442</webElementGuid>
+      <webElementGuid>14f7f354-e156-402d-8a37-3055170a6181</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-check-input</value>
-      <webElementGuid>f03e671f-4991-4bfc-96e7-41b6753b10bf</webElementGuid>
+      <webElementGuid>8d0fe12e-17b5-4f40-83d2-f91a4a7870b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>TradeItem[0].Draft</value>
-      <webElementGuid>bf53ec95-5e95-4731-bee3-7a38f020ffd7</webElementGuid>
+      <webElementGuid>59fcd59a-bfab-4238-b7f4-0dc6d60604ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>TradeItem[0].StatusId</value>
-      <webElementGuid>e8cbd05a-ec8a-4037-8a6c-bf210763f484</webElementGuid>
+      <webElementGuid>3773a575-f58e-4b3d-baf8-745f08e66646</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +54,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>5fc29c0a-ad89-440d-89ca-0804076edd7e</webElementGuid>
+      <webElementGuid>b2074c4b-706d-495c-853b-8048d890efef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>value</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>3e8ad46e-5793-45d8-9926-fafd3745e09c</webElementGuid>
+      <webElementGuid>fcfbb064-6764-4731-98d2-707060e3a059</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>toggleTradeItemReasonChange(this,1)</value>
-      <webElementGuid>fc5c7867-6bbe-4bb0-8589-8d927bd13543</webElementGuid>
+      <webElementGuid>5aa16c3b-68c6-4d19-ab39-cc36cabe0fb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;TradeItem[0].Draft&quot;)</value>
-      <webElementGuid>6ba5757e-0c3c-4eaa-ad89-5676c772fb09</webElementGuid>
+      <webElementGuid>876e6acd-f185-4455-8972-1ba5399081ef</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='TradeItem[0].Draft']</value>
-      <webElementGuid>31edf292-46fa-4616-b842-05ed88d3ef65</webElementGuid>
+      <webElementGuid>19e24938-7d1e-4cbe-a44a-19a37c2511d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Div_packagingLevelTabContainer']/div/div/div[2]/div/input</value>
-      <webElementGuid>70fdf56c-213b-4e3c-8244-5fe38a50d010</webElementGuid>
+      <webElementGuid>9ebe2e83-4b65-4759-837a-80ef5524e724</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div[2]/div/input</value>
-      <webElementGuid>e30d48a3-2bf9-4df1-8006-a081da7b294a</webElementGuid>
+      <webElementGuid>d73df580-46f6-4928-8ed5-3a51c9ba4a67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'TradeItem[0].Draft' and @name = 'TradeItem[0].StatusId' and @type = 'radio']</value>
-      <webElementGuid>0ae8e637-d355-475b-856d-f5b5112e7ef5</webElementGuid>
+      <webElementGuid>336ca3df-0208-4c03-820e-9bd3289ea88c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

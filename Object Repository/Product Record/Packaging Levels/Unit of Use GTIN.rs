@@ -6,12 +6,11 @@
    <elementGuidId>38f391ca-2aeb-4d69-8b8f-81062106292a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[contains(@id,'UnitOfUseProductCode')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='TradeItem[0].UnitOfUseProductCode']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e9ee76ac-6fe7-466d-8abb-bcf44a2588f6</webElementGuid>
+      <webElementGuid>d8eda027-b7ee-4e02-861f-45713b2e5772</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>row ml-3 input-ms</value>
-      <webElementGuid>a9018468-8ed2-4737-bc6d-2a4e74d5dca1</webElementGuid>
+      <webElementGuid>455f66fa-028f-4d18-bdf3-d9bb31a29b33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>TradeItem[0].UnitOfUseProductCode</value>
-      <webElementGuid>a407c9bd-b033-4ee0-92ec-a2d1873e8f3c</webElementGuid>
+      <webElementGuid>2caf09ec-a789-42ef-b3a4-36014b07dbf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>TradeItem[0].UnitOfUseProductCode</value>
-      <webElementGuid>1c3d0c06-f0e1-4bba-950f-fe9d41470d93</webElementGuid>
+      <webElementGuid>2c3403d5-a582-4d17-bb4f-a776a8098c4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +54,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Enter Unit of Use GTIN </value>
-      <webElementGuid>d71936e1-73bf-4850-9cb6-17f04b42847d</webElementGuid>
+      <webElementGuid>d656d7aa-82bf-4fb4-b9f2-5d3d4af8e62c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +62,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>dd972ded-3edb-4a73-9756-5d233aa70868</webElementGuid>
+      <webElementGuid>beb9e9da-6dfc-44a3-9d5a-b368b57c7910</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;TradeItem[0].UnitOfUseProductCode&quot;)</value>
-      <webElementGuid>92012932-900a-4527-a991-66b3540dfca7</webElementGuid>
+      <webElementGuid>ae7a3b86-76a8-4524-a694-c3f90b22cae2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='TradeItem[0].UnitOfUseProductCode']</value>
-      <webElementGuid>d28a9168-2f91-4f6c-90aa-67975a8c0c64</webElementGuid>
+      <webElementGuid>089e05cf-0984-4e70-bb30-b11fed0754e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Div_packagingLevelTabContainer']/div/div[5]/div[2]/input</value>
-      <webElementGuid>77770278-7e69-46a5-9c72-32a1bfee2139</webElementGuid>
+      <webElementGuid>5224bc1b-0b28-429f-b290-916076f21378</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div[2]/input</value>
-      <webElementGuid>96140cb9-c5b3-4823-83a5-4b26243c713b</webElementGuid>
+      <webElementGuid>60b121b4-504e-4601-9685-378432d23c82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'TradeItem[0].UnitOfUseProductCode' and @name = 'TradeItem[0].UnitOfUseProductCode' and @placeholder = 'Enter Unit of Use GTIN ' and @type = 'text']</value>
-      <webElementGuid>79eecaf6-1a97-40ab-bc99-48f8964a0964</webElementGuid>
+      <webElementGuid>bff5dcde-0172-44a9-8823-6e57336d9624</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,11 @@
    <elementGuidId>bbac3d24-276e-4e82-821b-d655a5d47416</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[contains(@id,'PackagingString')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='TradeItem[0].PackagingString']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>05526903-a037-4f01-b2ea-292af9f32158</webElementGuid>
+      <webElementGuid>779eadb6-ce79-4536-b163-8be652bdda7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>row autodisplayBgcolor input-ms</value>
-      <webElementGuid>9fba9856-195b-41db-b307-46c82d266d02</webElementGuid>
+      <webElementGuid>46c4f88d-7f40-4a87-b51e-a12fe64a2b08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>TradeItem[0].PackagingString</value>
-      <webElementGuid>ebcb8b3f-5b7f-48e3-b6ee-021951fa4959</webElementGuid>
+      <webElementGuid>db07777d-5185-4d01-afa6-92ced602437e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>d543a971-b7c3-4fbc-bb79-d929af8e14ca</webElementGuid>
+      <webElementGuid>5b9e5ae9-d08b-482b-8bb7-4a6677617e50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +54,7 @@
       <name>name</name>
       <type>Main</type>
       <value>PackagingString</value>
-      <webElementGuid>c99abde6-b851-4e06-a53f-5d903fcc366a</webElementGuid>
+      <webElementGuid>008511d0-c4a2-462e-9fa7-a9d0c1a98673</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;TradeItem[0].PackagingString&quot;)</value>
-      <webElementGuid>925daf11-5a27-45d4-b103-46bc422a4e8f</webElementGuid>
+      <webElementGuid>369289ee-3814-4bcf-a3aa-91066ab9e063</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='TradeItem[0].PackagingString']</value>
-      <webElementGuid>aa780579-3910-4d19-9921-92f73c7b95a2</webElementGuid>
+      <webElementGuid>24fb1bdc-1bf5-4ba2-9ba0-d38d3120999a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Div_packagingLevelTabContainer']/div/div[7]/div/input</value>
-      <webElementGuid>ad09ccd9-4d58-4d02-bb90-38147147634a</webElementGuid>
+      <webElementGuid>a211783b-51d2-4980-85de-386108e6bab3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div[7]/div/input</value>
-      <webElementGuid>4dcf501e-90ab-47e4-b12a-16d9d6993322</webElementGuid>
+      <webElementGuid>f8a025b8-f693-4e58-b970-b975c977a4a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'TradeItem[0].PackagingString' and @type = 'text' and @name = 'PackagingString']</value>
-      <webElementGuid>85e608d5-d5ea-494e-b020-3817c6e3c8ea</webElementGuid>
+      <webElementGuid>09f339b6-4033-4064-b420-2d2aede0e5e8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

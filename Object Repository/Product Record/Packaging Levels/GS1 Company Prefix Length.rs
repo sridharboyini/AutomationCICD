@@ -6,12 +6,11 @@
    <elementGuidId>845e23ae-7eb5-4b9e-94ec-dd1a7df62b1e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//select[contains(@id,'GS1CompanyPrefixId')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='TradeItem[0].GS1CompanyPrefixId']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>285e448a-aa90-459a-a5f7-69a3908ae052</webElementGuid>
+      <webElementGuid>bab02efc-f433-4845-bef9-2f1febb35f1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>row ml-3 input-ms gcplength</value>
-      <webElementGuid>7ed14789-9fd0-40a1-90fa-19ace5a1f7f0</webElementGuid>
+      <webElementGuid>6960675f-63e3-421a-ae6b-c211392fb9b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>TradeItem[0].GS1CompanyPrefixId</value>
-      <webElementGuid>a15f4265-27e7-43f3-bf88-acc59ecf8406</webElementGuid>
+      <webElementGuid>1a4f752e-d6e1-4eba-b84a-926690eedf58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>TradeItem[0].GS1CompanyPrefixId</value>
-      <webElementGuid>4e55c27e-c556-41b4-86c7-4d90479391e1</webElementGuid>
+      <webElementGuid>86c6c2de-c403-4382-9fe4-14309ca3e77b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +54,7 @@
       <name>data-val</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>957335b1-ac14-43bc-b9e5-e7b41fbc9912</webElementGuid>
+      <webElementGuid>3cf0a628-524a-492a-9fb0-fc08cca6a21e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>data-val-required</name>
       <type>Main</type>
       <value>The GS1CompanyPrefixId field is required.</value>
-      <webElementGuid>0a4896ea-04f3-4054-b5db-fd7288790d3e</webElementGuid>
+      <webElementGuid>f15a2820-941c-43d8-96a3-2129322996ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select Company Prefix Length456789101112</value>
-      <webElementGuid>e6bc9a19-a620-4137-806d-a9de143c5d8b</webElementGuid>
+      <webElementGuid>4d091dc9-6333-4800-a559-c4054efcc3e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;TradeItem[0].GS1CompanyPrefixId&quot;)</value>
-      <webElementGuid>958d5ae9-aca5-4cbf-b0ac-63519e798818</webElementGuid>
+      <webElementGuid>1bd5b313-81a0-4129-9718-acb9bd026f12</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='TradeItem[0].GS1CompanyPrefixId']</value>
-      <webElementGuid>ee7d76c1-128a-4a95-b75f-b1831b2546d7</webElementGuid>
+      <webElementGuid>fdac7c96-51ae-4624-acdd-5099ca453fd6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Div_packagingLevelTabContainer']/div/div[4]/div[2]/select</value>
-      <webElementGuid>fa2462ca-1a4a-4233-8f61-99414d474069</webElementGuid>
+      <webElementGuid>f28b6b3a-22de-4f8f-9941-7aa6d5d61296</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GS1 Company Prefix Length'])[1]/following::select[1]</value>
-      <webElementGuid>ba3c9813-b0e7-4b02-9ba6-961ae1fe85ac</webElementGuid>
+      <webElementGuid>561e47c3-c4da-4cc4-b3e6-d9bd36626b4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Code'])[1]/following::select[1]</value>
-      <webElementGuid>1f010732-6ea0-4264-97e3-3716ad04a010</webElementGuid>
+      <webElementGuid>58975cd1-151b-49ce-ac05-ea9285e28510</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SKU'])[1]/preceding::select[1]</value>
-      <webElementGuid>886def0b-59a3-4bc3-a507-dee9f1d06003</webElementGuid>
+      <webElementGuid>c358d841-683b-407b-8632-366af7870fae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unit of Use GTIN'])[1]/preceding::select[1]</value>
-      <webElementGuid>2f84caac-6a3c-4390-a6c5-8939b366f296</webElementGuid>
+      <webElementGuid>853669b2-6691-4645-b529-9320a29def11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div[2]/select</value>
-      <webElementGuid>a6592638-918d-4513-89bf-532f362e90f6</webElementGuid>
+      <webElementGuid>4370015f-b8a5-4003-8f33-233399d3eba4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,6 +142,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@id = 'TradeItem[0].GS1CompanyPrefixId' and @name = 'TradeItem[0].GS1CompanyPrefixId' and (text() = 'Select Company Prefix Length456789101112' or . = 'Select Company Prefix Length456789101112')]</value>
-      <webElementGuid>0bda575f-2db1-4c71-8da0-b0013f6782e2</webElementGuid>
+      <webElementGuid>b0bb8d38-b315-47a7-a076-d33fa958e446</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
